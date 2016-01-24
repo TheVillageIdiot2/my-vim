@@ -44,8 +44,6 @@ let mapleader=","	"set , as the thingy
 augroup configgroup
     autocmd!
     "autocmd VimEnter * highlight clear SignColumn
-    autocmd BufWritePre *.php,*.py,*.js,*.txt,*.hs,*.java,*.md
-                \:call <SID>StripTrailingWhitespaces()
     autocmd BufNewFile,BufRead makefile set filetype=makefile
     autocmd FileType java setlocal noexpandtab
     autocmd FileType java setlocal list
