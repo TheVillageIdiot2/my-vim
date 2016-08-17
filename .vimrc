@@ -3,6 +3,8 @@ syntax on
 set term=xterm-256color
 colorscheme railscasts
 
+set viminfo='1000,f1
+"The f1 makes file marks persist between sessions
 
 set tabstop=4	"Visual tab size
 set softtabstop=4
@@ -44,7 +46,8 @@ let mapleader=","	"set , as the thingy
 augroup configgroup
     autocmd!
     "autocmd VimEnter * highlight clear SignColumn
-    autocmd BufNewFile,BufRead makefile set filetype=makefile
+    autocmd BufNewFile,BufRead *.tpp set filetype=cpp
+    autocmd BufNewFile,BufRead makefile set filetype=Makefile
     autocmd FileType java setlocal noexpandtab
     autocmd FileType java setlocal list
     autocmd FileType java setlocal listchars=tab:+\ ,eol:-
