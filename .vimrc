@@ -3,7 +3,7 @@ syntax on
 set term=xterm-256color
 colorscheme railscasts
 
-set viminfo='1000,f1
+set viminfo='1000,f1,n~/.vim/viminfo
 "The f1 makes file marks persist between sessions
 
 set tabstop=4	"Visual tab size
