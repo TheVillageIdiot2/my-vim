@@ -1,8 +1,13 @@
+"Enable pathogen
+execute pathogen#infect()
+
+"Enable syntax parsing/highlighting
 syntax on
 
 set term=xterm-256color
 colorscheme railscasts
 
+"Enable marks persistence
 set viminfo='1000,f1,n~/.vim/viminfo
 "The f1 makes file marks persist between sessions
 
@@ -18,6 +23,7 @@ set cursorline	"Highlight current line
 "Enable contextual filetype settings
 filetype on
 filetype plugin on
+filetype plugin indent on
 filetype indent on
 
 "Visual helpers
