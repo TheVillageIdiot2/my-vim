@@ -16,8 +16,10 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 
+let mapleader = ","
+
 set number	"Show line numbers
-set showcmd	"Mini ommand log in corner
+set showcmd	"Mini command log in corner
 set cursorline	"Highlight current line
 
 "Enable contextual filetype settings
@@ -46,9 +48,31 @@ set foldmethod=indent	"fold based on indents
 nnoremap j gj
 nnoremap k gk
 
-inoremap jk <esc>
-let mapleader=","	"set , as the thingy
+"Quick edit:
+nnoremap <leader>ev :vsplit $MYVIMRC<cr>
+nnoremap <leader>sv :source $MYVIMRC<cr>
 
+"Quick escape
+inoremap jk <esc>
+
+"Quick tabulate
+"nnoremap <leader>t vi( :Tab/\v(^|\(|,|\s)[a-zA-Z]/l0<cr>
+nnoremap <silent><leader>t vi(:s/ \+/ /g<cr>vi(:Tab/,/r0l0l0l0l0l0l0<cr>:noh<cr>
+":Tabularize [a-zA-Z ]?*,
+"int sparky(int a ,
+"           int b , int be , int bd ,
+"           int c ,
+"          int d)
+
+"Quick navigation to start/end of line, top/bottom of page
+nnoremap H ^
+nnoremap J H
+nnoremap K L
+nnoremap L A<esc>
+        
+
+
+"PEr file bulllshit
 augroup configgroup
     autocmd!
     "autocmd VimEnter * highlight clear SignColumn
