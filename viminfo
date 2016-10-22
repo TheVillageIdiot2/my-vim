@@ -11,21 +11,103 @@
 # hlsearch on (H) or off (h):
 ~H
 # Last Search Pattern:
-~MSle0~/soun
+~MSle0~/glob
 
 # Last Substitute Search Pattern:
-~MSle0& \+
+~MSle0&input_position \/ 2 + 1
 
 # Last Substitute String:
-$ 
+$
 
 # Command Line History (newest to oldest):
-:wq
-|2,0,1476737540,,"wq"
 :q
-|2,0,1476647490,,"q"
+|2,0,1477161346,,"q"
+:!echo $TERMINAL
+|2,0,1477161235,,"!echo $TERMINAL"
+:wq
+|2,0,1477116338,,"wq"
 :w
-|2,0,1476647471,,"w"
+|2,0,1477116030,,"w"
+:redo
+|2,0,1477116024,,"redo"
+:split .zshenv
+|2,0,1477115933,,"split .zshenv"
+:50
+|2,0,1477102645,,"50"
+:make
+|2,0,1477090250,,"make"
+:'<,'>s/input_position \/ 2 + 1/levels/
+|2,0,1477090233,,"'<,'>s/input_position \\/ 2 + 1/levels/"
+:'<,'>s/ \/ 2/ \/ 2 + 1/
+|2,0,1477025404,,"'<,'>s/ \\/ 2/ \\/ 2 + 1/"
+:'<,'>s/3/2
+|2,0,1477025350,,"'<,'>s/3/2"
+:'<,'>s/(int)sqrt(//
+|2,0,1477025267,,"'<,'>s/(int)sqrt(//"
+:s/cos/sin/
+|2,0,1477024426,,"s/cos/sin/"
+:'<,'>s/M_PI\/3/deg60/
+|2,0,1477024038,,"'<,'>s/M_PI\\/3/deg60/"
+:s/left/right/
+|2,0,1477023959,,"s/left/right/"
+:342
+|2,0,1477023529,,"342"
+:367
+|2,0,1477023526,,"367"
+:help CTRLo
+|2,0,1477023343,,"help CTRLo"
+:help CTRL o
+|2,0,1477023337,,"help CTRL o"
+:help CTRL
+|2,0,1477023332,,"help CTRL"
+:help CTRL+o
+|2,0,1477023328,,"help CTRL+o"
+:help ctrl+o
+|2,0,1477023303,,"help ctrl+o"
+:help <ctrl>
+|2,0,1477023299,,"help <ctrl>"
+:help o
+|2,0,1477023283,,"help o"
+:help za
+|2,0,1477023267,,"help za"
+:!rm .unlock_indicator.c.swp
+|2,0,1477023042,,"!rm .unlock_indicator.c.swp"
+:e unlock_indicator.c
+|2,0,1477000879,,"e unlock_indicator.c"
+:split unlock_indicator.h
+|2,0,1476999016,,"split unlock_indicator.h"
+:144
+|2,0,1476998144,,"144"
+:e
+|2,0,1476997309,,"e"
+:help =
+|2,0,1476938631,,"help ="
+:split a.c
+|2,0,1476938515,,"split a.c"
+:help highlight
+|2,0,1476938343,,"help highlight"
+:highlight
+|2,0,1476938332,,"highlight"
+:'<,'>comment
+|2,0,1476937252,,"'<,'>comment"
+:comment
+|2,0,1476937249,,"comment"
+:help comment
+|2,0,1476937225,,"help comment"
+:help commentstring
+|2,0,1476937202,,"help commentstring"
+:help spell
+|2,0,1476937131,,"help spell"
+:man normal
+|2,0,1476937031,,"man normal"
+:normal vi(:s/ \+/ /g<cr>
+|2,0,1476937016,,"normal vi(:s/ \\+/ /g<cr>"
+:normal vi(
+|2,0,1476936980,,"normal vi("
+:help normal
+|2,0,1476936932,,"help normal"
+:smile
+|2,0,1476936754,,"smile"
 :!mkdir -p ~/.cache/zsh/dirs
 |2,0,1476647432,,"!mkdir -p ~/.cache/zsh/dirs"
 :q!
@@ -38,90 +120,58 @@ $
 |2,0,1476588711,,"vsplit .zshrc_su_backup"
 :noh
 |2,0,1476338550,,"noh"
-:set hlsearch!
-|2,0,1476338449,,"set hlsearch!"
-:s/d/x/
-|2,0,1476338446,,"s/d/x/"
-:help <silent>
-|2,0,1476338250,,"help <silent>"
-:help silent
-|2,0,1476338243,,"help silent"
-:help :substitute
-|2,0,1476338220,,"help :substitute"
-:help s
-|2,0,1476338206,,"help s"
-:silent s/ //g
-|2,0,1476338190,,"silent s/ //g"
-:'<,'>s/ \+/ /g
-|2,0,1476338111,,"'<,'>s/ \\+/ /g"
-:'<,'>s/ +/ /g
-|2,0,1476338007,,"'<,'>s/ +/ /g"
-:'<,'>s/\s\+/ /g
-|2,0,1476337828,,"'<,'>s/\\s\\+/ /g"
-:'<,'>s/\s\jk+/ /
-|2,0,1476337808,,"'<,'>s/\\s\\jk+/ /"
-:'<,'>s/\s+/ /
-|2,0,1476337789,,"'<,'>s/\\s+/ /"
-:'<,'>Tab/\vjk
-|2,0,1476337676,,"'<,'>Tab/\\vjk"
-:'<,'>Tab/\v(^
-|2,0,1476337666,,"'<,'>Tab/\\v(^"
-:'<,'>
-|2,0,1476337045,,"'<,'>"
-:vsplit tmp.c
-|2,0,1476336992,,"vsplit tmp.c"
-:'<,'>Tab/\(^\|(\|,\|\s\)[a-zA-Z]/l0
-|2,0,1476336659,,"'<,'>Tab/\\(^\\|(\\|,\\|\\s\\)[a-zA-Z]/l0"
-:'<,'>Tab/\(^\|(\|,\|\s\)[a-zA-Z]/
-|2,0,1476336650,,"'<,'>Tab/\\(^\\|(\\|,\\|\\s\\)[a-zA-Z]/"
-:'<,'>Tab/\(^\|(\|,\|\s\)[a-zA-Z]/r0l0
-|2,0,1476336643,,"'<,'>Tab/\\(^\\|(\\|,\\|\\s\\)[a-zA-Z]/r0l0"
-:'<,'>Tab/\(^\|(\|,\)/r0l0
-|2,0,1476336514,,"'<,'>Tab/\\(^\\|(\\|,\\)/r0l0"
-:'<,'>Tab/\(^\|(\|,\)/l0
-|2,0,1476336500,,"'<,'>Tab/\\(^\\|(\\|,\\)/l0"
-:'<,'>Tab/\(^\|(\|,\)/
-|2,0,1476336494,,"'<,'>Tab/\\(^\\|(\\|,\\)/"
-:'<,'>Tab/\(^\|(\|,)
-|2,0,1476336446,,"'<,'>Tab/\\(^\\|(\\|,)"
-:%Tab/(^\|(\|,)
-|2,0,1476336414,,"%Tab/(^\\|(\\|,)"
-:%Tab/(\s*\|(\|,)
-|2,0,1476336356,,"%Tab/(\\s*\\|(\\|,)"
-:Tab/(\s*\|(\|,)
-|2,0,1476336327,,"Tab/(\\s*\\|(\\|,)"
-:'<,'>Tab/(\s*\|(\|,)
-|2,0,1476336318,,"'<,'>Tab/(\\s*\\|(\\|,)"
-:'<,'>Tab /,
-|2,0,1476336197,,"'<,'>Tab /,"
-:'<,'>x
-|2,0,1476336099,,"'<,'>x"
-:'<,'>Tabularize /\s*\zs/
-|2,0,1476335871,,"'<,'>Tabularize /\\s*\\zs/"
-:'<,'>Tabularize /\s*\zs/r0
-|2,0,1476335809,,"'<,'>Tabularize /\\s*\\zs/r0"
-:'<,'>Tabularize /[a-zA-Z].*?,/l0
-|2,0,1476335608,,"'<,'>Tabularize /[a-zA-Z].*?,/l0"
-:'<'>Tabularize /[a-zA-Z].*?,/l0
-|2,0,1476335577,,"'<'>Tabularize /[a-zA-Z].*?,/l0"
-:Tabularize /[a-zA-Z].*?,/l0
-|2,0,1476335557,,"Tabularize /[a-zA-Z].*?,/l0"
-:Tabularize /[a-zA-Z].*?,/r0
-|2,0,1476335553,,"Tabularize /[a-zA-Z].*?,/r0"
-:Tabularize /[a-zA-Z].*?,/
-|2,0,1476335548,,"Tabularize /[a-zA-Z].*?,/"
-:'<,'>Tabularize /,/r0
-|2,0,1476335473,,"'<,'>Tabularize /,/r0"
-:vs tmp.c
-|2,0,1476335433,,"vs tmp.c"
-:'<,'>Tabularize /,/r1
-|2,0,1476335407,,"'<,'>Tabularize /,/r1"
-:69
-|2,0,1476335090,,"69"
-:help J
-|2,0,1476335038,,"help J"
 
 # Search String History (newest to oldest):
+? @$
+|2,1,1477161296,,"@$"
+?/glob
+|2,1,1477115575,47,"glob"
+?/histo
+|2,1,1477107403,47,"histo"
+?/chpwd
+|2,1,1477102405,47,"chpwd"
+?/levels
+|2,1,1477090309,47,"levels"
+? input_position \/ 2 + 1
+|2,1,1477090233,,"input_position \\/ 2 + 1"
+?/sketch
+|2,1,1477090181,47,"sketch"
+?  \/ 2
+|2,1,1477025404,," \\/ 2"
+? 3
+|2,1,1477025350,,"3"
+? (int)sqrt(
+|2,1,1477025267,,"(int)sqrt("
+?/sqrt
+|2,1,1477025239,47,"sqrt"
+? cos
+|2,1,1477024426,,"cos"
+? M_PI\/3
+|2,1,1477024038,,"M_PI\\/3"
+? left
+|2,1,1477023959,,"left"
+?/space
+|2,1,1477023190,47,"space"
+?/sketc
+|2,1,1477023062,47,"sketc"
+?/Alt
+|2,1,1477022612,47,"Alt"
+?/alt
+|2,1,1477022610,47,"alt"
+?/input_pos
+|2,1,1477001533,47,"input_pos"
+?/redraw_screen
+|2,1,1477001418,47,"redraw_screen"
+?/ext
+|2,1,1477001638,47,"ext"
+?/puts
+|2,1,1477000881,47,"puts"
+?/draw_image
+|2,1,1476996155,47,"draw_image"
+?/img
+|2,1,1476995845,47,"img"
+?/i3lock
+|2,1,1477001166,47,"i3lock"
 ?/soun
 |2,1,1476737427,47,"soun"
 ?/bin/bash
@@ -172,56 +222,6 @@ $
 |2,1,1476334091,47,"cr"
 ?/asd
 |2,1,1476334088,47,"asd"
-?/mapleader
-|2,1,1476332658,47,"mapleader"
-?/feh
-|2,1,1475598312,47,"feh"
-?/bash
-|2,1,1475596535,47,"bash"
-?/arv
-|2,1,1475186761,47,"arv"
-? @$
-|2,1,1474976599,,"@$"
-?/bright
-|2,1,1474975037,47,"bright"
-??\a
-|2,1,1474974261,63,"\\a"
-?/'
-|2,1,1474973812,47,"'"
-?/acm
-|2,1,1474894307,47,"acm"
-?/alias
-|2,1,1474894000,47,"alias"
-? \<geometry\>
-|2,1,1474891139,,"\\<geometry\\>"
-? \<twm\>
-|2,1,1474891130,,"\\<twm\\>"
-?/font
-|2,1,1474890747,47,"font"
-?/resident
-|2,1,0,47,"resident"
-?/runProgram
-|2,1,0,47,"runProgram"
-?/ailed
-|2,1,0,47,"ailed"
-?/while
-|2,1,0,47,"while"
-?/whi
-|2,1,0,47,"whi"
-?/index
-|2,1,0,47,"index"
-?/WM
-|2,1,0,47,"WM"
-?/W
-|2,1,0,47,"W"
-?/stack
-|2,1,0,47,"stack"
-?/floating
-|2,1,0,47,"floating"
-?/filetype plug
-|2,1,0,47,"filetype plug"
-?/volu
-|2,1,0,47,"volu"
 
 # Expression History (newest to oldest):
 
@@ -230,283 +230,667 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
+""0	LINE	0
 	alias cnct="cat /root/connect_cmds.txt | zsh"
-|3,0,0,1,1,0,1476588779,"alias cnct=\"cat /root/connect_cmds.txt | zsh\""
+	alias cnctjeh="cat /root/home_cnct_cmds.txt | zsh"
+|3,1,0,1,2,0,1477161296,"alias cnct=\"cat /root/connect_cmds.txt | zsh\"","alias cnctjeh=\"cat /root/home_cnct_cmds.txt | zsh\""
 "1	LINE	0
-	#!/bin/bash
-|3,0,1,1,1,0,1476647540,"#!/bin/bash"
+	alias cnct="cat /root/connect_cmds.txt | zsh"
+	alias cnctjeh="cat /root/home_cnct_cmds.txt | zsh"
+|3,0,1,1,2,0,1477116028,"alias cnct=\"cat /root/connect_cmds.txt | zsh\"","alias cnctjeh=\"cat /root/home_cnct_cmds.txt | zsh\""
 "2	LINE	0
-	cd $HOME/.steam
-|3,0,2,1,1,0,1476647540,"cd $HOME/.steam"
+	
+|3,0,2,1,1,0,1477115969,""
 "3	LINE	0
-	rm root
-|3,0,3,1,1,0,1476647539,"rm root"
+	
+|3,0,3,1,1,0,1477115968,""
 "4	LINE	0
-	ln -s $H
-|3,0,4,1,1,0,1476647539,"ln -s $H"
+	alias cnct="cat /root/connect_cmds.txt | zsh"
+	alias cnctjeh="cat /root/home_cnct_cmds.txt | zsh"
+|3,0,4,1,2,0,1477115953,"alias cnct=\"cat /root/connect_cmds.txt | zsh\"","alias cnctjeh=\"cat /root/home_cnct_cmds.txt | zsh\""
 "5	LINE	0
 	
-|3,0,5,1,1,0,1476588784,""
-"6	CHAR	0
-	int longNum,int snum,
-	       int a ,int b
-|3,0,6,0,2,0,1476338171,"int longNum,int snum,","       int a ,int b"
-"7	CHAR	0
-	int longNum,int snum,
-	       int a ,int b
-|3,0,7,0,2,0,1476338165,"int longNum,int snum,","       int a ,int b"
-"8	CHAR	0
-	int longNum,int snum,
-	       int a ,int b
-|3,0,8,0,2,0,1476338156,"int longNum,int snum,","       int a ,int b"
-"9	CHAR	0
-	int longNum,int snum,
-	       int a ,int b
-|3,0,9,0,2,0,1476338146,"int longNum,int snum,","       int a ,int b"
-"d@	CHAR	0
+|3,0,5,1,1,0,1477115554,""
+"6	LINE	0
+	#add-zsh-hook chpwd chpwd_recent_dirs
+|3,0,6,1,1,0,1477115553,"#add-zsh-hook chpwd chpwd_recent_dirs"
+"7	LINE	0
+	#Enable cdr to restore shell location
+	#autoload -Uz chpwd_recent_dirs cdr add-zsh-hook
+|3,0,7,1,2,0,1477115552,"#Enable cdr to restore shell location","#autoload -Uz chpwd_recent_dirs cdr add-zsh-hook"
+"8	LINE	0
+	
+|3,0,8,1,1,0,1477115551,""
+"9	LINE	0
+	DIRSTACKFILE="$HOME/.cache/zsh/dirs"
+|3,0,9,1,1,0,1477115549,"DIRSTACKFILE=\"$HOME/.cache/zsh/dirs\""
+"d	CHAR	0
 	A)jkk
-|3,2,13,0,1,0,0,"A)jkk"
-""-	CHAR	0
-	e
-|3,1,36,0,1,0,1476737538,"e"
+|3,0,13,0,1,0,0,"A)jkk"
+"q@	CHAR	0
+	D
+|3,2,26,0,1,0,1476938364,"D"
+"-	CHAR	0
+	Y
+|3,0,36,0,1,0,1477112420,"Y"
 
 # File marks:
-'0  96  40  ~/.config/i3/config
-|4,48,96,40,1476737541,"~/.config/i3/config"
-'1  4  37  ~/bin/fixsteam
-|4,49,4,37,1476647717,"~/bin/fixsteam"
-'2  4  37  ~/bin/fixsteam
-|4,50,4,37,1476647546,"~/bin/fixsteam"
-'3  68  0  ~/.zshrc
-|4,51,68,0,1476647490,"~/.zshrc"
-'4  22  8  ~/.zshrc
-|4,52,22,8,1476647435,"~/.zshrc"
-'5  22  8  ~/.zshrc
-|4,53,22,8,1476647435,"~/.zshrc"
-'6  18  34  /etc/passwd
-|4,54,18,34,1476590187,"/etc/passwd"
-'7  18  34  /etc/passwd
-|4,55,18,34,1476590169,"/etc/passwd"
-'8  1  0  /usr/bin/ldd
-|4,56,1,0,1476589523,"/usr/bin/ldd"
-'9  1  0  /usr/bin/ld
-|4,57,1,0,1476589517,"/usr/bin/ld"
+'0  95  0  ~/code/i3/wm/src/randr.c
+|4,48,95,0,1477161346,"~/code/i3/wm/src/randr.c"
+'1  8  0  ~/code/i3/wm/i3-input
+|4,49,8,0,1477161297,"~/code/i3/wm/i3-input"
+'2  13  0  ~/code/i3/wm/i3bar/include
+|4,50,13,0,1477161288,"~/code/i3/wm/i3bar/include"
+'3  11  164  ~/code/i3/wm/i3-sensible-terminal
+|4,51,11,164,1477161270,"~/code/i3/wm/i3-sensible-terminal"
+'4  3  0  ~/connect_cmds.txt
+|4,52,3,0,1477160772,"~/connect_cmds.txt"
+'5  70  0  ~/.zshrc
+|4,53,70,0,1477160748,"~/.zshrc"
+'6  70  0  ~/.zshrc
+|4,54,70,0,1477116339,"~/.zshrc"
+'7  4  21  ~/.zshrc
+|4,55,4,21,1477103150,"~/.zshrc"
+'8  4  21  ~/.zshrc
+|4,56,4,21,1477103150,"~/.zshrc"
+'9  4  21  ~/.zshrc
+|4,57,4,21,1477103150,"~/.zshrc"
 
 # Jumplist (newest first):
--'  96  40  ~/.config/i3/config
-|4,39,96,40,1476737541,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1476737416,"~/.config/i3/config"
--'  4  37  ~/bin/fixsteam
-|4,39,4,37,1476647717,"~/bin/fixsteam"
--'  4  37  ~/bin/fixsteam
-|4,39,4,37,1476647717,"~/bin/fixsteam"
--'  1  37  ~/bin/fixsteam
-|4,39,1,37,1476647714,"~/bin/fixsteam"
--'  1  37  ~/bin/fixsteam
-|4,39,1,37,1476647714,"~/bin/fixsteam"
--'  4  37  ~/bin/fixsteam
-|4,39,4,37,1476647546,"~/bin/fixsteam"
--'  4  37  ~/bin/fixsteam
-|4,39,4,37,1476647546,"~/bin/fixsteam"
--'  1  0  ~/bin/fixsteam
-|4,39,1,0,1476647519,"~/bin/fixsteam"
--'  1  0  ~/bin/fixsteam
-|4,39,1,0,1476647519,"~/bin/fixsteam"
--'  68  0  ~/.zshrc
-|4,39,68,0,1476647490,"~/.zshrc"
--'  68  0  ~/.zshrc
-|4,39,68,0,1476647490,"~/.zshrc"
--'  68  0  ~/.zshrc
-|4,39,68,0,1476647490,"~/.zshrc"
--'  68  0  ~/.zshrc
-|4,39,68,0,1476647490,"~/.zshrc"
--'  68  0  ~/.zshrc
-|4,39,68,0,1476647490,"~/.zshrc"
--'  68  0  ~/.zshrc
-|4,39,68,0,1476647490,"~/.zshrc"
--'  68  0  ~/.zshrc
-|4,39,68,0,1476647490,"~/.zshrc"
--'  68  0  ~/.zshrc
-|4,39,68,0,1476647490,"~/.zshrc"
+-'  95  0  ~/code/i3/wm/src/randr.c
+|4,39,95,0,1477161346,"~/code/i3/wm/src/randr.c"
+-'  1  0  ~/code/i3/wm/src/randr.c
+|4,39,1,0,1477161327,"~/code/i3/wm/src/randr.c"
+-'  8  0  ~/code/i3/wm/i3-input
+|4,39,8,0,1477161297,"~/code/i3/wm/i3-input"
+-'  8  0  ~/code/i3/wm/i3-input
+|4,39,8,0,1477161297,"~/code/i3/wm/i3-input"
+-'  13  0  ~/code/i3/wm/i3bar/include
+|4,39,13,0,1477161288,"~/code/i3/wm/i3bar/include"
+-'  13  0  ~/code/i3/wm/i3bar/include
+|4,39,13,0,1477161288,"~/code/i3/wm/i3bar/include"
+-'  13  0  ~/code/i3/wm/i3bar/include
+|4,39,13,0,1477161288,"~/code/i3/wm/i3bar/include"
+-'  13  0  ~/code/i3/wm/i3bar/include
+|4,39,13,0,1477161288,"~/code/i3/wm/i3bar/include"
+-'  10  0  ~/code/i3/wm/i3bar
+|4,39,10,0,1477161281,"~/code/i3/wm/i3bar"
+-'  10  0  ~/code/i3/wm/i3bar
+|4,39,10,0,1477161281,"~/code/i3/wm/i3bar"
+-'  10  0  ~/code/i3/wm/i3bar
+|4,39,10,0,1477161281,"~/code/i3/wm/i3bar"
+-'  10  0  ~/code/i3/wm/i3bar
+|4,39,10,0,1477161281,"~/code/i3/wm/i3bar"
+-'  11  164  ~/code/i3/wm/i3-sensible-terminal
+|4,39,11,164,1477161270,"~/code/i3/wm/i3-sensible-terminal"
+-'  11  164  ~/code/i3/wm/i3-sensible-terminal
+|4,39,11,164,1477161270,"~/code/i3/wm/i3-sensible-terminal"
+-'  11  164  ~/code/i3/wm/i3-sensible-terminal
+|4,39,11,164,1477161270,"~/code/i3/wm/i3-sensible-terminal"
+-'  11  164  ~/code/i3/wm/i3-sensible-terminal
+|4,39,11,164,1477161270,"~/code/i3/wm/i3-sensible-terminal"
+-'  11  164  ~/code/i3/wm/i3-sensible-terminal
+|4,39,11,164,1477161270,"~/code/i3/wm/i3-sensible-terminal"
+-'  11  164  ~/code/i3/wm/i3-sensible-terminal
+|4,39,11,164,1477161270,"~/code/i3/wm/i3-sensible-terminal"
+-'  11  164  ~/code/i3/wm/i3-sensible-terminal
+|4,39,11,164,1477161270,"~/code/i3/wm/i3-sensible-terminal"
+-'  11  164  ~/code/i3/wm/i3-sensible-terminal
+|4,39,11,164,1477161270,"~/code/i3/wm/i3-sensible-terminal"
+-'  1  0  ~/code/i3/wm/i3-sensible-terminal
+|4,39,1,0,1477161220,"~/code/i3/wm/i3-sensible-terminal"
+-'  1  0  ~/code/i3/wm/i3-sensible-terminal
+|4,39,1,0,1477161220,"~/code/i3/wm/i3-sensible-terminal"
+-'  1  0  ~/code/i3/wm/i3-sensible-terminal
+|4,39,1,0,1477161220,"~/code/i3/wm/i3-sensible-terminal"
+-'  1  0  ~/code/i3/wm/i3-sensible-terminal
+|4,39,1,0,1477161220,"~/code/i3/wm/i3-sensible-terminal"
+-'  1  0  ~/code/i3/wm/i3-sensible-terminal
+|4,39,1,0,1477161220,"~/code/i3/wm/i3-sensible-terminal"
+-'  1  0  ~/code/i3/wm/i3-sensible-terminal
+|4,39,1,0,1477161220,"~/code/i3/wm/i3-sensible-terminal"
+-'  1  0  ~/code/i3/wm/i3-sensible-terminal
+|4,39,1,0,1477161220,"~/code/i3/wm/i3-sensible-terminal"
+-'  1  0  ~/code/i3/wm/i3-sensible-terminal
+|4,39,1,0,1477161220,"~/code/i3/wm/i3-sensible-terminal"
+-'  3  0  ~/connect_cmds.txt
+|4,39,3,0,1477160772,"~/connect_cmds.txt"
+-'  3  0  ~/connect_cmds.txt
+|4,39,3,0,1477160772,"~/connect_cmds.txt"
+-'  3  0  ~/connect_cmds.txt
+|4,39,3,0,1477160772,"~/connect_cmds.txt"
+-'  3  0  ~/connect_cmds.txt
+|4,39,3,0,1477160772,"~/connect_cmds.txt"
+-'  3  0  ~/connect_cmds.txt
+|4,39,3,0,1477160772,"~/connect_cmds.txt"
+-'  3  0  ~/connect_cmds.txt
+|4,39,3,0,1477160772,"~/connect_cmds.txt"
+-'  3  0  ~/connect_cmds.txt
+|4,39,3,0,1477160772,"~/connect_cmds.txt"
+-'  3  0  ~/connect_cmds.txt
+|4,39,3,0,1477160772,"~/connect_cmds.txt"
+-'  3  0  ~/connect_cmds.txt
+|4,39,3,0,1477160772,"~/connect_cmds.txt"
+-'  3  0  ~/connect_cmds.txt
+|4,39,3,0,1477160772,"~/connect_cmds.txt"
+-'  3  0  ~/connect_cmds.txt
+|4,39,3,0,1477160772,"~/connect_cmds.txt"
+-'  3  0  ~/connect_cmds.txt
+|4,39,3,0,1477160772,"~/connect_cmds.txt"
+-'  3  0  ~/connect_cmds.txt
+|4,39,3,0,1477160772,"~/connect_cmds.txt"
+-'  3  0  ~/connect_cmds.txt
+|4,39,3,0,1477160772,"~/connect_cmds.txt"
+-'  3  0  ~/connect_cmds.txt
+|4,39,3,0,1477160772,"~/connect_cmds.txt"
+-'  3  0  ~/connect_cmds.txt
+|4,39,3,0,1477160772,"~/connect_cmds.txt"
+-'  1  0  ~/connect_cmds.txt
+|4,39,1,0,1477160761,"~/connect_cmds.txt"
+-'  1  0  ~/connect_cmds.txt
+|4,39,1,0,1477160761,"~/connect_cmds.txt"
+-'  1  0  ~/connect_cmds.txt
+|4,39,1,0,1477160761,"~/connect_cmds.txt"
+-'  1  0  ~/connect_cmds.txt
+|4,39,1,0,1477160761,"~/connect_cmds.txt"
+-'  1  0  ~/connect_cmds.txt
+|4,39,1,0,1477160761,"~/connect_cmds.txt"
+-'  1  0  ~/connect_cmds.txt
+|4,39,1,0,1477160761,"~/connect_cmds.txt"
+-'  1  0  ~/connect_cmds.txt
+|4,39,1,0,1477160761,"~/connect_cmds.txt"
+-'  1  0  ~/connect_cmds.txt
+|4,39,1,0,1477160761,"~/connect_cmds.txt"
+-'  1  0  ~/connect_cmds.txt
+|4,39,1,0,1477160761,"~/connect_cmds.txt"
+-'  1  0  ~/connect_cmds.txt
+|4,39,1,0,1477160761,"~/connect_cmds.txt"
+-'  1  0  ~/connect_cmds.txt
+|4,39,1,0,1477160761,"~/connect_cmds.txt"
+-'  1  0  ~/connect_cmds.txt
+|4,39,1,0,1477160761,"~/connect_cmds.txt"
+-'  1  0  ~/connect_cmds.txt
+|4,39,1,0,1477160761,"~/connect_cmds.txt"
+-'  1  0  ~/connect_cmds.txt
+|4,39,1,0,1477160761,"~/connect_cmds.txt"
+-'  1  0  ~/connect_cmds.txt
+|4,39,1,0,1477160761,"~/connect_cmds.txt"
+-'  1  0  ~/connect_cmds.txt
+|4,39,1,0,1477160761,"~/connect_cmds.txt"
+-'  70  0  ~/.zshrc
+|4,39,70,0,1477160748,"~/.zshrc"
+-'  70  0  ~/.zshrc
+|4,39,70,0,1477160748,"~/.zshrc"
+-'  70  0  ~/.zshrc
+|4,39,70,0,1477160748,"~/.zshrc"
+-'  70  0  ~/.zshrc
+|4,39,70,0,1477160748,"~/.zshrc"
+-'  70  0  ~/.zshrc
+|4,39,70,0,1477160748,"~/.zshrc"
+-'  70  0  ~/.zshrc
+|4,39,70,0,1477160748,"~/.zshrc"
+-'  70  0  ~/.zshrc
+|4,39,70,0,1477160748,"~/.zshrc"
+-'  70  0  ~/.zshrc
+|4,39,70,0,1477160748,"~/.zshrc"
+-'  70  0  ~/.zshrc
+|4,39,70,0,1477160748,"~/.zshrc"
+-'  70  0  ~/.zshrc
+|4,39,70,0,1477160748,"~/.zshrc"
+-'  70  0  ~/.zshrc
+|4,39,70,0,1477160748,"~/.zshrc"
+-'  70  0  ~/.zshrc
+|4,39,70,0,1477160748,"~/.zshrc"
+-'  70  0  ~/.zshrc
+|4,39,70,0,1477160748,"~/.zshrc"
+-'  70  0  ~/.zshrc
+|4,39,70,0,1477160748,"~/.zshrc"
+-'  70  0  ~/.zshrc
+|4,39,70,0,1477160748,"~/.zshrc"
+-'  70  0  ~/.zshrc
+|4,39,70,0,1477160748,"~/.zshrc"
+-'  70  0  ~/.zshrc
+|4,39,70,0,1477160748,"~/.zshrc"
+-'  70  0  ~/.zshrc
+|4,39,70,0,1477160748,"~/.zshrc"
+-'  70  0  ~/.zshrc
+|4,39,70,0,1477160748,"~/.zshrc"
+-'  70  0  ~/.zshrc
+|4,39,70,0,1477160748,"~/.zshrc"
+-'  70  0  ~/.zshrc
+|4,39,70,0,1477160748,"~/.zshrc"
+-'  70  0  ~/.zshrc
+|4,39,70,0,1477160748,"~/.zshrc"
+-'  70  0  ~/.zshrc
+|4,39,70,0,1477160748,"~/.zshrc"
+-'  70  0  ~/.zshrc
+|4,39,70,0,1477160748,"~/.zshrc"
+-'  70  0  ~/.zshrc
+|4,39,70,0,1477160748,"~/.zshrc"
+-'  70  0  ~/.zshrc
+|4,39,70,0,1477160748,"~/.zshrc"
+-'  70  0  ~/.zshrc
+|4,39,70,0,1477160748,"~/.zshrc"
+-'  70  0  ~/.zshrc
+|4,39,70,0,1477160748,"~/.zshrc"
+-'  70  0  ~/.zshrc
+|4,39,70,0,1477160748,"~/.zshrc"
+-'  70  0  ~/.zshrc
+|4,39,70,0,1477160748,"~/.zshrc"
+-'  70  0  ~/.zshrc
+|4,39,70,0,1477160748,"~/.zshrc"
+-'  70  0  ~/.zshrc
+|4,39,70,0,1477160748,"~/.zshrc"
 -'  1  0  ~/.zshrc
-|4,39,1,0,1476647462,"~/.zshrc"
+|4,39,1,0,1477160744,"~/.zshrc"
 -'  1  0  ~/.zshrc
-|4,39,1,0,1476647462,"~/.zshrc"
+|4,39,1,0,1477160744,"~/.zshrc"
 -'  1  0  ~/.zshrc
-|4,39,1,0,1476647462,"~/.zshrc"
+|4,39,1,0,1477160744,"~/.zshrc"
 -'  1  0  ~/.zshrc
-|4,39,1,0,1476647462,"~/.zshrc"
+|4,39,1,0,1477160744,"~/.zshrc"
 -'  1  0  ~/.zshrc
-|4,39,1,0,1476647462,"~/.zshrc"
+|4,39,1,0,1477160744,"~/.zshrc"
 -'  1  0  ~/.zshrc
-|4,39,1,0,1476647462,"~/.zshrc"
+|4,39,1,0,1477160744,"~/.zshrc"
 -'  1  0  ~/.zshrc
-|4,39,1,0,1476647462,"~/.zshrc"
+|4,39,1,0,1477160744,"~/.zshrc"
 -'  1  0  ~/.zshrc
-|4,39,1,0,1476647462,"~/.zshrc"
--'  22  8  ~/.zshrc
-|4,39,22,8,1476647435,"~/.zshrc"
--'  22  8  ~/.zshrc
-|4,39,22,8,1476647435,"~/.zshrc"
--'  22  8  ~/.zshrc
-|4,39,22,8,1476647435,"~/.zshrc"
--'  22  8  ~/.zshrc
-|4,39,22,8,1476647435,"~/.zshrc"
--'  22  8  ~/.zshrc
-|4,39,22,8,1476647435,"~/.zshrc"
--'  22  8  ~/.zshrc
-|4,39,22,8,1476647435,"~/.zshrc"
--'  22  8  ~/.zshrc
-|4,39,22,8,1476647435,"~/.zshrc"
--'  22  8  ~/.zshrc
-|4,39,22,8,1476647435,"~/.zshrc"
--'  22  8  ~/.zshrc
-|4,39,22,8,1476647435,"~/.zshrc"
--'  22  8  ~/.zshrc
-|4,39,22,8,1476647435,"~/.zshrc"
--'  22  8  ~/.zshrc
-|4,39,22,8,1476647435,"~/.zshrc"
--'  22  8  ~/.zshrc
-|4,39,22,8,1476647435,"~/.zshrc"
--'  22  8  ~/.zshrc
-|4,39,22,8,1476647435,"~/.zshrc"
--'  22  8  ~/.zshrc
-|4,39,22,8,1476647435,"~/.zshrc"
--'  22  8  ~/.zshrc
-|4,39,22,8,1476647435,"~/.zshrc"
--'  22  8  ~/.zshrc
-|4,39,22,8,1476647435,"~/.zshrc"
--'  8  0  ~/.zshrc
-|4,39,8,0,1476647411,"~/.zshrc"
--'  8  0  ~/.zshrc
-|4,39,8,0,1476647411,"~/.zshrc"
--'  8  0  ~/.zshrc
-|4,39,8,0,1476647411,"~/.zshrc"
--'  8  0  ~/.zshrc
-|4,39,8,0,1476647411,"~/.zshrc"
--'  8  0  ~/.zshrc
-|4,39,8,0,1476647411,"~/.zshrc"
--'  8  0  ~/.zshrc
-|4,39,8,0,1476647411,"~/.zshrc"
--'  8  0  ~/.zshrc
-|4,39,8,0,1476647411,"~/.zshrc"
--'  8  0  ~/.zshrc
-|4,39,8,0,1476647411,"~/.zshrc"
--'  8  0  ~/.zshrc
-|4,39,8,0,1476647411,"~/.zshrc"
--'  8  0  ~/.zshrc
-|4,39,8,0,1476647411,"~/.zshrc"
--'  8  0  ~/.zshrc
-|4,39,8,0,1476647411,"~/.zshrc"
--'  8  0  ~/.zshrc
-|4,39,8,0,1476647411,"~/.zshrc"
--'  8  0  ~/.zshrc
-|4,39,8,0,1476647411,"~/.zshrc"
--'  8  0  ~/.zshrc
-|4,39,8,0,1476647411,"~/.zshrc"
--'  8  0  ~/.zshrc
-|4,39,8,0,1476647411,"~/.zshrc"
--'  8  0  ~/.zshrc
-|4,39,8,0,1476647411,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1476647407,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1476647407,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1476647407,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1476647407,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1476647407,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1476647407,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1476647407,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1476647407,"~/.zshrc"
--'  18  34  /etc/passwd
-|4,39,18,34,1476590187,"/etc/passwd"
--'  18  34  /etc/passwd
-|4,39,18,34,1476590187,"/etc/passwd"
--'  18  34  /etc/passwd
-|4,39,18,34,1476590187,"/etc/passwd"
--'  18  34  /etc/passwd
-|4,39,18,34,1476590187,"/etc/passwd"
--'  18  34  /etc/passwd
-|4,39,18,34,1476590187,"/etc/passwd"
--'  18  34  /etc/passwd
-|4,39,18,34,1476590187,"/etc/passwd"
--'  18  34  /etc/passwd
-|4,39,18,34,1476590187,"/etc/passwd"
--'  18  34  /etc/passwd
-|4,39,18,34,1476590187,"/etc/passwd"
--'  18  34  /etc/passwd
-|4,39,18,34,1476590187,"/etc/passwd"
--'  18  34  /etc/passwd
-|4,39,18,34,1476590187,"/etc/passwd"
--'  18  34  /etc/passwd
-|4,39,18,34,1476590187,"/etc/passwd"
--'  18  34  /etc/passwd
-|4,39,18,34,1476590187,"/etc/passwd"
--'  18  34  /etc/passwd
-|4,39,18,34,1476590187,"/etc/passwd"
--'  18  34  /etc/passwd
-|4,39,18,34,1476590187,"/etc/passwd"
--'  18  34  /etc/passwd
-|4,39,18,34,1476590187,"/etc/passwd"
--'  18  34  /etc/passwd
-|4,39,18,34,1476590187,"/etc/passwd"
--'  18  34  /etc/passwd
-|4,39,18,34,1476590187,"/etc/passwd"
--'  18  34  /etc/passwd
-|4,39,18,34,1476590187,"/etc/passwd"
--'  18  34  /etc/passwd
-|4,39,18,34,1476590187,"/etc/passwd"
--'  18  34  /etc/passwd
-|4,39,18,34,1476590187,"/etc/passwd"
--'  18  34  /etc/passwd
-|4,39,18,34,1476590187,"/etc/passwd"
--'  18  34  /etc/passwd
-|4,39,18,34,1476590187,"/etc/passwd"
--'  18  34  /etc/passwd
-|4,39,18,34,1476590187,"/etc/passwd"
--'  18  34  /etc/passwd
-|4,39,18,34,1476590187,"/etc/passwd"
--'  18  34  /etc/passwd
-|4,39,18,34,1476590187,"/etc/passwd"
--'  18  34  /etc/passwd
-|4,39,18,34,1476590187,"/etc/passwd"
--'  18  34  /etc/passwd
-|4,39,18,34,1476590187,"/etc/passwd"
--'  18  34  /etc/passwd
-|4,39,18,34,1476590187,"/etc/passwd"
--'  18  34  /etc/passwd
-|4,39,18,34,1476590187,"/etc/passwd"
--'  18  34  /etc/passwd
-|4,39,18,34,1476590187,"/etc/passwd"
--'  18  34  /etc/passwd
-|4,39,18,34,1476590187,"/etc/passwd"
--'  18  34  /etc/passwd
-|4,39,18,34,1476590187,"/etc/passwd"
--'  1  0  /etc/passwd
-|4,39,1,0,1476590182,"/etc/passwd"
--'  1  0  /etc/passwd
-|4,39,1,0,1476590182,"/etc/passwd"
+|4,39,1,0,1477160744,"~/.zshrc"
 
 # History of marks within files (newest to oldest):
 
+> ~/code/i3/wm/src/randr.c
+	*	1477161344	0
+	"	95	0
+
+> ~/code/i3/wm/i3-sensible-terminal
+	*	1477161250	0
+	"	11	164
+
+> ~/connect_cmds.txt
+	*	1477160769	0
+	"	3	0
+
+> ~/.zshrc
+	*	1477160744	0
+	"	70	0
+	.	44	0
+	+	19	0
+	+	17	0
+	+	18	18
+	+	36	33
+	+	40	17
+	+	49	24
+	+	49	0
+	+	9	0
+	+	13	9
+	+	11	31
+	+	10	18
+	+	17	0
+	+	12	30
+	+	13	0
+	+	16	22
+	+	50	42
+	+	51	8
+	+	50	71
+	+	54	11
+	+	53	57
+	+	64	16
+	+	63	26
+	+	64	36
+	+	65	25
+	+	62	15
+	+	66	33
+	+	35	34
+	+	35	0
+	+	35	36
+	+	35	24
+	+	35	0
+	+	35	3
+	+	35	0
+	+	35	72
+	+	35	40
+	+	35	53
+	+	36	36
+	+	36	27
+	+	35	0
+	+	16	44
+	+	71	0
+	+	71	49
+	+	35	0
+	+	36	0
+	+	13	86
+	+	35	0
+	+	46	24
+	+	47	12
+	+	58	13
+	+	5	15
+	+	6	12
+	+	5	17
+	+	6	16
+	+	5	0
+	+	6	5
+	+	4	21
+	+	5	11
+	+	6	0
+	+	4	22
+	+	49	0
+	+	7	0
+	+	8	0
+	+	34	18
+	+	33	51
+	+	23	52
+	+	24	19
+	+	34	15
+	+	32	0
+	+	26	37
+	+	24	24
+	+	27	22
+	+	28	23
+	+	31	24
+	+	56	50
+	+	59	9
+	+	41	12
+	+	36	0
+	+	35	0
+	+	36	0
+	+	37	19
+	+	43	71
+	+	45	13
+	+	71	0
+	+	44	0
+
+> ~/.zshenv
+	*	1477116034	0
+	"	2	20
+	^	3	0
+	.	4	0
+	+	2	20
+	+	4	0
+	+	3	0
+	+	4	0
+
+> ~/code/i3/i3lock/unlock_indicator.c
+	*	1477090314	0
+	"	386	17
+	^	387	0
+	.	386	17
+	+	359	7
+	+	365	0
+	+	360	37
+	+	336	67
+	+	360	79
+	+	361	0
+	+	365	0
+	+	380	8
+	+	380	0
+	+	363	0
+	+	364	0
+	+	369	34
+	+	369	0
+	+	342	46
+	+	343	46
+	+	350	11
+	+	351	11
+	+	348	0
+	+	341	25
+	+	339	52
+	+	340	3
+	+	341	11
+	+	349	28
+	+	353	20
+	+	357	0
+	+	354	0
+	+	356	0
+	+	355	11
+	+	354	28
+	+	355	28
+	+	351	23
+	+	350	23
+	+	360	33
+	+	369	0
+	+	368	31
+	+	369	54
+	+	371	30
+	+	371	22
+	+	371	33
+	+	372	65
+	+	375	0
+	+	374	0
+	+	373	7
+	+	374	0
+	+	346	56
+	+	338	24
+	+	346	0
+	+	375	45
+	+	379	4
+	+	380	0
+	+	347	39
+	+	375	22
+	+	371	0
+	+	377	0
+	+	376	0
+	+	371	0
+	+	401	1
+	+	426	2
+	+	400	14
+	+	389	35
+	+	398	0
+	+	363	31
+	+	364	21
+	+	389	32
+	+	362	30
+	+	343	0
+	+	351	0
+	+	355	0
+	+	389	41
+	+	392	44
+	+	388	8
+	+	391	8
+	+	395	0
+	+	394	9
+	+	389	20
+	+	392	30
+	+	395	25
+	+	396	10
+	+	397	21
+	+	390	35
+	+	389	35
+	+	390	0
+	+	397	60
+	+	395	62
+	+	392	62
+	+	390	58
+	+	393	5
+	+	392	64
+	+	395	64
+	+	397	62
+	+	390	60
+	+	389	58
+	+	386	18
+	+	387	0
+	+	389	0
+	+	384	31
+	+	385	16
+	+	386	17
+	+	385	16
+	+	386	17
+	k	434	23
+
+> ~/.vimrc
+	*	1477023426	0
+	"	46	0
+	.	46	0
+	+	22	18
+	+	76	18
+	+	54	1
+	+	20	0
+	+	2	0
+	+	9	0
+	+	68	0
+	+	54	39
+	+	55	26
+	+	52	0
+	+	1	0
+	+	55	0
+	+	57	12
+	+	60	14
+	+	61	0
+	+	64	18
+	+	66	6
+	+	67	0
+	+	64	0
+	+	68	0
+	+	61	48
+	+	65	32
+	+	67	0
+	+	61	40
+	+	64	0
+	+	67	0
+	+	64	0
+	+	65	0
+	+	66	0
+	+	67	0
+	+	61	1
+	+	68	0
+	+	69	37
+	+	75	0
+	+	70	11
+	+	74	7
+	+	71	11
+	+	72	11
+	+	73	16
+	+	69	57
+	+	61	0
+	+	62	67
+	+	45	20
+	+	47	0
+	+	44	0
+	+	78	0
+	+	79	73
+	+	80	61
+	+	66	0
+	+	73	0
+	+	72	0
+	+	69	0
+	+	75	0
+	+	75	16
+	+	75	0
+	+	77	8
+	+	101	11
+	+	103	6
+	+	105	0
+	+	102	0
+	+	103	19
+	+	77	18
+	+	78	0
+	+	79	0
+	+	83	11
+	+	88	0
+	+	94	0
+	+	96	0
+	+	96	13
+	+	103	19
+	+	104	0
+	+	96	20
+	+	90	16
+	+	80	0
+	+	93	0
+	+	77	16
+	+	71	11
+	+	72	11
+	+	47	22
+	+	48	0
+	+	46	0
+
+> ~/code/i3/i3lock/i3lock.c
+	*	1477023423	0
+	"	982	36
+
 > ~/.config/i3/config
-	*	1476737539	0
-	"	96	40
-	^	209	28
-	.	96	40
-	+	211	0
-	+	209	27
-	+	98	34
-	+	97	40
-	+	96	40
+	*	1477023419	0
+	"	180	0
+	^	9	17
+	.	9	16
+	+	214	0
+	+	212	27
+	+	101	34
+	+	100	40
+	+	99	40
+	+	8	8
+	+	9	16
+
+> /usr/share/vim/vim80/doc/tagsrch.txt
+	*	1477023376	0
+	"	362	61
+
+> /usr/share/vim/vim80/doc/insert.txt
+	*	1477023303	0
+	"	1880	28
+
+> /usr/share/vim/vim80/doc/fold.txt
+	*	1477023277	0
+	"	349	7
+
+> ~/code/i3/i3lock/unlock_indicator.h
+	*	1476999759	0
+	"	14	55
+	^	22	56
+	.	22	55
+	+	22	0
+	+	21	13
+	+	23	0
+	+	22	55
+
+> ~/code/i3/i3lock/xinerama.c
+	*	1476995237	0
+	"	49	0
+
+> ~/code/i3/i3lock/xinerama.h
+	*	1476995030	0
+	"	5	0
+
+> ~/code/i3/i3lock/xinerama.
+	*	1476995020	0
+	"	1	0
+
+> ~/code/i3/i3lock/cursors.h
+	*	1476995014	0
+	"	2	0
+
+> ~/.vim/a.c
+	*	1476938679	0
+	"	2	0
+	^	2	0
+	.	2	0
+	+	2	0
+	+	3	10
+	+	2	0
+
+> /usr/share/vim/vim80/doc/change.txt
+	*	1476938678	0
+	"	648	34
+
+> /usr/share/vim/vim80/doc/syntax.txt
+	*	1476938349	0
+	"	4567	40
+
+> /usr/share/vim/vim80/doc/cmdline.txt
+	*	1476937243	0
+	"	551	14
+
+> /usr/share/vim/vim80/doc/options.txt
+	*	1476937215	0
+	"	1690	17
+
+> /usr/share/vim/vim80/doc/spell.txt
+	*	1476937148	0
+	"	68	0
+
+> /usr/share/vim/vim80/doc/various.txt
+	*	1476936968	0
+	"	197	0
 
 > ~/bin/fixsteam
 	*	1476647716	0
@@ -517,69 +901,6 @@ $
 	+	4	0
 	+	1	11
 	+	4	0
-
-> ~/.zshrc
-	*	1476647488	0
-	"	68	0
-	^	25	0
-	.	25	0
-	+	14	0
-	+	12	0
-	+	13	18
-	+	47	33
-	+	50	17
-	+	53	24
-	+	55	0
-	+	4	0
-	+	8	9
-	+	6	31
-	+	5	18
-	+	12	0
-	+	7	30
-	+	8	0
-	+	11	22
-	+	56	42
-	+	57	8
-	+	56	71
-	+	60	11
-	+	59	57
-	+	65	16
-	+	64	26
-	+	65	36
-	+	66	25
-	+	63	15
-	+	67	33
-	+	21	34
-	+	21	0
-	+	21	36
-	+	38	24
-	+	23	0
-	+	22	0
-	+	23	0
-	+	22	3
-	+	21	0
-	+	27	0
-	+	28	0
-	+	30	0
-	+	32	0
-	+	34	0
-	+	35	0
-	+	37	0
-	+	38	0
-	+	37	0
-	+	36	0
-	+	19	72
-	+	34	40
-	+	37	53
-	+	41	36
-	+	43	36
-	+	45	27
-	+	27	0
-	+	11	44
-	+	69	0
-	+	70	0
-	+	71	49
-	+	25	0
 
 > /etc/passwd
 	*	1476590186	0
@@ -640,54 +961,6 @@ $
 	+	1	0
 	+	2	0
 
-> ~/.vimrc
-	*	1476338566	0
-	"	60	67
-	^	60	68
-	.	60	67
-	+	22	18
-	+	75	18
-	+	52	1
-	+	20	0
-	+	2	0
-	+	9	0
-	+	66	0
-	+	52	39
-	+	53	26
-	+	50	0
-	+	1	0
-	+	53	0
-	+	55	12
-	+	58	14
-	+	59	0
-	+	62	18
-	+	64	6
-	+	65	0
-	+	62	0
-	+	66	0
-	+	59	48
-	+	63	32
-	+	65	0
-	+	59	40
-	+	62	0
-	+	65	0
-	+	62	0
-	+	63	0
-	+	64	0
-	+	65	0
-	+	59	1
-	+	66	0
-	+	67	37
-	+	73	0
-	+	68	11
-	+	72	7
-	+	69	11
-	+	70	11
-	+	71	16
-	+	67	57
-	+	59	0
-	+	60	67
-
 > /usr/share/vim/vim80/doc/map.txt
 	*	1476338293	0
 	"	257	29
@@ -695,10 +968,6 @@ $
 > /usr/share/vim/vim80/doc/if_ole.txt
 	*	1476338247	0
 	"	141	56
-
-> /usr/share/vim/vim80/doc/change.txt
-	*	1476338240	0
-	"	698	30
 
 > /usr/share/vim/vim80/doc/motion.txt
 	*	1476335014	0
@@ -728,13 +997,6 @@ $
 	+	6	0
 	+	5	0
 	+	2	12
-
-> ~/.zshenv
-	*	1475188894	0
-	"	2	20
-	^	2	21
-	.	2	20
-	+	2	20
 
 > ~/csaw/caesar/main.cpp
 	*	1475187060	0

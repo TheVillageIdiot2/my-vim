@@ -41,8 +41,10 @@ nnoremap <leader><space> :nohlsearch<CR>
 set foldenable
 set foldlevelstart=0
 set foldnestmax=18
-nnoremap <space> za	"space opens and closes folds
-set foldmethod=indent	"fold based on indents
+"space opens and closes folds
+nnoremap <space> za	
+"fold based on indents
+set foldmethod=indent	
 
 "Move vertically by visual line
 nnoremap j gj
@@ -66,34 +68,40 @@ nnoremap <silent><leader>t vi(:s/ \+/ /g<cr>vi(:Tab/,/r0l0l0l0l0l0l0<cr>:noh<cr>
 
 "Quick navigation to start/end of line, top/bottom of page
 nnoremap H ^
-nnoremap J H
-nnoremap K L
+nnoremap J L
+nnoremap K H
 nnoremap L A<esc>
         
 
-
 "PEr file bulllshit
-augroup configgroup
+augroup cplusplus
     autocmd!
-    "autocmd VimEnter * highlight clear SignColumn
-    autocmd BufNewFile,BufRead *.tpp set filetype=cpp
-    autocmd BufNewFile,BufRead makefile set filetype=Makefile
+    autocmd BufNewFile,BufRead *.tpp set filetype=cpp "Alias tpp to be cpp
+augroup END
+
+augroup java
+    autocmd!
     autocmd FileType java setlocal noexpandtab
     autocmd FileType java setlocal list
     autocmd FileType java setlocal listchars=tab:+\ ,eol:-
 "    autocmd FileType java setlocal formatprg=par\ -w80\ -T4
+augroup END
+
+augroup makefiles
+    autocmd!
     autocmd FileType makefile setlocal noexpandtab
-    autocmd FileType php setlocal expandtab
-    autocmd FileType php setlocal list
-    autocmd FileType php setlocal listchars=tab:+\ ,eol:-
-"    autocmd FileType php setlocal formatprg=par\ -w80\ -T4
-    autocmd FileType ruby setlocal tabstop=2
-    autocmd FileType ruby setlocal shiftwidth=2
-    autocmd FileType ruby setlocal softtabstop=2
-    autocmd FileType ruby setlocal commentstring=#\ %s
+    autocmd BufNewFile,BufRead makefile set filetype=Makefile 
+augroup END
+
+augroup pythonscripts
+    autocmd!
     autocmd FileType python setlocal commentstring=#\ %s
     autocmd BufEnter *.cls setlocal filetype=java
     autocmd BufEnter *.zsh-theme setlocal filetype=zsh
+augroup END
+
+augroup shellscripts
+    autocmd!
     autocmd BufEnter *.sh setlocal tabstop=2
     autocmd BufEnter *.sh setlocal shiftwidth=2
     autocmd BufEnter *.sh setlocal softtabstop=2
