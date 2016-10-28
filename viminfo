@@ -11,119 +11,165 @@
 # hlsearch on (H) or off (h):
 ~H
 # Last Search Pattern:
-~MSle0~/glob
+~MSle0~/>>
 
 # Last Substitute Search Pattern:
-~MSle0&input_position \/ 2 + 1
+~MSle0&>>
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1477161346,,"q"
+|2,0,1477680644,,"q"
+:wq
+|2,0,1477679619,,"wq"
+:q!
+|2,0,1477663531,,"q!"
+:w
+|2,0,1477663525,,"w"
+:help :r
+|2,0,1477663502,,"help :r"
+:r
+|2,0,1477663496,,"r"
+:help :r!
+|2,0,1477663433,,"help :r!"
+:man r!
+|2,0,1477663429,,"man r!"
+:r py3 'print("hello")'
+|2,0,1477663419,,"r py3 'print(\"hello\")'"
+:r! py3 'print("hello")'
+|2,0,1477663407,,"r! py3 'print(\"hello\")'"
+:r! py3 print("hello")
+|2,0,1477663394,,"r! py3 print(\"hello\")"
+:echo "Hello!" |
+|2,0,1477663302,,"echo \"Hello!\" |"
+:echo | 
+|2,0,1477663295,,"echo | "
+:|echo
+|2,0,1477663284,,"|echo"
+:|echo hello
+|2,0,1477663267,,"|echo hello"
+:py3 for b in vim.buffers:
+|2,0,1477611966,,"py3 for b in vim.buffers:"
+:py3 for x in range(10):
+|2,0,1477611889,,"py3 for x in range(10):"
+:py3 current.buffer[0] = "Hello world!\n How are you?"
+|2,0,1477611874,,"py3 current.buffer[0] = \"Hello world!\\n How are you?\""
+:py3 current.buffer = "Hello world!\n How are you?"
+|2,0,1477611864,,"py3 current.buffer = \"Hello world!\\n How are you?\""
+:py3 print("test")
+|2,0,1477611833,,"py3 print(\"test\")"
+:py3 print "test"
+|2,0,1477611825,,"py3 print \"test\""
+:py3 current.line = "Hello world!"
+|2,0,1477611810,,"py3 current.line = \"Hello world!\""
+:py3 from vim import *
+|2,0,1477611794,,"py3 from vim import *"
+:help py3
+|2,0,1477609699,,"help py3"
+:py3do print(5)
+|2,0,1477609681,,"py3do print(5)"
+:py3do
+|2,0,1477609674,,"py3do"
+:py3 print(5)
+|2,0,1477609669,,"py3 print(5)"
+:py3
+|2,0,1477609663,,"py3"
+:57
+|2,0,1477586664,,"57"
+:redo
+|2,0,1477513755,,"redo"
+:'<,'>s/>>/<</
+|2,0,1477513696,,"'<,'>s/>>/<</"
+:vs tmp.txt
+|2,0,1477513375,,"vs tmp.txt"
+:e WaitonBot.py
+|2,0,1477270976,,"e WaitonBot.py"
+:vsplit WaitonUtil.py
+|2,0,1477270074,,"vsplit WaitonUtil.py"
+:vs sortscrolls.py
+|2,0,1477265459,,"vs sortscrolls.py"
+:!mv sortscrolls sortscrolls.py
+|2,0,1477265456,,"!mv sortscrolls sortscrolls.py"
+:vs sortscrolls
+|2,0,1477265440,,"vs sortscrolls"
+:!pwd
+|2,0,1477265426,,"!pwd"
+:%s/\*//
+|2,0,1477265414,,"%s/\\*//"
+:%s/^$\n//
+|2,0,1477265212,,"%s/^$\\n//"
+:s/^$\n//
+|2,0,1477265207,,"s/^$\\n//"
+:s/$^//
+|2,0,1477265008,,"s/$^//"
+:3030
+|2,0,1477172545,,"3030"
+:239
+|2,0,1477172040,,"239"
+:e
+|2,0,1477170067,,"e"
+:w a.py
+|2,0,1477170067,,"w a.py"
+:!ls /bin/
+|2,0,1477166636,,"!ls /bin/"
+:vsplit CallOfTheVoid.py
+|2,0,1477162978,,"vsplit CallOfTheVoid.py"
+:!ls
+|2,0,1477162939,,"!ls"
 :!echo $TERMINAL
 |2,0,1477161235,,"!echo $TERMINAL"
-:wq
-|2,0,1477116338,,"wq"
-:w
-|2,0,1477116030,,"w"
-:redo
-|2,0,1477116024,,"redo"
-:split .zshenv
-|2,0,1477115933,,"split .zshenv"
-:50
-|2,0,1477102645,,"50"
-:make
-|2,0,1477090250,,"make"
-:'<,'>s/input_position \/ 2 + 1/levels/
-|2,0,1477090233,,"'<,'>s/input_position \\/ 2 + 1/levels/"
-:'<,'>s/ \/ 2/ \/ 2 + 1/
-|2,0,1477025404,,"'<,'>s/ \\/ 2/ \\/ 2 + 1/"
-:'<,'>s/3/2
-|2,0,1477025350,,"'<,'>s/3/2"
-:'<,'>s/(int)sqrt(//
-|2,0,1477025267,,"'<,'>s/(int)sqrt(//"
-:s/cos/sin/
-|2,0,1477024426,,"s/cos/sin/"
-:'<,'>s/M_PI\/3/deg60/
-|2,0,1477024038,,"'<,'>s/M_PI\\/3/deg60/"
-:s/left/right/
-|2,0,1477023959,,"s/left/right/"
-:342
-|2,0,1477023529,,"342"
-:367
-|2,0,1477023526,,"367"
-:help CTRLo
-|2,0,1477023343,,"help CTRLo"
-:help CTRL o
-|2,0,1477023337,,"help CTRL o"
-:help CTRL
-|2,0,1477023332,,"help CTRL"
-:help CTRL+o
-|2,0,1477023328,,"help CTRL+o"
-:help ctrl+o
-|2,0,1477023303,,"help ctrl+o"
-:help <ctrl>
-|2,0,1477023299,,"help <ctrl>"
-:help o
-|2,0,1477023283,,"help o"
-:help za
-|2,0,1477023267,,"help za"
-:!rm .unlock_indicator.c.swp
-|2,0,1477023042,,"!rm .unlock_indicator.c.swp"
-:e unlock_indicator.c
-|2,0,1477000879,,"e unlock_indicator.c"
-:split unlock_indicator.h
-|2,0,1476999016,,"split unlock_indicator.h"
-:144
-|2,0,1476998144,,"144"
-:e
-|2,0,1476997309,,"e"
-:help =
-|2,0,1476938631,,"help ="
-:split a.c
-|2,0,1476938515,,"split a.c"
-:help highlight
-|2,0,1476938343,,"help highlight"
-:highlight
-|2,0,1476938332,,"highlight"
-:'<,'>comment
-|2,0,1476937252,,"'<,'>comment"
-:comment
-|2,0,1476937249,,"comment"
-:help comment
-|2,0,1476937225,,"help comment"
-:help commentstring
-|2,0,1476937202,,"help commentstring"
-:help spell
-|2,0,1476937131,,"help spell"
-:man normal
-|2,0,1476937031,,"man normal"
-:normal vi(:s/ \+/ /g<cr>
-|2,0,1476937016,,"normal vi(:s/ \\+/ /g<cr>"
-:normal vi(
-|2,0,1476936980,,"normal vi("
-:help normal
-|2,0,1476936932,,"help normal"
-:smile
-|2,0,1476936754,,"smile"
-:!mkdir -p ~/.cache/zsh/dirs
-|2,0,1476647432,,"!mkdir -p ~/.cache/zsh/dirs"
-:q!
-|2,0,1476590169,,"q!"
-:e /root/connect_cmds.txt
-|2,0,1476588812,,"e /root/connect_cmds.txt"
-:wa
-|2,0,1476588765,,"wa"
-:vsplit .zshrc_su_backup
-|2,0,1476588711,,"vsplit .zshrc_su_backup"
-:noh
-|2,0,1476338550,,"noh"
 
 # Search String History (newest to oldest):
 ? @$
-|2,1,1477161296,,"@$"
+|2,1,1477680627,,"@$"
+? >>
+|2,1,1477513696,,">>"
+?/log
+|2,1,1477513091,47,"log"
+?/in text
+|2,1,1477270980,47,"in text"
+?/gavin
+|2,1,1477269019,47,"gavin"
+?/br
+|2,1,1477268788,47,"br"
+?/brian
+|2,1,1477268782,47,"brian"
+?/brien
+|2,1,1477268780,47,"brien"
+?/ryan
+|2,1,1477268775,47,"ryan"
+?/in tex
+|2,1,1477270149,47,"in tex"
+?/reply
+|2,1,1477270078,47,"reply"
+?/repl
+|2,1,1477270076,47,"repl"
+?/Brodeu
+|2,1,1477266298,47,"Brodeu"
+? \*
+|2,1,1477265414,,"\\*"
+?/^L
+|2,1,1477265241,47,"^L"
+? ^$\n
+|2,1,1477265212,,"^$\\n"
+?/^$\n
+|2,1,1477265195,47,"^$\\n"
+?/^$
+|2,1,1477265188,47,"^$"
+? $^
+|2,1,1477265008,,"$^"
+?/Daniel
+|2,1,1477261103,47,"Daniel"
+?/values
+|2,1,1477172472,47,"values"
+?/\([\|]\)
+|2,1,1477172276,47,"\\([\\|]\\)"
+?/fold
+|2,1,1477171110,47,"fold"
+?/sheets
+|2,1,1477169637,47,"sheets"
 ?/glob
 |2,1,1477115575,47,"glob"
 ?/histo
@@ -176,52 +222,6 @@ $
 |2,1,1476737427,47,"soun"
 ?/bin/bash
 |2,1,1476647712,47,"bin/bash"
-?/chwpd
-|2,1,1476647478,47,"chwpd"
-?/chp
-|2,1,1476647462,47,"chp"
-?/dirs
-|2,1,1476647411,47,"dirs"
-?/home\/jchenry
-|2,1,1476590161,47,"home\\/jchenry"
-?/home/jchenry
-|2,1,1476590154,47,"home/jchenry"
-?/home
-|2,1,1476590144,47,"home"
-?  \+
-|2,1,1476338560,," \\+"
-? d
-|2,1,1476338446,,"d"
-?/doStuff
-|2,1,1476338430,47,"doStuff"
-?/asda
-|2,1,1476338196,47,"asda"
-?  
-|2,1,1476338190,," "
-?/asdasd
-|2,1,1476338115,47,"asdasd"
-?  +
-|2,1,1476338007,," +"
-?/asdasda
-|2,1,1476337940,47,"asdasda"
-? \s\+
-|2,1,1476337828,,"\\s\\+"
-?/\s+
-|2,1,1476337800,47,"\\s+"
-?/\s
-|2,1,1476337794,47,"\\s"
-? \s+
-|2,1,1476337789,,"\\s+"
-?/)
-|2,1,1476335478,47,")"
-?/(
-|2,1,1476335478,47,"("
-?/test
-|2,1,1476334939,47,"test"
-?/cr
-|2,1,1476334091,47,"cr"
-?/asd
-|2,1,1476334088,47,"asd"
 
 # Expression History (newest to oldest):
 
@@ -231,274 +231,735 @@ $
 
 # Registers:
 ""0	LINE	0
-	alias cnct="cat /root/connect_cmds.txt | zsh"
-	alias cnctjeh="cat /root/home_cnct_cmds.txt | zsh"
-|3,1,0,1,2,0,1477161296,"alias cnct=\"cat /root/connect_cmds.txt | zsh\"","alias cnctjeh=\"cat /root/home_cnct_cmds.txt | zsh\""
+	/bin/bash: py3: command not found
+|3,1,0,1,1,0,1477680627,"/bin/bash: py3: command not found"
 "1	LINE	0
-	alias cnct="cat /root/connect_cmds.txt | zsh"
-	alias cnctjeh="cat /root/home_cnct_cmds.txt | zsh"
-|3,0,1,1,2,0,1477116028,"alias cnct=\"cat /root/connect_cmds.txt | zsh\"","alias cnctjeh=\"cat /root/home_cnct_cmds.txt | zsh\""
+	/bin/bash: py3: command not found
+|3,0,1,1,1,0,1477663413,"/bin/bash: py3: command not found"
 "2	LINE	0
 	
-|3,0,2,1,1,0,1477115969,""
+|3,0,2,1,1,0,1477663290,""
 "3	LINE	0
-	
-|3,0,3,1,1,0,1477115968,""
+	test 
+|3,0,3,1,1,0,1477663287,"test "
 "4	LINE	0
-	alias cnct="cat /root/connect_cmds.txt | zsh"
-	alias cnctjeh="cat /root/home_cnct_cmds.txt | zsh"
-|3,0,4,1,2,0,1477115953,"alias cnct=\"cat /root/connect_cmds.txt | zsh\"","alias cnctjeh=\"cat /root/home_cnct_cmds.txt | zsh\""
+	Hello world!
+|3,0,4,1,1,0,1477611812,"Hello world!"
 "5	LINE	0
-	
-|3,0,5,1,1,0,1477115554,""
+	    return None
+|3,0,5,1,1,0,1477587517,"    return None"
 "6	LINE	0
-	#add-zsh-hook chpwd chpwd_recent_dirs
-|3,0,6,1,1,0,1477115553,"#add-zsh-hook chpwd chpwd_recent_dirs"
+	            b = findBrotherByName(name)
+|3,0,6,1,1,0,1477586746,"            b = findBrotherByName(name)"
 "7	LINE	0
-	#Enable cdr to restore shell location
-	#autoload -Uz chpwd_recent_dirs cdr add-zsh-hook
-|3,0,7,1,2,0,1477115552,"#Enable cdr to restore shell location","#autoload -Uz chpwd_recent_dirs cdr add-zsh-hook"
+	            #Use as name
+	            name = m.group(1).strip()
+|3,0,7,1,2,0,1477586745,"            #Use as name","            name = m.group(1).strip()"
 "8	LINE	0
 	
-|3,0,8,1,1,0,1477115551,""
+	        except ValueError:
+|3,0,8,1,2,0,1477586744,"","        except ValueError:"
 "9	LINE	0
-	DIRSTACKFILE="$HOME/.cache/zsh/dirs"
-|3,0,9,1,1,0,1477115549,"DIRSTACKFILE=\"$HOME/.cache/zsh/dirs\""
+	            else:
+	                response = response or "Could not find scroll {0}".format(scroll)
+|3,0,9,1,2,0,1477586743,"            else:","                response = response or \"Could not find scroll {0}\".format(scroll)"
+"a	CHAR	0
+	jk
+|3,0,10,0,1,0,1477166655,"jk"
 "d	CHAR	0
 	A)jkk
 |3,0,13,0,1,0,0,"A)jkk"
-"q@	CHAR	0
-	D
-|3,2,26,0,1,0,1476938364,"D"
 "-	CHAR	0
-	Y
-|3,0,36,0,1,0,1477112420,"Y"
+	=
+|3,0,36,0,1,0,1477587536,"="
 
 # File marks:
-'0  95  0  ~/code/i3/wm/src/randr.c
-|4,48,95,0,1477161346,"~/code/i3/wm/src/randr.c"
-'1  8  0  ~/code/i3/wm/i3-input
-|4,49,8,0,1477161297,"~/code/i3/wm/i3-input"
-'2  13  0  ~/code/i3/wm/i3bar/include
-|4,50,13,0,1477161288,"~/code/i3/wm/i3bar/include"
-'3  11  164  ~/code/i3/wm/i3-sensible-terminal
-|4,51,11,164,1477161270,"~/code/i3/wm/i3-sensible-terminal"
-'4  3  0  ~/connect_cmds.txt
-|4,52,3,0,1477160772,"~/connect_cmds.txt"
-'5  70  0  ~/.zshrc
-|4,53,70,0,1477160748,"~/.zshrc"
-'6  70  0  ~/.zshrc
-|4,54,70,0,1477116339,"~/.zshrc"
-'7  4  21  ~/.zshrc
-|4,55,4,21,1477103150,"~/.zshrc"
-'8  4  21  ~/.zshrc
-|4,56,4,21,1477103150,"~/.zshrc"
-'9  4  21  ~/.zshrc
-|4,57,4,21,1477103150,"~/.zshrc"
+'0  260  0  ~/.vim/autoload/pathogen.vim
+|4,48,260,0,1477680644,"~/.vim/autoload/pathogen.vim"
+'1  8  0  ~/.vim/autoload
+|4,49,8,0,1477680628,"~/.vim/autoload"
+'2  2  0  ~/.vimrc
+|4,50,2,0,1477680612,"~/.vimrc"
+'3  1  0  ~/code/hackathon/README.md
+|4,51,1,0,1477679792,"~/code/hackathon/README.md"
+'4  3  0  ~/Downloads/hello.rs
+|4,52,3,0,1477679620,"~/Downloads/hello.rs"
+'5  7  0  ~/u
+|4,53,7,0,1477663006,"~/u"
+'6  60  50  ~/code/waitonbot/ScrollUtil.py
+|4,54,60,50,1477587560,"~/code/waitonbot/ScrollUtil.py"
+'7  3  9  ~/code/waitonbot/dependencies.txt
+|4,55,3,9,1477587327,"~/code/waitonbot/dependencies.txt"
+'8  75  18  ~/code/waitonbot/ScrollUtil.py
+|4,56,75,18,1477586949,"~/code/waitonbot/ScrollUtil.py"
+'9  72  18  ~/code/waitonbot/ScrollUtil.py
+|4,57,72,18,1477586949,"~/code/waitonbot/ScrollUtil.py"
 
 # Jumplist (newest first):
--'  95  0  ~/code/i3/wm/src/randr.c
-|4,39,95,0,1477161346,"~/code/i3/wm/src/randr.c"
--'  1  0  ~/code/i3/wm/src/randr.c
-|4,39,1,0,1477161327,"~/code/i3/wm/src/randr.c"
--'  8  0  ~/code/i3/wm/i3-input
-|4,39,8,0,1477161297,"~/code/i3/wm/i3-input"
--'  8  0  ~/code/i3/wm/i3-input
-|4,39,8,0,1477161297,"~/code/i3/wm/i3-input"
--'  13  0  ~/code/i3/wm/i3bar/include
-|4,39,13,0,1477161288,"~/code/i3/wm/i3bar/include"
--'  13  0  ~/code/i3/wm/i3bar/include
-|4,39,13,0,1477161288,"~/code/i3/wm/i3bar/include"
--'  13  0  ~/code/i3/wm/i3bar/include
-|4,39,13,0,1477161288,"~/code/i3/wm/i3bar/include"
--'  13  0  ~/code/i3/wm/i3bar/include
-|4,39,13,0,1477161288,"~/code/i3/wm/i3bar/include"
--'  10  0  ~/code/i3/wm/i3bar
-|4,39,10,0,1477161281,"~/code/i3/wm/i3bar"
--'  10  0  ~/code/i3/wm/i3bar
-|4,39,10,0,1477161281,"~/code/i3/wm/i3bar"
--'  10  0  ~/code/i3/wm/i3bar
-|4,39,10,0,1477161281,"~/code/i3/wm/i3bar"
--'  10  0  ~/code/i3/wm/i3bar
-|4,39,10,0,1477161281,"~/code/i3/wm/i3bar"
--'  11  164  ~/code/i3/wm/i3-sensible-terminal
-|4,39,11,164,1477161270,"~/code/i3/wm/i3-sensible-terminal"
--'  11  164  ~/code/i3/wm/i3-sensible-terminal
-|4,39,11,164,1477161270,"~/code/i3/wm/i3-sensible-terminal"
--'  11  164  ~/code/i3/wm/i3-sensible-terminal
-|4,39,11,164,1477161270,"~/code/i3/wm/i3-sensible-terminal"
--'  11  164  ~/code/i3/wm/i3-sensible-terminal
-|4,39,11,164,1477161270,"~/code/i3/wm/i3-sensible-terminal"
--'  11  164  ~/code/i3/wm/i3-sensible-terminal
-|4,39,11,164,1477161270,"~/code/i3/wm/i3-sensible-terminal"
--'  11  164  ~/code/i3/wm/i3-sensible-terminal
-|4,39,11,164,1477161270,"~/code/i3/wm/i3-sensible-terminal"
--'  11  164  ~/code/i3/wm/i3-sensible-terminal
-|4,39,11,164,1477161270,"~/code/i3/wm/i3-sensible-terminal"
--'  11  164  ~/code/i3/wm/i3-sensible-terminal
-|4,39,11,164,1477161270,"~/code/i3/wm/i3-sensible-terminal"
--'  1  0  ~/code/i3/wm/i3-sensible-terminal
-|4,39,1,0,1477161220,"~/code/i3/wm/i3-sensible-terminal"
--'  1  0  ~/code/i3/wm/i3-sensible-terminal
-|4,39,1,0,1477161220,"~/code/i3/wm/i3-sensible-terminal"
--'  1  0  ~/code/i3/wm/i3-sensible-terminal
-|4,39,1,0,1477161220,"~/code/i3/wm/i3-sensible-terminal"
--'  1  0  ~/code/i3/wm/i3-sensible-terminal
-|4,39,1,0,1477161220,"~/code/i3/wm/i3-sensible-terminal"
--'  1  0  ~/code/i3/wm/i3-sensible-terminal
-|4,39,1,0,1477161220,"~/code/i3/wm/i3-sensible-terminal"
--'  1  0  ~/code/i3/wm/i3-sensible-terminal
-|4,39,1,0,1477161220,"~/code/i3/wm/i3-sensible-terminal"
--'  1  0  ~/code/i3/wm/i3-sensible-terminal
-|4,39,1,0,1477161220,"~/code/i3/wm/i3-sensible-terminal"
--'  1  0  ~/code/i3/wm/i3-sensible-terminal
-|4,39,1,0,1477161220,"~/code/i3/wm/i3-sensible-terminal"
--'  3  0  ~/connect_cmds.txt
-|4,39,3,0,1477160772,"~/connect_cmds.txt"
--'  3  0  ~/connect_cmds.txt
-|4,39,3,0,1477160772,"~/connect_cmds.txt"
--'  3  0  ~/connect_cmds.txt
-|4,39,3,0,1477160772,"~/connect_cmds.txt"
--'  3  0  ~/connect_cmds.txt
-|4,39,3,0,1477160772,"~/connect_cmds.txt"
--'  3  0  ~/connect_cmds.txt
-|4,39,3,0,1477160772,"~/connect_cmds.txt"
--'  3  0  ~/connect_cmds.txt
-|4,39,3,0,1477160772,"~/connect_cmds.txt"
--'  3  0  ~/connect_cmds.txt
-|4,39,3,0,1477160772,"~/connect_cmds.txt"
--'  3  0  ~/connect_cmds.txt
-|4,39,3,0,1477160772,"~/connect_cmds.txt"
--'  3  0  ~/connect_cmds.txt
-|4,39,3,0,1477160772,"~/connect_cmds.txt"
--'  3  0  ~/connect_cmds.txt
-|4,39,3,0,1477160772,"~/connect_cmds.txt"
--'  3  0  ~/connect_cmds.txt
-|4,39,3,0,1477160772,"~/connect_cmds.txt"
--'  3  0  ~/connect_cmds.txt
-|4,39,3,0,1477160772,"~/connect_cmds.txt"
--'  3  0  ~/connect_cmds.txt
-|4,39,3,0,1477160772,"~/connect_cmds.txt"
--'  3  0  ~/connect_cmds.txt
-|4,39,3,0,1477160772,"~/connect_cmds.txt"
--'  3  0  ~/connect_cmds.txt
-|4,39,3,0,1477160772,"~/connect_cmds.txt"
--'  3  0  ~/connect_cmds.txt
-|4,39,3,0,1477160772,"~/connect_cmds.txt"
--'  1  0  ~/connect_cmds.txt
-|4,39,1,0,1477160761,"~/connect_cmds.txt"
--'  1  0  ~/connect_cmds.txt
-|4,39,1,0,1477160761,"~/connect_cmds.txt"
--'  1  0  ~/connect_cmds.txt
-|4,39,1,0,1477160761,"~/connect_cmds.txt"
--'  1  0  ~/connect_cmds.txt
-|4,39,1,0,1477160761,"~/connect_cmds.txt"
--'  1  0  ~/connect_cmds.txt
-|4,39,1,0,1477160761,"~/connect_cmds.txt"
--'  1  0  ~/connect_cmds.txt
-|4,39,1,0,1477160761,"~/connect_cmds.txt"
--'  1  0  ~/connect_cmds.txt
-|4,39,1,0,1477160761,"~/connect_cmds.txt"
--'  1  0  ~/connect_cmds.txt
-|4,39,1,0,1477160761,"~/connect_cmds.txt"
--'  1  0  ~/connect_cmds.txt
-|4,39,1,0,1477160761,"~/connect_cmds.txt"
--'  1  0  ~/connect_cmds.txt
-|4,39,1,0,1477160761,"~/connect_cmds.txt"
--'  1  0  ~/connect_cmds.txt
-|4,39,1,0,1477160761,"~/connect_cmds.txt"
--'  1  0  ~/connect_cmds.txt
-|4,39,1,0,1477160761,"~/connect_cmds.txt"
--'  1  0  ~/connect_cmds.txt
-|4,39,1,0,1477160761,"~/connect_cmds.txt"
--'  1  0  ~/connect_cmds.txt
-|4,39,1,0,1477160761,"~/connect_cmds.txt"
--'  1  0  ~/connect_cmds.txt
-|4,39,1,0,1477160761,"~/connect_cmds.txt"
--'  1  0  ~/connect_cmds.txt
-|4,39,1,0,1477160761,"~/connect_cmds.txt"
--'  70  0  ~/.zshrc
-|4,39,70,0,1477160748,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1477160748,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1477160748,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1477160748,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1477160748,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1477160748,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1477160748,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1477160748,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1477160748,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1477160748,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1477160748,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1477160748,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1477160748,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1477160748,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1477160748,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1477160748,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1477160748,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1477160748,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1477160748,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1477160748,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1477160748,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1477160748,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1477160748,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1477160748,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1477160748,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1477160748,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1477160748,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1477160748,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1477160748,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1477160748,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1477160748,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1477160748,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1477160744,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1477160744,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1477160744,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1477160744,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1477160744,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1477160744,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1477160744,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1477160744,"~/.zshrc"
+-'  260  0  ~/.vim/autoload/pathogen.vim
+|4,39,260,0,1477680644,"~/.vim/autoload/pathogen.vim"
+-'  1  0  ~/.vim/autoload/pathogen.vim
+|4,39,1,0,1477680632,"~/.vim/autoload/pathogen.vim"
+-'  8  0  ~/.vim/autoload
+|4,39,8,0,1477680628,"~/.vim/autoload"
+-'  8  0  ~/.vim/autoload
+|4,39,8,0,1477680628,"~/.vim/autoload"
+-'  2  0  ~/.vimrc
+|4,39,2,0,1477680612,"~/.vimrc"
+-'  2  0  ~/.vimrc
+|4,39,2,0,1477680612,"~/.vimrc"
+-'  2  0  ~/.vimrc
+|4,39,2,0,1477680612,"~/.vimrc"
+-'  2  0  ~/.vimrc
+|4,39,2,0,1477680612,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1477680606,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1477680606,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1477680606,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1477680606,"~/.vimrc"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  3  0  ~/Downloads/hello.rs
+|4,39,3,0,1477679620,"~/Downloads/hello.rs"
+-'  3  0  ~/Downloads/hello.rs
+|4,39,3,0,1477679620,"~/Downloads/hello.rs"
+-'  3  0  ~/Downloads/hello.rs
+|4,39,3,0,1477679620,"~/Downloads/hello.rs"
+-'  3  0  ~/Downloads/hello.rs
+|4,39,3,0,1477679620,"~/Downloads/hello.rs"
+-'  3  0  ~/Downloads/hello.rs
+|4,39,3,0,1477679620,"~/Downloads/hello.rs"
+-'  3  0  ~/Downloads/hello.rs
+|4,39,3,0,1477679620,"~/Downloads/hello.rs"
+-'  3  0  ~/Downloads/hello.rs
+|4,39,3,0,1477679620,"~/Downloads/hello.rs"
+-'  3  0  ~/Downloads/hello.rs
+|4,39,3,0,1477679620,"~/Downloads/hello.rs"
+-'  3  0  ~/Downloads/hello.rs
+|4,39,3,0,1477679620,"~/Downloads/hello.rs"
+-'  3  0  ~/Downloads/hello.rs
+|4,39,3,0,1477679620,"~/Downloads/hello.rs"
+-'  3  0  ~/Downloads/hello.rs
+|4,39,3,0,1477679620,"~/Downloads/hello.rs"
+-'  3  0  ~/Downloads/hello.rs
+|4,39,3,0,1477679620,"~/Downloads/hello.rs"
+-'  3  0  ~/Downloads/hello.rs
+|4,39,3,0,1477679620,"~/Downloads/hello.rs"
+-'  3  0  ~/Downloads/hello.rs
+|4,39,3,0,1477679620,"~/Downloads/hello.rs"
+-'  3  0  ~/Downloads/hello.rs
+|4,39,3,0,1477679620,"~/Downloads/hello.rs"
+-'  3  0  ~/Downloads/hello.rs
+|4,39,3,0,1477679620,"~/Downloads/hello.rs"
+-'  3  0  ~/Downloads/hello.rs
+|4,39,3,0,1477679620,"~/Downloads/hello.rs"
+-'  3  0  ~/Downloads/hello.rs
+|4,39,3,0,1477679620,"~/Downloads/hello.rs"
+-'  3  0  ~/Downloads/hello.rs
+|4,39,3,0,1477679620,"~/Downloads/hello.rs"
+-'  3  0  ~/Downloads/hello.rs
+|4,39,3,0,1477679620,"~/Downloads/hello.rs"
+-'  3  0  ~/Downloads/hello.rs
+|4,39,3,0,1477679620,"~/Downloads/hello.rs"
+-'  3  0  ~/Downloads/hello.rs
+|4,39,3,0,1477679620,"~/Downloads/hello.rs"
+-'  3  0  ~/Downloads/hello.rs
+|4,39,3,0,1477679620,"~/Downloads/hello.rs"
+-'  3  0  ~/Downloads/hello.rs
+|4,39,3,0,1477679620,"~/Downloads/hello.rs"
+-'  3  0  ~/Downloads/hello.rs
+|4,39,3,0,1477679620,"~/Downloads/hello.rs"
+-'  3  0  ~/Downloads/hello.rs
+|4,39,3,0,1477679620,"~/Downloads/hello.rs"
+-'  3  0  ~/Downloads/hello.rs
+|4,39,3,0,1477679620,"~/Downloads/hello.rs"
+-'  3  0  ~/Downloads/hello.rs
+|4,39,3,0,1477679620,"~/Downloads/hello.rs"
+-'  3  0  ~/Downloads/hello.rs
+|4,39,3,0,1477679620,"~/Downloads/hello.rs"
+-'  3  0  ~/Downloads/hello.rs
+|4,39,3,0,1477679620,"~/Downloads/hello.rs"
+-'  3  0  ~/Downloads/hello.rs
+|4,39,3,0,1477679620,"~/Downloads/hello.rs"
+-'  3  0  ~/Downloads/hello.rs
+|4,39,3,0,1477679620,"~/Downloads/hello.rs"
+-'  1  0  ~/Downloads/hello.rs
+|4,39,1,0,1477679602,"~/Downloads/hello.rs"
+-'  1  0  ~/Downloads/hello.rs
+|4,39,1,0,1477679602,"~/Downloads/hello.rs"
+-'  1  0  ~/Downloads/hello.rs
+|4,39,1,0,1477679602,"~/Downloads/hello.rs"
+-'  1  0  ~/Downloads/hello.rs
+|4,39,1,0,1477679602,"~/Downloads/hello.rs"
+-'  1  0  ~/Downloads/hello.rs
+|4,39,1,0,1477679602,"~/Downloads/hello.rs"
+-'  1  0  ~/Downloads/hello.rs
+|4,39,1,0,1477679602,"~/Downloads/hello.rs"
+-'  1  0  ~/Downloads/hello.rs
+|4,39,1,0,1477679602,"~/Downloads/hello.rs"
+-'  1  0  ~/Downloads/hello.rs
+|4,39,1,0,1477679602,"~/Downloads/hello.rs"
+-'  1  0  ~/Downloads/hello.rs
+|4,39,1,0,1477679602,"~/Downloads/hello.rs"
+-'  1  0  ~/Downloads/hello.rs
+|4,39,1,0,1477679602,"~/Downloads/hello.rs"
+-'  1  0  ~/Downloads/hello.rs
+|4,39,1,0,1477679602,"~/Downloads/hello.rs"
+-'  1  0  ~/Downloads/hello.rs
+|4,39,1,0,1477679602,"~/Downloads/hello.rs"
+-'  1  0  ~/Downloads/hello.rs
+|4,39,1,0,1477679602,"~/Downloads/hello.rs"
+-'  1  0  ~/Downloads/hello.rs
+|4,39,1,0,1477679602,"~/Downloads/hello.rs"
+-'  1  0  ~/Downloads/hello.rs
+|4,39,1,0,1477679602,"~/Downloads/hello.rs"
+-'  1  0  ~/Downloads/hello.rs
+|4,39,1,0,1477679602,"~/Downloads/hello.rs"
+-'  1  0  ~/Downloads/hello.rs
+|4,39,1,0,1477679602,"~/Downloads/hello.rs"
+-'  1  0  ~/Downloads/hello.rs
+|4,39,1,0,1477679602,"~/Downloads/hello.rs"
+-'  1  0  ~/Downloads/hello.rs
+|4,39,1,0,1477679602,"~/Downloads/hello.rs"
+-'  1  0  ~/Downloads/hello.rs
+|4,39,1,0,1477679602,"~/Downloads/hello.rs"
+-'  1  0  ~/Downloads/hello.rs
+|4,39,1,0,1477679602,"~/Downloads/hello.rs"
+-'  1  0  ~/Downloads/hello.rs
+|4,39,1,0,1477679602,"~/Downloads/hello.rs"
+-'  1  0  ~/Downloads/hello.rs
+|4,39,1,0,1477679602,"~/Downloads/hello.rs"
+-'  1  0  ~/Downloads/hello.rs
+|4,39,1,0,1477679602,"~/Downloads/hello.rs"
+-'  1  0  ~/Downloads/hello.rs
+|4,39,1,0,1477679602,"~/Downloads/hello.rs"
+-'  1  0  ~/Downloads/hello.rs
+|4,39,1,0,1477679602,"~/Downloads/hello.rs"
+-'  1  0  ~/Downloads/hello.rs
+|4,39,1,0,1477679602,"~/Downloads/hello.rs"
+-'  1  0  ~/Downloads/hello.rs
+|4,39,1,0,1477679602,"~/Downloads/hello.rs"
+-'  1  0  ~/Downloads/hello.rs
+|4,39,1,0,1477679602,"~/Downloads/hello.rs"
+-'  1  0  ~/Downloads/hello.rs
+|4,39,1,0,1477679602,"~/Downloads/hello.rs"
+-'  1  0  ~/Downloads/hello.rs
+|4,39,1,0,1477679602,"~/Downloads/hello.rs"
+-'  1  0  ~/Downloads/hello.rs
+|4,39,1,0,1477679602,"~/Downloads/hello.rs"
+-'  7  0  ~/u
+|4,39,7,0,1477663006,"~/u"
+-'  7  0  ~/u
+|4,39,7,0,1477663006,"~/u"
+-'  7  0  ~/u
+|4,39,7,0,1477663006,"~/u"
+-'  7  0  ~/u
+|4,39,7,0,1477663006,"~/u"
+-'  7  0  ~/u
+|4,39,7,0,1477663006,"~/u"
+-'  7  0  ~/u
+|4,39,7,0,1477663006,"~/u"
+-'  7  0  ~/u
+|4,39,7,0,1477663006,"~/u"
+-'  7  0  ~/u
+|4,39,7,0,1477663006,"~/u"
 
 # History of marks within files (newest to oldest):
+
+> ~/.vim/autoload/pathogen.vim
+	*	1477680643	0
+	"	260	0
+
+> ~/.vimrc
+	*	1477680607	0
+	"	2	0
+	.	46	0
+	+	22	18
+	+	76	18
+	+	54	1
+	+	20	0
+	+	2	0
+	+	9	0
+	+	68	0
+	+	54	39
+	+	55	26
+	+	52	0
+	+	1	0
+	+	55	0
+	+	57	12
+	+	60	14
+	+	61	0
+	+	64	18
+	+	66	6
+	+	67	0
+	+	64	0
+	+	68	0
+	+	61	48
+	+	65	32
+	+	67	0
+	+	61	40
+	+	64	0
+	+	67	0
+	+	64	0
+	+	65	0
+	+	66	0
+	+	67	0
+	+	61	1
+	+	68	0
+	+	69	37
+	+	75	0
+	+	70	11
+	+	74	7
+	+	71	11
+	+	72	11
+	+	73	16
+	+	69	57
+	+	61	0
+	+	62	67
+	+	45	20
+	+	47	0
+	+	44	0
+	+	78	0
+	+	79	73
+	+	80	61
+	+	66	0
+	+	73	0
+	+	72	0
+	+	69	0
+	+	75	0
+	+	75	16
+	+	75	0
+	+	77	8
+	+	101	11
+	+	103	6
+	+	105	0
+	+	102	0
+	+	103	19
+	+	77	18
+	+	78	0
+	+	79	0
+	+	83	11
+	+	88	0
+	+	94	0
+	+	96	0
+	+	96	13
+	+	103	19
+	+	104	0
+	+	96	20
+	+	90	16
+	+	80	0
+	+	93	0
+	+	77	16
+	+	71	11
+	+	72	11
+	+	47	22
+	+	48	0
+	+	46	0
+
+> ~/code/hackathon/README.md
+	*	1477679791	0
+	"	1	0
+
+> ~/Downloads/hello.rs
+	*	1477679619	0
+	"	3	0
+	^	3	1
+	.	3	0
+	+	3	0
+
+> /usr/share/vim/vim80/doc/insert.txt
+	*	1477663512	0
+	"	1902	21
+
+> ~/u
+	*	1477663004	0
+	"	7	0
+
+> /usr/share/vim/vim80/doc/if_pyth.txt
+	*	1477609746	0
+	"	685	56
+
+> ~/code/waitonbot/ScrollUtil.py
+	*	1477587559	0
+	"	60	50
+	^	60	33
+	.	60	32
+	+	40	63
+	+	40	28
+	+	32	12
+	+	40	0
+	+	40	39
+	+	35	34
+	+	36	7
+	+	39	0
+	+	29	0
+	+	30	18
+	+	31	0
+	+	40	29
+	+	38	106
+	+	39	8
+	+	40	0
+	+	39	0
+	+	40	35
+	+	40	27
+	+	29	0
+	+	40	42
+	+	40	35
+	+	40	0
+	+	40	26
+	+	40	0
+	+	40	38
+	+	35	29
+	+	40	0
+	+	40	24
+	+	40	89
+	+	40	14
+	+	40	80
+	+	40	18
+	+	40	75
+	+	40	37
+	+	40	90
+	+	41	42
+	+	40	0
+	+	41	75
+	+	42	52
+	+	27	2
+	+	40	42
+	+	40	36
+	+	7	26
+	+	1	1
+	+	70	0
+	+	65	14
+	+	40	0
+	+	66	0
+	+	67	0
+	+	70	0
+	+	65	22
+	+	70	0
+	+	40	0
+	+	40	42
+	+	40	0
+	+	40	16
+	+	40	0
+	+	40	16
+	+	40	0
+	+	70	0
+	+	68	19
+	+	71	27
+	+	40	0
+	+	74	0
+	+	76	0
+	+	41	0
+	+	40	39
+	+	75	24
+	+	76	19
+	+	41	16
+	+	40	39
+	+	41	0
+	+	41	16
+	+	41	0
+	+	44	14
+	+	45	0
+	+	46	29
+	+	51	17
+	+	53	19
+	+	54	0
+	+	60	17
+	+	62	18
+	+	41	0
+	+	40	38
+	+	81	14
+	+	69	14
+	+	72	21
+	+	79	18
+	+	9	29
+	+	74	4
+	+	75	8
+	+	74	0
+	+	73	6
+	+	77	6
+	+	80	10
+	+	81	0
+	+	80	6
+	+	81	4
+	+	80	9
+	+	60	32
+
+> ~/code/waitonbot/dependencies.txt
+	*	1477587327	0
+	"	3	9
+	^	3	10
+	.	3	9
+	+	3	9
+
+> ~/code/datalab/bits.c
+	*	1477514252	0
+	"	322	10
+	^	322	11
+	.	322	11
+	+	322	0
+	+	322	17
+	+	322	0
+	+	322	8
+	+	322	10
+	+	322	8
+	+	322	72
+	+	322	0
+	+	322	55
+	+	322	8
+	+	322	0
+	+	292	20
+	+	322	0
+	+	293	0
+	+	294	0
+	+	295	0
+	+	296	0
+	+	297	0
+	+	298	0
+	+	299	0
+	+	300	0
+	+	301	0
+	+	302	0
+	+	303	0
+	+	304	0
+	+	305	0
+	+	306	0
+	+	307	0
+	+	308	0
+	+	309	0
+	+	310	0
+	+	311	0
+	+	312	0
+	+	313	0
+	+	314	0
+	+	315	0
+	+	316	0
+	+	317	0
+	+	318	0
+	+	319	0
+	+	320	0
+	+	321	0
+	+	322	11
+
+> ~/code/datalab/tmp.txt
+	*	1477513620	0
+	"	1	0
+
+> ~/code/datalab/Makefile
+	*	1477513072	0
+	"	5	16
+	^	5	17
+	.	5	17
+	+	13	0
+	+	14	0
+	+	5	17
+
+> ~/code/waitonbot/WaitonBot.py
+	*	1477271213	0
+	"	33	2
+	^	83	42
+	.	83	41
+	+	20	33
+	+	22	15
+	+	21	24
+	+	81	35
+	+	6	51
+	+	8	8
+	+	45	37
+	+	47	44
+	+	77	38
+	+	80	39
+	+	83	41
+
+> ~/code/waitonbot/Waiton
+	*	1477270972	0
+	"	1	0
+
+> ~/code/waitonbot/WaitonUtil.py
+	*	1477270142	0
+	"	1	0
+
+> ~/code/waitonbot/sortedfamilytree.txt
+	*	1477269026	0
+	"	724	15
+
+> ~/Downloads/a.txt
+	*	1477267341	0
+	"	15	0
+	^	2	0
+	.	2	0
+	+	2	0
+
+> ~/Downloads/sortscrolls.py
+	*	1477266560	0
+	"	22	4
+	^	16	34
+	.	23	0
+	+	3	30
+	+	4	38
+	+	5	0
+	+	11	12
+	+	4	26
+	+	12	25
+	+	23	0
+	+	6	10
+	+	14	74
+	+	18	73
+	+	22	61
+	+	18	28
+	+	18	60
+	+	9	14
+	+	4	28
+	+	12	32
+	+	11	34
+	+	10	12
+	+	11	0
+	+	14	22
+	+	8	22
+	+	9	0
+	+	4	28
+	+	14	22
+	+	14	58
+	+	15	14
+	+	16	33
+	+	23	0
+
+> ~/Downloads/familytree.txt
+	*	1477266558	0
+	"	559	8
+	^	51	0
+	.	20	0
+	+	87	0
+	+	1	0
+	+	778	0
+	+	627	0
+	+	559	0
+	+	286	0
+	+	2	0
+	+	3	0
+	+	4	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	51	0
+	+	20	0
+
+> ~/Downloads/sortscrolls
+	*	1477265449	0
+	"	1	8
+	^	1	9
+	.	1	8
+	+	1	8
+
+> ~/Downloads/AXP-Family_Tree_2016-01-02.
+	*	1477264923	0
+	"	1	0
+
+> ~/Downloads/AXP-Family_Tree_2016-01-02.pdf
+	*	1477261149	0
+	"	170	0
+
+> ~/a.py
+	*	1477172613	0
+	"	3329	70
+	.	5280	0
+	+	5280	5
+	+	1	0
+	+	2982	0
+	+	1790	0
+	+	889	0
+	+	1790	0
+	+	2208	0
+	+	2210	0
+	+	2208	15
+	+	3001	108
+	+	3001	0
+	+	3011	0
+	+	5120	0
+	+	5120	22
+	+	5120	0
+	+	5280	0
+
+> ~/Downloads/sheets_v4.spreadsheets.html
+	*	1477170071	0
+	"	892	0
+	.	5282	0
+	+	1	0
+	+	2	0
+	+	5281	0
+	+	5282	0
+
+> ~/code/waitonbot/CallOfTheVoid.py
+	*	1477166663	0
+	"	1	13
+	^	1	14
+	.	1	14
+	+	6	0
+	+	7	0
+	+	8	0
+	+	9	0
+	+	1	14
+
+> ~/code/waitonbot/apitoken.txt
+	*	1477162909	0
+	"	1	39
+	^	1	41
+	.	1	0
+	+	2	0
+	+	1	0
+
+> ~/code/waitonbot/.gitignore
+	*	1477162704	0
+	"	1	11
+	^	1	12
+	.	1	11
+	+	1	11
+
+> ~/.vim/.git/config
+	*	1477162254	0
+	"	10	0
+
+> ~/.vim/a.c
+	*	1477162181	0
+	"	3	0
+	^	2	0
+	.	2	0
+	+	2	0
+	+	3	10
+	+	2	0
 
 > ~/code/i3/wm/src/randr.c
 	*	1477161344	0
@@ -718,92 +1179,6 @@ $
 	+	386	17
 	k	434	23
 
-> ~/.vimrc
-	*	1477023426	0
-	"	46	0
-	.	46	0
-	+	22	18
-	+	76	18
-	+	54	1
-	+	20	0
-	+	2	0
-	+	9	0
-	+	68	0
-	+	54	39
-	+	55	26
-	+	52	0
-	+	1	0
-	+	55	0
-	+	57	12
-	+	60	14
-	+	61	0
-	+	64	18
-	+	66	6
-	+	67	0
-	+	64	0
-	+	68	0
-	+	61	48
-	+	65	32
-	+	67	0
-	+	61	40
-	+	64	0
-	+	67	0
-	+	64	0
-	+	65	0
-	+	66	0
-	+	67	0
-	+	61	1
-	+	68	0
-	+	69	37
-	+	75	0
-	+	70	11
-	+	74	7
-	+	71	11
-	+	72	11
-	+	73	16
-	+	69	57
-	+	61	0
-	+	62	67
-	+	45	20
-	+	47	0
-	+	44	0
-	+	78	0
-	+	79	73
-	+	80	61
-	+	66	0
-	+	73	0
-	+	72	0
-	+	69	0
-	+	75	0
-	+	75	16
-	+	75	0
-	+	77	8
-	+	101	11
-	+	103	6
-	+	105	0
-	+	102	0
-	+	103	19
-	+	77	18
-	+	78	0
-	+	79	0
-	+	83	11
-	+	88	0
-	+	94	0
-	+	96	0
-	+	96	13
-	+	103	19
-	+	104	0
-	+	96	20
-	+	90	16
-	+	80	0
-	+	93	0
-	+	77	16
-	+	71	11
-	+	72	11
-	+	47	22
-	+	48	0
-	+	46	0
-
 > ~/code/i3/i3lock/i3lock.c
 	*	1477023423	0
 	"	982	36
@@ -824,10 +1199,6 @@ $
 > /usr/share/vim/vim80/doc/tagsrch.txt
 	*	1477023376	0
 	"	362	61
-
-> /usr/share/vim/vim80/doc/insert.txt
-	*	1477023303	0
-	"	1880	28
 
 > /usr/share/vim/vim80/doc/fold.txt
 	*	1477023277	0
@@ -858,15 +1229,6 @@ $
 > ~/code/i3/i3lock/cursors.h
 	*	1476995014	0
 	"	2	0
-
-> ~/.vim/a.c
-	*	1476938679	0
-	"	2	0
-	^	2	0
-	.	2	0
-	+	2	0
-	+	3	10
-	+	2	0
 
 > /usr/share/vim/vim80/doc/change.txt
 	*	1476938678	0
