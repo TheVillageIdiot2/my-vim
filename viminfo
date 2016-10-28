@@ -21,13 +21,13 @@ $
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1477680644,,"q"
+|2,0,1477681277,,"q"
+:w
+|2,0,1477681277,,"w"
 :wq
 |2,0,1477679619,,"wq"
 :q!
 |2,0,1477663531,,"q!"
-:w
-|2,0,1477663525,,"w"
 :help :r
 |2,0,1477663502,,"help :r"
 :r
@@ -274,36 +274,66 @@ $
 |3,0,36,0,1,0,1477587536,"="
 
 # File marks:
-'0  260  0  ~/.vim/autoload/pathogen.vim
-|4,48,260,0,1477680644,"~/.vim/autoload/pathogen.vim"
-'1  8  0  ~/.vim/autoload
-|4,49,8,0,1477680628,"~/.vim/autoload"
-'2  2  0  ~/.vimrc
-|4,50,2,0,1477680612,"~/.vimrc"
-'3  1  0  ~/code/hackathon/README.md
-|4,51,1,0,1477679792,"~/code/hackathon/README.md"
-'4  3  0  ~/Downloads/hello.rs
-|4,52,3,0,1477679620,"~/Downloads/hello.rs"
-'5  7  0  ~/u
-|4,53,7,0,1477663006,"~/u"
-'6  60  50  ~/code/waitonbot/ScrollUtil.py
-|4,54,60,50,1477587560,"~/code/waitonbot/ScrollUtil.py"
-'7  3  9  ~/code/waitonbot/dependencies.txt
-|4,55,3,9,1477587327,"~/code/waitonbot/dependencies.txt"
-'8  75  18  ~/code/waitonbot/ScrollUtil.py
-|4,56,75,18,1477586949,"~/code/waitonbot/ScrollUtil.py"
-'9  72  18  ~/code/waitonbot/ScrollUtil.py
-|4,57,72,18,1477586949,"~/code/waitonbot/ScrollUtil.py"
+'0  1  4  ~/.vim/.gitignore
+|4,48,1,4,1477681277,"~/.vim/.gitignore"
+'1  1  0  ~/.vimrc
+|4,49,1,0,1477681087,"~/.vimrc"
+'2  260  0  ~/.vim/autoload/pathogen.vim
+|4,50,260,0,1477680644,"~/.vim/autoload/pathogen.vim"
+'3  8  0  ~/.vim/autoload
+|4,51,8,0,1477680628,"~/.vim/autoload"
+'4  2  0  ~/.vimrc
+|4,52,2,0,1477680612,"~/.vimrc"
+'5  2  0  ~/.vimrc
+|4,53,2,0,1477680612,"~/.vimrc"
+'6  1  0  ~/code/hackathon/README.md
+|4,54,1,0,1477679792,"~/code/hackathon/README.md"
+'7  3  0  ~/Downloads/hello.rs
+|4,55,3,0,1477679620,"~/Downloads/hello.rs"
+'8  7  0  ~/u
+|4,56,7,0,1477663006,"~/u"
+'9  60  50  ~/code/waitonbot/ScrollUtil.py
+|4,57,60,50,1477587560,"~/code/waitonbot/ScrollUtil.py"
 
 # Jumplist (newest first):
+-'  1  4  ~/.vim/.gitignore
+|4,39,1,4,1477681277,"~/.vim/.gitignore"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1477681087,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1477681087,"~/.vimrc"
 -'  260  0  ~/.vim/autoload/pathogen.vim
 |4,39,260,0,1477680644,"~/.vim/autoload/pathogen.vim"
+-'  260  0  ~/.vim/autoload/pathogen.vim
+|4,39,260,0,1477680644,"~/.vim/autoload/pathogen.vim"
+-'  260  0  ~/.vim/autoload/pathogen.vim
+|4,39,260,0,1477680644,"~/.vim/autoload/pathogen.vim"
+-'  260  0  ~/.vim/autoload/pathogen.vim
+|4,39,260,0,1477680644,"~/.vim/autoload/pathogen.vim"
+-'  1  0  ~/.vim/autoload/pathogen.vim
+|4,39,1,0,1477680632,"~/.vim/autoload/pathogen.vim"
+-'  1  0  ~/.vim/autoload/pathogen.vim
+|4,39,1,0,1477680632,"~/.vim/autoload/pathogen.vim"
+-'  1  0  ~/.vim/autoload/pathogen.vim
+|4,39,1,0,1477680632,"~/.vim/autoload/pathogen.vim"
 -'  1  0  ~/.vim/autoload/pathogen.vim
 |4,39,1,0,1477680632,"~/.vim/autoload/pathogen.vim"
 -'  8  0  ~/.vim/autoload
 |4,39,8,0,1477680628,"~/.vim/autoload"
 -'  8  0  ~/.vim/autoload
 |4,39,8,0,1477680628,"~/.vim/autoload"
+-'  8  0  ~/.vim/autoload
+|4,39,8,0,1477680628,"~/.vim/autoload"
+-'  8  0  ~/.vim/autoload
+|4,39,8,0,1477680628,"~/.vim/autoload"
+-'  8  0  ~/.vim/autoload
+|4,39,8,0,1477680628,"~/.vim/autoload"
+-'  8  0  ~/.vim/autoload
+|4,39,8,0,1477680628,"~/.vim/autoload"
+-'  8  0  ~/.vim/autoload
+|4,39,8,0,1477680628,"~/.vim/autoload"
+-'  8  0  ~/.vim/autoload
+|4,39,8,0,1477680628,"~/.vim/autoload"
 -'  2  0  ~/.vimrc
 |4,39,2,0,1477680612,"~/.vimrc"
 -'  2  0  ~/.vimrc
@@ -312,6 +342,26 @@ $
 |4,39,2,0,1477680612,"~/.vimrc"
 -'  2  0  ~/.vimrc
 |4,39,2,0,1477680612,"~/.vimrc"
+-'  2  0  ~/.vimrc
+|4,39,2,0,1477680612,"~/.vimrc"
+-'  2  0  ~/.vimrc
+|4,39,2,0,1477680612,"~/.vimrc"
+-'  2  0  ~/.vimrc
+|4,39,2,0,1477680612,"~/.vimrc"
+-'  2  0  ~/.vimrc
+|4,39,2,0,1477680612,"~/.vimrc"
+-'  2  0  ~/.vimrc
+|4,39,2,0,1477680612,"~/.vimrc"
+-'  2  0  ~/.vimrc
+|4,39,2,0,1477680612,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1477680606,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1477680606,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1477680606,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1477680606,"~/.vimrc"
 -'  1  0  ~/.vimrc
 |4,39,1,0,1477680606,"~/.vimrc"
 -'  1  0  ~/.vimrc
@@ -352,152 +402,109 @@ $
 |4,39,1,0,1477679792,"~/code/hackathon/README.md"
 -'  1  0  ~/code/hackathon/README.md
 |4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  3  0  ~/Downloads/hello.rs
-|4,39,3,0,1477679620,"~/Downloads/hello.rs"
--'  3  0  ~/Downloads/hello.rs
-|4,39,3,0,1477679620,"~/Downloads/hello.rs"
--'  3  0  ~/Downloads/hello.rs
-|4,39,3,0,1477679620,"~/Downloads/hello.rs"
--'  3  0  ~/Downloads/hello.rs
-|4,39,3,0,1477679620,"~/Downloads/hello.rs"
--'  3  0  ~/Downloads/hello.rs
-|4,39,3,0,1477679620,"~/Downloads/hello.rs"
--'  3  0  ~/Downloads/hello.rs
-|4,39,3,0,1477679620,"~/Downloads/hello.rs"
--'  3  0  ~/Downloads/hello.rs
-|4,39,3,0,1477679620,"~/Downloads/hello.rs"
--'  3  0  ~/Downloads/hello.rs
-|4,39,3,0,1477679620,"~/Downloads/hello.rs"
--'  3  0  ~/Downloads/hello.rs
-|4,39,3,0,1477679620,"~/Downloads/hello.rs"
--'  3  0  ~/Downloads/hello.rs
-|4,39,3,0,1477679620,"~/Downloads/hello.rs"
--'  3  0  ~/Downloads/hello.rs
-|4,39,3,0,1477679620,"~/Downloads/hello.rs"
--'  3  0  ~/Downloads/hello.rs
-|4,39,3,0,1477679620,"~/Downloads/hello.rs"
--'  3  0  ~/Downloads/hello.rs
-|4,39,3,0,1477679620,"~/Downloads/hello.rs"
--'  3  0  ~/Downloads/hello.rs
-|4,39,3,0,1477679620,"~/Downloads/hello.rs"
--'  3  0  ~/Downloads/hello.rs
-|4,39,3,0,1477679620,"~/Downloads/hello.rs"
--'  3  0  ~/Downloads/hello.rs
-|4,39,3,0,1477679620,"~/Downloads/hello.rs"
--'  3  0  ~/Downloads/hello.rs
-|4,39,3,0,1477679620,"~/Downloads/hello.rs"
--'  3  0  ~/Downloads/hello.rs
-|4,39,3,0,1477679620,"~/Downloads/hello.rs"
--'  3  0  ~/Downloads/hello.rs
-|4,39,3,0,1477679620,"~/Downloads/hello.rs"
--'  3  0  ~/Downloads/hello.rs
-|4,39,3,0,1477679620,"~/Downloads/hello.rs"
--'  3  0  ~/Downloads/hello.rs
-|4,39,3,0,1477679620,"~/Downloads/hello.rs"
--'  3  0  ~/Downloads/hello.rs
-|4,39,3,0,1477679620,"~/Downloads/hello.rs"
--'  3  0  ~/Downloads/hello.rs
-|4,39,3,0,1477679620,"~/Downloads/hello.rs"
--'  3  0  ~/Downloads/hello.rs
-|4,39,3,0,1477679620,"~/Downloads/hello.rs"
--'  3  0  ~/Downloads/hello.rs
-|4,39,3,0,1477679620,"~/Downloads/hello.rs"
--'  3  0  ~/Downloads/hello.rs
-|4,39,3,0,1477679620,"~/Downloads/hello.rs"
--'  3  0  ~/Downloads/hello.rs
-|4,39,3,0,1477679620,"~/Downloads/hello.rs"
--'  3  0  ~/Downloads/hello.rs
-|4,39,3,0,1477679620,"~/Downloads/hello.rs"
--'  3  0  ~/Downloads/hello.rs
-|4,39,3,0,1477679620,"~/Downloads/hello.rs"
--'  3  0  ~/Downloads/hello.rs
-|4,39,3,0,1477679620,"~/Downloads/hello.rs"
--'  3  0  ~/Downloads/hello.rs
-|4,39,3,0,1477679620,"~/Downloads/hello.rs"
--'  3  0  ~/Downloads/hello.rs
-|4,39,3,0,1477679620,"~/Downloads/hello.rs"
--'  1  0  ~/Downloads/hello.rs
-|4,39,1,0,1477679602,"~/Downloads/hello.rs"
--'  1  0  ~/Downloads/hello.rs
-|4,39,1,0,1477679602,"~/Downloads/hello.rs"
--'  1  0  ~/Downloads/hello.rs
-|4,39,1,0,1477679602,"~/Downloads/hello.rs"
--'  1  0  ~/Downloads/hello.rs
-|4,39,1,0,1477679602,"~/Downloads/hello.rs"
--'  1  0  ~/Downloads/hello.rs
-|4,39,1,0,1477679602,"~/Downloads/hello.rs"
--'  1  0  ~/Downloads/hello.rs
-|4,39,1,0,1477679602,"~/Downloads/hello.rs"
--'  1  0  ~/Downloads/hello.rs
-|4,39,1,0,1477679602,"~/Downloads/hello.rs"
--'  1  0  ~/Downloads/hello.rs
-|4,39,1,0,1477679602,"~/Downloads/hello.rs"
--'  1  0  ~/Downloads/hello.rs
-|4,39,1,0,1477679602,"~/Downloads/hello.rs"
--'  1  0  ~/Downloads/hello.rs
-|4,39,1,0,1477679602,"~/Downloads/hello.rs"
--'  1  0  ~/Downloads/hello.rs
-|4,39,1,0,1477679602,"~/Downloads/hello.rs"
--'  1  0  ~/Downloads/hello.rs
-|4,39,1,0,1477679602,"~/Downloads/hello.rs"
--'  1  0  ~/Downloads/hello.rs
-|4,39,1,0,1477679602,"~/Downloads/hello.rs"
--'  1  0  ~/Downloads/hello.rs
-|4,39,1,0,1477679602,"~/Downloads/hello.rs"
--'  1  0  ~/Downloads/hello.rs
-|4,39,1,0,1477679602,"~/Downloads/hello.rs"
--'  1  0  ~/Downloads/hello.rs
-|4,39,1,0,1477679602,"~/Downloads/hello.rs"
--'  1  0  ~/Downloads/hello.rs
-|4,39,1,0,1477679602,"~/Downloads/hello.rs"
--'  1  0  ~/Downloads/hello.rs
-|4,39,1,0,1477679602,"~/Downloads/hello.rs"
--'  1  0  ~/Downloads/hello.rs
-|4,39,1,0,1477679602,"~/Downloads/hello.rs"
--'  1  0  ~/Downloads/hello.rs
-|4,39,1,0,1477679602,"~/Downloads/hello.rs"
--'  1  0  ~/Downloads/hello.rs
-|4,39,1,0,1477679602,"~/Downloads/hello.rs"
--'  1  0  ~/Downloads/hello.rs
-|4,39,1,0,1477679602,"~/Downloads/hello.rs"
--'  1  0  ~/Downloads/hello.rs
-|4,39,1,0,1477679602,"~/Downloads/hello.rs"
--'  1  0  ~/Downloads/hello.rs
-|4,39,1,0,1477679602,"~/Downloads/hello.rs"
--'  1  0  ~/Downloads/hello.rs
-|4,39,1,0,1477679602,"~/Downloads/hello.rs"
--'  1  0  ~/Downloads/hello.rs
-|4,39,1,0,1477679602,"~/Downloads/hello.rs"
--'  1  0  ~/Downloads/hello.rs
-|4,39,1,0,1477679602,"~/Downloads/hello.rs"
--'  1  0  ~/Downloads/hello.rs
-|4,39,1,0,1477679602,"~/Downloads/hello.rs"
--'  1  0  ~/Downloads/hello.rs
-|4,39,1,0,1477679602,"~/Downloads/hello.rs"
--'  1  0  ~/Downloads/hello.rs
-|4,39,1,0,1477679602,"~/Downloads/hello.rs"
--'  1  0  ~/Downloads/hello.rs
-|4,39,1,0,1477679602,"~/Downloads/hello.rs"
--'  1  0  ~/Downloads/hello.rs
-|4,39,1,0,1477679602,"~/Downloads/hello.rs"
--'  7  0  ~/u
-|4,39,7,0,1477663006,"~/u"
--'  7  0  ~/u
-|4,39,7,0,1477663006,"~/u"
--'  7  0  ~/u
-|4,39,7,0,1477663006,"~/u"
--'  7  0  ~/u
-|4,39,7,0,1477663006,"~/u"
--'  7  0  ~/u
-|4,39,7,0,1477663006,"~/u"
--'  7  0  ~/u
-|4,39,7,0,1477663006,"~/u"
--'  7  0  ~/u
-|4,39,7,0,1477663006,"~/u"
--'  7  0  ~/u
-|4,39,7,0,1477663006,"~/u"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  1  0  ~/code/hackathon/README.md
+|4,39,1,0,1477679792,"~/code/hackathon/README.md"
 
 # History of marks within files (newest to oldest):
+
+> ~/.vim/.gitignore
+	*	1477681277	0
+	"	1	4
+	^	1	5
+	.	1	4
+	+	1	4
 
 > ~/.vim/autoload/pathogen.vim
 	*	1477680643	0
