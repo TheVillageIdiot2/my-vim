@@ -4,6 +4,11 @@ execute pathogen#infect()
 "Enable syntax parsing/highlighting
 syntax on
 
+"Don't use vi settings
+set nocompatible
+set encoding=utf-8
+
+"Visual stuff
 set term=xterm-256color
 colorscheme railscasts
 
@@ -11,22 +16,36 @@ colorscheme railscasts
 set viminfo='1000,f1,n~/.vim/viminfo
 "The f1 makes file marks persist between sessions
 
-set tabstop=4	"Visual tab size
+"Tabbing and stuff
+set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set expandtab
 
+"Use comma for line leader
 let mapleader = ","
 
-set number	"Show line numbers
-set showcmd	"Mini command log in corner
 set cursorline	"Highlight current line
+
+"Tweak line numbering to be relative
+if exists("+rnu")
+    set rnu
+    "Turn on/off while going into insert mode
+    au InsertEnter * :set nu
+    au InsertEnter * :set rnu
+    au FocusLost * :set nu
+    au FocusGained * :set rnu
+else
+    set number
+endif
+
 
 "Enable contextual filetype settings
 filetype on
 filetype plugin on
 filetype plugin indent on
 filetype indent on
+set autoindent
 
 "Visual helpers
 set wildmenu	"visual tab complete
@@ -85,7 +104,7 @@ augroup java
     autocmd FileType java setlocal noexpandtab
     autocmd FileType java setlocal list
     autocmd FileType java setlocal listchars=tab:+\ ,eol:-
-"    autocmd FileType java setlocal formatprg=par\ -w80\ -T4
+    "    autocmd FileType java setlocal formatprg=par\ -w80\ -T4
 augroup END
 
 autocmd BufNewFile,BufRead js,jsx,html set filetype=htmls

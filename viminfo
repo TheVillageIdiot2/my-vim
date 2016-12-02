@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~H
 # Last Search Pattern:
-~MSle0~/file
+~MSle0~/indent on
 
 # Last Substitute Search Pattern:
 ~MSle0&\/\/\/\/
@@ -20,12 +20,28 @@
 $
 
 # Command Line History (newest to oldest):
-:wq
-|2,0,1480638123,,"wq"
-:w
-|2,0,1480637943,,"w"
 :q
-|2,0,1480637172,,"q"
+|2,0,1480640183,,"q"
+:w
+|2,0,1480640160,,"w"
+:q!
+|2,0,1480640147,,"q!"
+:Q
+|2,0,1480640145,,"Q"
+:wq
+|2,0,1480640056,,"wq"
+:help filetype
+|2,0,1480640007,,"help filetype"
+:set t_ut=
+|2,0,1480639399,,"set t_ut="
+:colorscheme solarized
+|2,0,1480639396,,"colorscheme solarized"
+:togglebg
+|2,0,1480639152,,"togglebg"
+:set background=dark
+|2,0,1480639070,,"set background=dark"
+:set background dark
+|2,0,1480639064,,"set background dark"
 :e
 |2,0,1480450721,,"e"
 :SyntasticCheck
@@ -70,8 +86,6 @@ $
 |2,0,1479051919,,"e MouseButton.jsx"
 :split App.jsx
 |2,0,1479046554,,"split App.jsx"
-:q!
-|2,0,1479050504,,"q!"
 :split KeyButton.jsx
 |2,0,1479050413,,"split KeyButton.jsx"
 :vs KeyButton.jsx
@@ -106,22 +120,16 @@ $
 |2,0,1478986572,,"echo filetype"
 :syntax
 |2,0,1478986216,,"syntax"
-:vsplit Task.jsx
-|2,0,1478986102,,"vsplit Task.jsx"
-:vsplit main.html
-|2,0,1478986052,,"vsplit main.html"
-:vs main.jsx
-|2,0,1478986029,,"vs main.jsx"
-:vsplit main.jsx
-|2,0,1478986017,,"vsplit main.jsx"
-:split KeyboardButton.jsx
-|2,0,1478985523,,"split KeyboardButton.jsx"
-:split KeyboardButton
-|2,0,1478985512,,"split KeyboardButton"
-:split Task.jsx
-|2,0,1478985495,,"split Task.jsx"
 
 # Search String History (newest to oldest):
+?/indent on
+|2,1,1480640001,47,"indent on"
+?/set auto
+|2,1,1480639993,47,"set auto"
+?/autoinde
+|2,1,1480639595,47,"autoinde"
+?/nu
+|2,1,1480638964,47,"nu"
 ?/file
 |2,1,1480450687,47,"file"
 ? @$
@@ -214,14 +222,6 @@ $
 |2,1,1478925860,47,"multilib"
 ?/866
 |2,1,1478534128,47,"866"
-?/86\d
-|2,1,1478533792,47,"86\\d"
-?/int c
-|2,1,1478115199,47,"int c"
-?/e
-|2,1,1478115193,47,"e"
-?/rust
-|2,1,1477684896,47,"rust"
 
 # Expression History (newest to oldest):
 
@@ -231,41 +231,36 @@ $
 
 # Registers:
 "0	LINE	0
-	uniform mat4 projection_matrix;
-	uniform mat4 current_transform_matrix;
-|3,0,0,1,2,0,1480455231,"uniform mat4 projection_matrix;","uniform mat4 current_transform_matrix;"
+	    au InsertEnter * :set nu
+|3,0,0,1,1,0,1480638945,"    au InsertEnter * :set nu"
 ""1	LINE	0
-	        
-|3,1,1,1,1,0,1480637802,"        "
+	set autoindent
+|3,1,1,1,1,0,1480639994,"set autoindent"
 "2	LINE	0
-	uniform vec4 
-|3,0,2,1,1,0,1480455229,"uniform vec4 "
+	set showcmd	"Mini command log in corner
+|3,0,2,1,1,0,1480639038,"set showcmd	\"Mini command log in corner"
 "3	LINE	0
-	out interpolatedColor; //Out color
-|3,0,3,1,1,0,1480455199,"out interpolatedColor; //Out color"
+	set number	"Show line numbers
+|3,0,3,1,1,0,1480639033,"set number	\"Show line numbers"
 "4	LINE	0
-	*/
-|3,0,4,1,1,0,1480454046,"*/"
+	
+|3,0,4,1,1,0,1480639027,""
 "5	LINE	0
-	I = diffuse + specular + ambient
-	I = Kd * Id * cos(theta) + 
-|3,0,5,1,2,0,1480454046,"I = diffuse + specular + ambient","I = Kd * Id * cos(theta) + "
+	
+	else:
+|3,0,5,1,2,0,1480639026,"","else:"
 "6	LINE	0
-	mbient:
-	
-|3,0,6,1,2,0,1480454045,"mbient:",""
+	        
+|3,0,6,1,1,0,1480637802,"        "
 "7	LINE	0
-	
-	//Per primitive
-|3,0,7,1,2,0,1480454043,"","//Per primitive"
+	uniform vec4 
+|3,0,7,1,1,0,1480455229,"uniform vec4 "
 "8	LINE	0
-	I = Kd * Id * cos(theta) + 
-	*/
-|3,0,8,1,2,0,1480454042,"I = Kd * Id * cos(theta) + ","*/"
+	out interpolatedColor; //Out color
+|3,0,8,1,1,0,1480455199,"out interpolatedColor; //Out color"
 "9	LINE	0
-	
-	I = diffuse + specular + ambient
-|3,0,9,1,2,0,1480454042,"","I = diffuse + specular + ambient"
+	*/
+|3,0,9,1,1,0,1480454046,"*/"
 "a@	CHAR	0
 	i//jkjI//jkkhvjj:s/\/\/\/\/\€kb//k
 |3,2,10,0,1,0,1479065805,"i//jkjI//jkkhvjj:s/\\/\\/\\/\\/\\€kb//k"
@@ -273,234 +268,465 @@ $
 	A)jkk
 |3,0,13,0,1,0,0,"A)jkk"
 "-	CHAR	0
-	;
-|3,0,36,0,1,0,1480455250,";"
+	(world) 
+|3,0,36,0,1,0,1480638523,"(world) "
 
 # File marks:
-'0  45  17  ~/.vim/.vimrc
-|4,48,45,17,1480638123,"~/.vim/.vimrc"
-'1  8  24  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
-|4,49,8,24,1480455321,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
-'2  13  25  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
-|4,50,13,25,1480455315,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
-'3  10  0  ~/Documents/graphicsnotes
-|4,51,10,0,1480453544,"~/Documents/graphicsnotes"
-'4  8  0  ~/Downloads/challenges
-|4,52,8,0,1479535086,"~/Downloads/challenges"
-'5  1  0  ~/.zshrc
-|4,53,1,0,1479527773,"~/.zshrc"
-'6  7  0  ~/.zshrc
-|4,54,7,0,1479527768,"~/.zshrc"
-'7  7  0  ~/.zshrc
-|4,55,7,0,1479527768,"~/.zshrc"
-'8  8  6  ~/.zshrc
-|4,56,8,6,1479527758,"~/.zshrc"
-'9  8  6  ~/.zshrc
-|4,57,8,6,1479527758,"~/.zshrc"
+'0  28  0  ~/.vimrc
+|4,48,28,0,1480640183,"~/.vimrc"
+'1  48  0  ~/.vimrc
+|4,49,48,0,1480640056,"~/.vimrc"
+'2  48  0  ~/.vimrc
+|4,50,48,0,1480640056,"~/.vimrc"
+'3  40  0  ~/.xinitrc
+|4,51,40,0,1480639786,"~/.xinitrc"
+'4  1  0  ~/.vimrc
+|4,52,1,0,1480639716,"~/.vimrc"
+'5  1  0  ~/.vimrc
+|4,53,1,0,1480639716,"~/.vimrc"
+'6  1  0  ~/.vimrc
+|4,54,1,0,1480639716,"~/.vimrc"
+'7  1  0  ~/.vimrc
+|4,55,1,0,1480639716,"~/.vimrc"
+'8  4  0  ~/.vimrc
+|4,56,4,0,1480639407,"~/.vimrc"
+'9  4  0  ~/.vimrc
+|4,57,4,0,1480639407,"~/.vimrc"
 
 # Jumplist (newest first):
--'  45  17  ~/.vim/.vimrc
-|4,39,45,17,1480638123,"~/.vim/.vimrc"
--'  1  0  ~/.vim/.vimrc
-|4,39,1,0,1480637781,"~/.vim/.vimrc"
--'  8  24  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
-|4,39,8,24,1480455321,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
--'  8  24  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
-|4,39,8,24,1480455321,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
--'  8  24  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
-|4,39,8,24,1480455321,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
--'  8  24  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
-|4,39,8,24,1480455321,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
--'  13  25  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
-|4,39,13,25,1480455315,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
--'  13  25  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
-|4,39,13,25,1480455315,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
--'  13  25  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
-|4,39,13,25,1480455315,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
--'  13  25  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
-|4,39,13,25,1480455315,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
--'  40  42  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
-|4,39,40,42,1480455184,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
--'  40  42  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
-|4,39,40,42,1480455184,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
--'  40  42  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
-|4,39,40,42,1480455184,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
--'  40  42  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
-|4,39,40,42,1480455184,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
--'  28  3  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
-|4,39,28,3,1480454266,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
--'  7  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
-|4,39,7,0,1480454266,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
--'  28  3  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
-|4,39,28,3,1480454266,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
--'  7  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
-|4,39,7,0,1480454266,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
--'  28  3  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
-|4,39,28,3,1480454266,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
--'  7  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
-|4,39,7,0,1480454266,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
--'  28  3  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
-|4,39,28,3,1480454266,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
--'  7  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
-|4,39,7,0,1480454266,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
--'  27  4  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
-|4,39,27,4,1480454264,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
--'  27  4  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
-|4,39,27,4,1480454264,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
--'  27  4  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
-|4,39,27,4,1480454264,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
--'  27  4  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
-|4,39,27,4,1480454264,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
--'  22  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
-|4,39,22,0,1480454262,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
--'  22  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
-|4,39,22,0,1480454262,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
--'  22  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
-|4,39,22,0,1480454262,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
--'  22  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
-|4,39,22,0,1480454262,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
--'  18  37  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
-|4,39,18,37,1480454261,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
--'  18  37  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
-|4,39,18,37,1480454261,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
--'  18  37  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
-|4,39,18,37,1480454261,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
--'  18  37  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
-|4,39,18,37,1480454261,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
--'  2  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
-|4,39,2,0,1480454044,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
--'  2  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
-|4,39,2,0,1480454044,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
--'  2  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
-|4,39,2,0,1480454044,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
--'  2  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
-|4,39,2,0,1480454044,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
--'  10  0  ~/Documents/graphicsnotes
-|4,39,10,0,1480453544,"~/Documents/graphicsnotes"
--'  10  0  ~/Documents/graphicsnotes
-|4,39,10,0,1480453544,"~/Documents/graphicsnotes"
--'  10  0  ~/Documents/graphicsnotes
-|4,39,10,0,1480453544,"~/Documents/graphicsnotes"
--'  10  0  ~/Documents/graphicsnotes
-|4,39,10,0,1480453544,"~/Documents/graphicsnotes"
--'  1  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
-|4,39,1,0,1480452537,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
--'  1  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
-|4,39,1,0,1480452537,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
--'  1  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
-|4,39,1,0,1480452537,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
--'  1  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
-|4,39,1,0,1480452537,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
--'  4  20  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
-|4,39,4,20,1480451813,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
--'  4  20  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
-|4,39,4,20,1480451813,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
--'  4  20  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
-|4,39,4,20,1480451813,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
--'  4  20  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
-|4,39,4,20,1480451813,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
--'  7  3  ~/Documents/graphicsnotes
-|4,39,7,3,1480450524,"~/Documents/graphicsnotes"
--'  7  3  ~/Documents/graphicsnotes
-|4,39,7,3,1480450524,"~/Documents/graphicsnotes"
--'  7  3  ~/Documents/graphicsnotes
-|4,39,7,3,1480450524,"~/Documents/graphicsnotes"
--'  7  3  ~/Documents/graphicsnotes
-|4,39,7,3,1480450524,"~/Documents/graphicsnotes"
--'  1  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
-|4,39,1,0,1480450270,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
--'  1  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
-|4,39,1,0,1480450270,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
--'  1  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
-|4,39,1,0,1480450270,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
--'  1  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
-|4,39,1,0,1480450270,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
--'  1  0  ~/Documents/graphicsnotes
-|4,39,1,0,1480450028,"~/Documents/graphicsnotes"
--'  1  0  ~/Documents/graphicsnotes
-|4,39,1,0,1480450028,"~/Documents/graphicsnotes"
--'  1  0  ~/Documents/graphicsnotes
-|4,39,1,0,1480450028,"~/Documents/graphicsnotes"
--'  1  0  ~/Documents/graphicsnotes
-|4,39,1,0,1480450028,"~/Documents/graphicsnotes"
--'  8  0  ~/Downloads/challenges
-|4,39,8,0,1479535086,"~/Downloads/challenges"
--'  8  0  ~/Downloads/challenges
-|4,39,8,0,1479535086,"~/Downloads/challenges"
--'  8  0  ~/Downloads/challenges
-|4,39,8,0,1479535086,"~/Downloads/challenges"
--'  8  0  ~/Downloads/challenges
-|4,39,8,0,1479535086,"~/Downloads/challenges"
--'  8  0  ~/Downloads/challenges
-|4,39,8,0,1479535086,"~/Downloads/challenges"
--'  8  0  ~/Downloads/challenges
-|4,39,8,0,1479535086,"~/Downloads/challenges"
--'  8  0  ~/Downloads/challenges
-|4,39,8,0,1479535086,"~/Downloads/challenges"
--'  8  0  ~/Downloads/challenges
-|4,39,8,0,1479535086,"~/Downloads/challenges"
--'  8  0  ~/Downloads/challenges
-|4,39,8,0,1479535086,"~/Downloads/challenges"
--'  8  0  ~/Downloads/challenges
-|4,39,8,0,1479535086,"~/Downloads/challenges"
--'  8  0  ~/Downloads/challenges
-|4,39,8,0,1479535086,"~/Downloads/challenges"
--'  8  0  ~/Downloads/challenges
-|4,39,8,0,1479535086,"~/Downloads/challenges"
--'  8  0  ~/Downloads/challenges
-|4,39,8,0,1479535086,"~/Downloads/challenges"
--'  8  0  ~/Downloads/challenges
-|4,39,8,0,1479535086,"~/Downloads/challenges"
--'  8  0  ~/Downloads/challenges
-|4,39,8,0,1479535086,"~/Downloads/challenges"
--'  8  0  ~/Downloads/challenges
-|4,39,8,0,1479535086,"~/Downloads/challenges"
--'  1  0  ~/.zshrc
-|4,39,1,0,1479527773,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1479527773,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1479527773,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1479527773,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1479527773,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1479527773,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1479527773,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1479527773,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1479527773,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1479527773,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1479527773,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1479527773,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1479527773,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1479527773,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1479527773,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1479527773,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1479527773,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1479527773,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1479527773,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1479527773,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1479527773,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1479527773,"~/.zshrc"
+-'  28  0  ~/.vimrc
+|4,39,28,0,1480640183,"~/.vimrc"
+-'  156  0  ~/.vimrc
+|4,39,156,0,1480640178,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1480640158,"~/.vimrc"
+-'  48  0  ~/.vimrc
+|4,39,48,0,1480640056,"~/.vimrc"
+-'  48  0  ~/.vimrc
+|4,39,48,0,1480640056,"~/.vimrc"
+-'  48  0  ~/.vimrc
+|4,39,48,0,1480640056,"~/.vimrc"
+-'  88  0  ~/.vimrc
+|4,39,88,0,1480640001,"~/.vimrc"
+-'  88  0  ~/.vimrc
+|4,39,88,0,1480640001,"~/.vimrc"
+-'  88  0  ~/.vimrc
+|4,39,88,0,1480640001,"~/.vimrc"
+-'  91  15  ~/.vimrc
+|4,39,91,15,1480639993,"~/.vimrc"
+-'  91  15  ~/.vimrc
+|4,39,91,15,1480639993,"~/.vimrc"
+-'  91  15  ~/.vimrc
+|4,39,91,15,1480639993,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1480639931,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1480639931,"~/.vimrc"
+-'  40  0  ~/.xinitrc
+|4,39,40,0,1480639786,"~/.xinitrc"
+-'  40  0  ~/.xinitrc
+|4,39,40,0,1480639786,"~/.xinitrc"
+-'  40  0  ~/.xinitrc
+|4,39,40,0,1480639786,"~/.xinitrc"
+-'  40  0  ~/.xinitrc
+|4,39,40,0,1480639786,"~/.xinitrc"
+-'  40  0  ~/.xinitrc
+|4,39,40,0,1480639786,"~/.xinitrc"
+-'  40  0  ~/.xinitrc
+|4,39,40,0,1480639786,"~/.xinitrc"
+-'  40  0  ~/.xinitrc
+|4,39,40,0,1480639786,"~/.xinitrc"
+-'  40  0  ~/.xinitrc
+|4,39,40,0,1480639786,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1480639778,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1480639778,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1480639778,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1480639778,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1480639778,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1480639778,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1480639778,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1480639778,"~/.xinitrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1480639716,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1480639716,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1480639716,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1480639716,"~/.vimrc"
+-'  23  0  ~/.vimrc
+|4,39,23,0,1480639624,"~/.vimrc"
+-'  19  0  ~/.vimrc
+|4,39,19,0,1480639624,"~/.vimrc"
+-'  23  0  ~/.vimrc
+|4,39,23,0,1480639624,"~/.vimrc"
+-'  19  0  ~/.vimrc
+|4,39,19,0,1480639624,"~/.vimrc"
+-'  19  0  ~/.vimrc
+|4,39,19,0,1480639624,"~/.vimrc"
+-'  23  0  ~/.vimrc
+|4,39,23,0,1480639624,"~/.vimrc"
+-'  19  0  ~/.vimrc
+|4,39,19,0,1480639624,"~/.vimrc"
+-'  19  0  ~/.vimrc
+|4,39,19,0,1480639624,"~/.vimrc"
+-'  4  0  ~/.vimrc
+|4,39,4,0,1480639407,"~/.vimrc"
+-'  4  0  ~/.vimrc
+|4,39,4,0,1480639407,"~/.vimrc"
+-'  4  0  ~/.vimrc
+|4,39,4,0,1480639407,"~/.vimrc"
+-'  4  0  ~/.vimrc
+|4,39,4,0,1480639407,"~/.vimrc"
+-'  4  0  ~/.vimrc
+|4,39,4,0,1480639407,"~/.vimrc"
+-'  4  0  ~/.vimrc
+|4,39,4,0,1480639407,"~/.vimrc"
+-'  4  0  ~/.vimrc
+|4,39,4,0,1480639407,"~/.vimrc"
+-'  4  0  ~/.vimrc
+|4,39,4,0,1480639407,"~/.vimrc"
+-'  4  0  ~/.vimrc
+|4,39,4,0,1480639407,"~/.vimrc"
+-'  4  0  ~/.vimrc
+|4,39,4,0,1480639407,"~/.vimrc"
+-'  4  0  ~/.vimrc
+|4,39,4,0,1480639407,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1480639386,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1480639386,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1480639386,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1480639386,"~/.vimrc"
+-'  13  2  ~/.vimrc
+|4,39,13,2,1480639358,"~/.vimrc"
+-'  12  2  ~/.vimrc
+|4,39,12,2,1480639358,"~/.vimrc"
+-'  9  2  ~/.vimrc
+|4,39,9,2,1480639358,"~/.vimrc"
+-'  8  2  ~/.vimrc
+|4,39,8,2,1480639358,"~/.vimrc"
+-'  13  2  ~/.vimrc
+|4,39,13,2,1480639358,"~/.vimrc"
+-'  12  2  ~/.vimrc
+|4,39,12,2,1480639358,"~/.vimrc"
+-'  9  2  ~/.vimrc
+|4,39,9,2,1480639358,"~/.vimrc"
+-'  8  2  ~/.vimrc
+|4,39,8,2,1480639358,"~/.vimrc"
+-'  8  2  ~/.vimrc
+|4,39,8,2,1480639358,"~/.vimrc"
+-'  9  2  ~/.vimrc
+|4,39,9,2,1480639358,"~/.vimrc"
+-'  8  2  ~/.vimrc
+|4,39,8,2,1480639358,"~/.vimrc"
+-'  8  2  ~/.vimrc
+|4,39,8,2,1480639358,"~/.vimrc"
+-'  13  2  ~/.vimrc
+|4,39,13,2,1480639358,"~/.vimrc"
+-'  12  2  ~/.vimrc
+|4,39,12,2,1480639358,"~/.vimrc"
+-'  9  2  ~/.vimrc
+|4,39,9,2,1480639358,"~/.vimrc"
+-'  8  2  ~/.vimrc
+|4,39,8,2,1480639358,"~/.vimrc"
+-'  8  2  ~/.vimrc
+|4,39,8,2,1480639358,"~/.vimrc"
+-'  9  2  ~/.vimrc
+|4,39,9,2,1480639358,"~/.vimrc"
+-'  8  2  ~/.vimrc
+|4,39,8,2,1480639358,"~/.vimrc"
+-'  8  2  ~/.vimrc
+|4,39,8,2,1480639358,"~/.vimrc"
+-'  35  28  ~/.vimrc
+|4,39,35,28,1480638964,"~/.vimrc"
+-'  32  28  ~/.vimrc
+|4,39,32,28,1480638964,"~/.vimrc"
+-'  29  28  ~/.vimrc
+|4,39,29,28,1480638964,"~/.vimrc"
+-'  35  28  ~/.vimrc
+|4,39,35,28,1480638964,"~/.vimrc"
+-'  32  28  ~/.vimrc
+|4,39,32,28,1480638964,"~/.vimrc"
+-'  32  28  ~/.vimrc
+|4,39,32,28,1480638964,"~/.vimrc"
+-'  29  28  ~/.vimrc
+|4,39,29,28,1480638964,"~/.vimrc"
+-'  29  28  ~/.vimrc
+|4,39,29,28,1480638964,"~/.vimrc"
+-'  32  28  ~/.vimrc
+|4,39,32,28,1480638964,"~/.vimrc"
+-'  29  28  ~/.vimrc
+|4,39,29,28,1480638964,"~/.vimrc"
+-'  29  28  ~/.vimrc
+|4,39,29,28,1480638964,"~/.vimrc"
+-'  35  28  ~/.vimrc
+|4,39,35,28,1480638964,"~/.vimrc"
+-'  32  28  ~/.vimrc
+|4,39,32,28,1480638964,"~/.vimrc"
+-'  32  28  ~/.vimrc
+|4,39,32,28,1480638964,"~/.vimrc"
+-'  29  28  ~/.vimrc
+|4,39,29,28,1480638964,"~/.vimrc"
+-'  29  28  ~/.vimrc
+|4,39,29,28,1480638964,"~/.vimrc"
+-'  32  28  ~/.vimrc
+|4,39,32,28,1480638964,"~/.vimrc"
+-'  29  28  ~/.vimrc
+|4,39,29,28,1480638964,"~/.vimrc"
+-'  29  28  ~/.vimrc
+|4,39,29,28,1480638964,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1480638800,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1480638800,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1480638800,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1480638800,"~/.vimrc"
 
 # History of marks within files (newest to oldest):
+
+> ~/.vimrc
+	*	1480640180	0
+	"	28	0
+	^	9	18
+	.	48	0
+	+	125	13
+	+	132	19
+	+	133	0
+	+	125	20
+	+	120	16
+	+	99	0
+	+	123	0
+	+	96	16
+	+	90	11
+	+	91	11
+	+	66	22
+	+	67	0
+	+	65	0
+	+	147	0
+	+	148	15
+	+	150	29
+	+	151	44
+	+	152	17
+	+	153	0
+	+	161	31
+	+	149	41
+	+	155	0
+	+	161	31
+	+	159	0
+	+	158	37
+	+	157	0
+	+	154	32
+	+	160	0
+	+	145	0
+	+	141	45
+	+	144	10
+	+	141	10
+	+	162	0
+	+	142	106
+	+	143	0
+	+	143	51
+	+	111	12
+	+	113	0
+	+	115	19
+	+	114	20
+	+	113	0
+	+	117	10
+	+	113	39
+	+	112	21
+	+	115	0
+	+	114	29
+	+	116	0
+	+	115	30
+	+	114	30
+	+	115	30
+	+	116	30
+	+	95	9
+	+	118	7
+	+	118	0
+	+	118	11
+	+	118	0
+	+	118	24
+	+	118	10
+	+	113	0
+	+	123	0
+	+	119	0
+	+	118	45
+	+	110	13
+	+	118	0
+	+	110	0
+	+	110	49
+	+	110	0
+	+	118	0
+	+	117	0
+	+	112	0
+	+	118	0
+	+	118	22
+	+	116	24
+	+	112	0
+	+	118	0
+	+	109	37
+	+	118	0
+	+	25	25
+	+	30	33
+	+	41	0
+	+	32	6
+	+	30	35
+	+	34	27
+	+	35	28
+	+	41	0
+	+	33	44
+	+	38	3
+	+	31	17
+	+	41	0
+	+	39	13
+	+	28	0
+	+	40	4
+	+	11	12
+	+	19	17
+	+	20	12
+	+	24	13
+	+	107	0
+	+	9	17
+	+	24	0
+	+	48	0
+
+> /usr/share/vim/vim80/doc/filetype.txt
+	*	1480640014	0
+	"	31	56
+
+> ~/.xinitrc
+	*	1480639783	0
+	"	40	0
+
+> ~/.config/i3/config
+	*	1480638626	0
+	"	42	0
+	^	9	17
+	.	9	16
+	+	214	0
+	+	212	27
+	+	101	34
+	+	100	40
+	+	99	40
+	+	8	8
+	+	9	16
+
+> ~/.vim/.git/COMMIT_EDITMSG
+	*	1480638331	0
+	"	1	60
+	^	1	61
+	.	1	60
+	+	1	60
+
+> ~/.zshrc
+	*	1480638223	0
+	"	5	14
+	^	5	18
+	.	5	14
+	+	19	0
+	+	17	0
+	+	18	18
+	+	36	33
+	+	40	17
+	+	49	24
+	+	49	0
+	+	9	0
+	+	13	9
+	+	11	31
+	+	10	18
+	+	17	0
+	+	12	30
+	+	13	0
+	+	16	22
+	+	50	42
+	+	51	8
+	+	50	71
+	+	54	11
+	+	53	57
+	+	64	16
+	+	63	26
+	+	64	36
+	+	65	25
+	+	62	15
+	+	66	33
+	+	35	34
+	+	35	0
+	+	35	36
+	+	35	24
+	+	35	0
+	+	35	3
+	+	35	0
+	+	35	72
+	+	35	40
+	+	35	53
+	+	36	36
+	+	36	27
+	+	35	0
+	+	16	44
+	+	71	0
+	+	71	49
+	+	35	0
+	+	36	0
+	+	13	86
+	+	35	0
+	+	46	24
+	+	47	12
+	+	58	13
+	+	5	15
+	+	6	12
+	+	5	17
+	+	6	16
+	+	5	0
+	+	6	5
+	+	4	21
+	+	5	11
+	+	6	0
+	+	4	22
+	+	49	0
+	+	7	0
+	+	8	0
+	+	34	18
+	+	33	51
+	+	23	52
+	+	24	19
+	+	34	15
+	+	32	0
+	+	26	37
+	+	24	24
+	+	27	22
+	+	28	23
+	+	31	24
+	+	56	50
+	+	59	9
+	+	41	12
+	+	36	0
+	+	35	0
+	+	36	0
+	+	37	19
+	+	43	71
+	+	45	13
+	+	71	0
+	+	44	0
+	+	73	32
+	+	74	40
+	+	6	0
+	+	7	0
+	+	5	6
+	+	6	22
+	+	5	14
 
 > ~/.vim/.vimrc
 	*	1480637978	0
@@ -671,199 +897,6 @@ $
 	+	3	0
 	+	4	0
 	+	9	55
-
-> ~/.vimrc
-	*	1480450702	0
-	"	102	5
-	^	90	38
-	.	99	0
-	+	69	0
-	+	75	0
-	+	75	16
-	+	75	0
-	+	77	8
-	+	111	11
-	+	113	6
-	+	115	0
-	+	112	0
-	+	113	19
-	+	77	18
-	+	78	0
-	+	79	0
-	+	83	11
-	+	88	0
-	+	104	0
-	+	106	0
-	+	106	13
-	+	113	19
-	+	114	0
-	+	106	20
-	+	101	16
-	+	80	0
-	+	104	0
-	+	77	16
-	+	71	11
-	+	72	11
-	+	47	22
-	+	48	0
-	+	46	0
-	+	128	0
-	+	129	15
-	+	131	29
-	+	132	44
-	+	133	17
-	+	134	0
-	+	142	31
-	+	130	41
-	+	136	0
-	+	142	31
-	+	140	0
-	+	139	37
-	+	138	0
-	+	135	32
-	+	141	0
-	+	126	0
-	+	122	45
-	+	125	10
-	+	122	10
-	+	143	0
-	+	123	106
-	+	124	0
-	+	124	51
-	+	92	12
-	+	94	0
-	+	96	19
-	+	95	20
-	+	94	0
-	+	98	10
-	+	94	39
-	+	93	21
-	+	96	0
-	+	95	29
-	+	97	0
-	+	96	30
-	+	95	30
-	+	96	30
-	+	97	30
-	+	76	9
-	+	99	7
-	+	99	0
-	+	99	11
-	+	99	0
-	+	99	24
-	+	99	10
-	+	94	0
-	+	104	0
-	+	100	0
-	+	99	45
-	+	91	13
-	+	99	0
-	+	91	0
-	+	91	49
-	+	91	0
-	+	99	0
-	+	98	0
-	+	93	0
-	+	99	0
-	+	99	22
-	+	97	24
-	+	93	0
-	+	99	0
-	+	90	37
-	+	99	0
-
-> ~/.zshrc
-	*	1479527772	0
-	"	1	0
-	.	7	0
-	+	19	0
-	+	17	0
-	+	18	18
-	+	36	33
-	+	40	17
-	+	49	24
-	+	49	0
-	+	9	0
-	+	13	9
-	+	11	31
-	+	10	18
-	+	17	0
-	+	12	30
-	+	13	0
-	+	16	22
-	+	50	42
-	+	51	8
-	+	50	71
-	+	54	11
-	+	53	57
-	+	64	16
-	+	63	26
-	+	64	36
-	+	65	25
-	+	62	15
-	+	66	33
-	+	35	34
-	+	35	0
-	+	35	36
-	+	35	24
-	+	35	0
-	+	35	3
-	+	35	0
-	+	35	72
-	+	35	40
-	+	35	53
-	+	36	36
-	+	36	27
-	+	35	0
-	+	16	44
-	+	71	0
-	+	71	49
-	+	35	0
-	+	36	0
-	+	13	86
-	+	35	0
-	+	46	24
-	+	47	12
-	+	58	13
-	+	5	15
-	+	6	12
-	+	5	17
-	+	6	16
-	+	5	0
-	+	6	5
-	+	4	21
-	+	5	11
-	+	6	0
-	+	4	22
-	+	49	0
-	+	7	0
-	+	8	0
-	+	34	18
-	+	33	51
-	+	23	52
-	+	24	19
-	+	34	15
-	+	32	0
-	+	26	37
-	+	24	24
-	+	27	22
-	+	28	23
-	+	31	24
-	+	56	50
-	+	59	9
-	+	41	12
-	+	36	0
-	+	35	0
-	+	36	0
-	+	37	19
-	+	43	71
-	+	45	13
-	+	71	0
-	+	44	0
-	+	73	32
-	+	74	40
-	+	6	0
-	+	7	0
 
 > ~/.radare2rc
 	*	1479506208	0
@@ -2293,19 +2326,6 @@ $
 > ~/code/i3/i3lock/i3lock.c
 	*	1477023423	0
 	"	982	36
-
-> ~/.config/i3/config
-	*	1477023419	0
-	"	180	0
-	^	9	17
-	.	9	16
-	+	214	0
-	+	212	27
-	+	101	34
-	+	100	40
-	+	99	40
-	+	8	8
-	+	9	16
 
 > /usr/share/vim/vim80/doc/tagsrch.txt
 	*	1477023376	0
