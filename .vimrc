@@ -73,7 +73,7 @@ nnoremap K H
 nnoremap L A<esc>
         
 
-"PEr file bulllshit
+"PEr file
 augroup cplusplus
     autocmd!
     autocmd BufNewFile,BufRead *.tpp set filetype=cpp "Alias tpp to be cpp
@@ -87,10 +87,20 @@ augroup java
 "    autocmd FileType java setlocal formatprg=par\ -w80\ -T4
 augroup END
 
+autocmd BufNewFile,BufRead js,jsx,html set filetype=htmls
+augroup htmljs
+    autocmd!
+    autocmd FileType html setlocal foldmethod=syntax
+    autocmd FileType html setlocal tabstop=2
+    autocmd FileType html setlocal softtabstop=2
+    autocmd FileType html setlocal shiftwidth=2
+    autocmd FileType html setlocal expandtab
+augroup END
+
+autocmd BufNewFile,BufRead makefile set filetype=Makefile 
 augroup makefiles
     autocmd!
     autocmd FileType makefile setlocal noexpandtab
-    autocmd BufNewFile,BufRead makefile set filetype=Makefile 
 augroup END
 
 augroup pythonscripts
@@ -107,6 +117,13 @@ augroup shellscripts
     autocmd BufEnter *.sh setlocal softtabstop=2
 augroup END
 
+augroup rust
+    autocmd!
+    autocmd BufEnter *.rs let g:syntastic_rust_checkers = ['rustc']
+    autocmd BufEnter *.rs let g:syntastic_quiet_messages = {"regex": 'is unstable and should only be used'}
+    autocmd BufEnter *.rs let g:rustfmt_autosave = 1
+augroup END
+
 
 
 "Syntastic stuff
@@ -115,7 +132,11 @@ set statusline+=%#warningsmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
+"Auto-populate user defined stuff
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
+
+"Run checker on open, but not on close
 let g:syntastic_check_on_open = 1
+"let g:syntastic_check_on_w = 1
 let g:syntastic_check_on_wq = 0

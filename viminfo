@@ -11,217 +11,217 @@
 # hlsearch on (H) or off (h):
 ~H
 # Last Search Pattern:
-~MSle0~/>>
+~MSle0~/file
 
 # Last Substitute Search Pattern:
-~MSle0&>>
+~MSle0&\/\/\/\/
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1477681277,,"q"
-:w
-|2,0,1477681277,,"w"
+|2,0,1480637172,,"q"
 :wq
-|2,0,1477679619,,"wq"
-:q!
-|2,0,1477663531,,"q!"
-:help :r
-|2,0,1477663502,,"help :r"
-:r
-|2,0,1477663496,,"r"
-:help :r!
-|2,0,1477663433,,"help :r!"
-:man r!
-|2,0,1477663429,,"man r!"
-:r py3 'print("hello")'
-|2,0,1477663419,,"r py3 'print(\"hello\")'"
-:r! py3 'print("hello")'
-|2,0,1477663407,,"r! py3 'print(\"hello\")'"
-:r! py3 print("hello")
-|2,0,1477663394,,"r! py3 print(\"hello\")"
-:echo "Hello!" |
-|2,0,1477663302,,"echo \"Hello!\" |"
-:echo | 
-|2,0,1477663295,,"echo | "
-:|echo
-|2,0,1477663284,,"|echo"
-:|echo hello
-|2,0,1477663267,,"|echo hello"
-:py3 for b in vim.buffers:
-|2,0,1477611966,,"py3 for b in vim.buffers:"
-:py3 for x in range(10):
-|2,0,1477611889,,"py3 for x in range(10):"
-:py3 current.buffer[0] = "Hello world!\n How are you?"
-|2,0,1477611874,,"py3 current.buffer[0] = \"Hello world!\\n How are you?\""
-:py3 current.buffer = "Hello world!\n How are you?"
-|2,0,1477611864,,"py3 current.buffer = \"Hello world!\\n How are you?\""
-:py3 print("test")
-|2,0,1477611833,,"py3 print(\"test\")"
-:py3 print "test"
-|2,0,1477611825,,"py3 print \"test\""
-:py3 current.line = "Hello world!"
-|2,0,1477611810,,"py3 current.line = \"Hello world!\""
-:py3 from vim import *
-|2,0,1477611794,,"py3 from vim import *"
-:help py3
-|2,0,1477609699,,"help py3"
-:py3do print(5)
-|2,0,1477609681,,"py3do print(5)"
-:py3do
-|2,0,1477609674,,"py3do"
-:py3 print(5)
-|2,0,1477609669,,"py3 print(5)"
-:py3
-|2,0,1477609663,,"py3"
-:57
-|2,0,1477586664,,"57"
-:redo
-|2,0,1477513755,,"redo"
-:'<,'>s/>>/<</
-|2,0,1477513696,,"'<,'>s/>>/<</"
-:vs tmp.txt
-|2,0,1477513375,,"vs tmp.txt"
-:e WaitonBot.py
-|2,0,1477270976,,"e WaitonBot.py"
-:vsplit WaitonUtil.py
-|2,0,1477270074,,"vsplit WaitonUtil.py"
-:vs sortscrolls.py
-|2,0,1477265459,,"vs sortscrolls.py"
-:!mv sortscrolls sortscrolls.py
-|2,0,1477265456,,"!mv sortscrolls sortscrolls.py"
-:vs sortscrolls
-|2,0,1477265440,,"vs sortscrolls"
-:!pwd
-|2,0,1477265426,,"!pwd"
-:%s/\*//
-|2,0,1477265414,,"%s/\\*//"
-:%s/^$\n//
-|2,0,1477265212,,"%s/^$\\n//"
-:s/^$\n//
-|2,0,1477265207,,"s/^$\\n//"
-:s/$^//
-|2,0,1477265008,,"s/$^//"
-:3030
-|2,0,1477172545,,"3030"
-:239
-|2,0,1477172040,,"239"
+|2,0,1480455320,,"wq"
+:w
+|2,0,1480455196,,"w"
 :e
-|2,0,1477170067,,"e"
-:w a.py
-|2,0,1477170067,,"w a.py"
-:!ls /bin/
-|2,0,1477166636,,"!ls /bin/"
-:vsplit CallOfTheVoid.py
-|2,0,1477162978,,"vsplit CallOfTheVoid.py"
-:!ls
-|2,0,1477162939,,"!ls"
-:!echo $TERMINAL
-|2,0,1477161235,,"!echo $TERMINAL"
+|2,0,1480450721,,"e"
+:SyntasticCheck
+|2,0,1480450717,,"SyntasticCheck"
+:set filetype=c
+|2,0,1480450707,,"set filetype=c"
+:set filetype c
+|2,0,1480450679,,"set filetype c"
+:filetype
+|2,0,1480450673,,"filetype"
+:filetype c
+|2,0,1480450669,,"filetype c"
+:e ~/Documents/graphicsnotes
+|2,0,1480450524,,"e ~/Documents/graphicsnotes"
+:w ~/Documents/graphicsnotes
+|2,0,1480450519,,"w ~/Documents/graphicsnotes"
+:set nopaste
+|2,0,1480450421,,"set nopaste"
+:set paste
+|2,0,1480450036,,"set paste"
+:paste
+|2,0,1480450034,,"paste"
+:help q
+|2,0,1479066653,,"help q"
+:'<,'>s/\/\/\/\///
+|2,0,1479065799,,"'<,'>s/\\/\\/\\/\\///"
+:34
+|2,0,1479059840,,"34"
+:e App.jsx
+|2,0,1479056778,,"e App.jsx"
+:128
+|2,0,1479056685,,"128"
+:e CtrlButton.jsx
+|2,0,1479056658,,"e CtrlButton.jsx"
+:e Controller.jsx
+|2,0,1479056152,,"e Controller.jsx"
+:split Controller.jsx
+|2,0,1479052665,,"split Controller.jsx"
+:vs MouseButton.jsx
+|2,0,1479051827,,"vs MouseButton.jsx"
+:e MouseButton.jsx
+|2,0,1479051919,,"e MouseButton.jsx"
+:split App.jsx
+|2,0,1479046554,,"split App.jsx"
+:q!
+|2,0,1479050504,,"q!"
+:split KeyButton.jsx
+|2,0,1479050413,,"split KeyButton.jsx"
+:vs KeyButton.jsx
+|2,0,1479021767,,"vs KeyButton.jsx"
+:37
+|2,0,1479020330,,"37"
+:56
+|2,0,1479019716,,"56"
+:40
+|2,0,1479019703,,"40"
+:e KeyButton.jsx
+|2,0,1479019615,,"e KeyButton.jsx"
+:redo
+|2,0,1479006348,,"redo"
+:69
+|2,0,1479006313,,"69"
+:16
+|2,0,1479005820,,"16"
+:W
+|2,0,1479005205,,"W"
+:vs App.jsx
+|2,0,1479004444,,"vs App.jsx"
+:split 
+|2,0,1478999680,,"split "
+:10
+|2,0,1478996149,,"10"
+:setopt paste
+|2,0,1478989154,,"setopt paste"
+:vs Task.jsx
+|2,0,1478988863,,"vs Task.jsx"
+:echo filetype
+|2,0,1478986572,,"echo filetype"
+:syntax
+|2,0,1478986216,,"syntax"
+:vsplit Task.jsx
+|2,0,1478986102,,"vsplit Task.jsx"
+:vsplit main.html
+|2,0,1478986052,,"vsplit main.html"
+:vs main.jsx
+|2,0,1478986029,,"vs main.jsx"
+:vsplit main.jsx
+|2,0,1478986017,,"vsplit main.jsx"
+:split KeyboardButton.jsx
+|2,0,1478985523,,"split KeyboardButton.jsx"
+:split KeyboardButton
+|2,0,1478985512,,"split KeyboardButton"
+:split Task.jsx
+|2,0,1478985495,,"split Task.jsx"
 
 # Search String History (newest to oldest):
+?/file
+|2,1,1480450687,47,"file"
 ? @$
-|2,1,1477680627,,"@$"
-? >>
-|2,1,1477513696,,">>"
-?/log
-|2,1,1477513091,47,"log"
-?/in text
-|2,1,1477270980,47,"in text"
-?/gavin
-|2,1,1477269019,47,"gavin"
-?/br
-|2,1,1477268788,47,"br"
-?/brian
-|2,1,1477268782,47,"brian"
-?/brien
-|2,1,1477268780,47,"brien"
-?/ryan
-|2,1,1477268775,47,"ryan"
-?/in tex
-|2,1,1477270149,47,"in tex"
-?/reply
-|2,1,1477270078,47,"reply"
-?/repl
-|2,1,1477270076,47,"repl"
-?/Brodeu
-|2,1,1477266298,47,"Brodeu"
-? \*
-|2,1,1477265414,,"\\*"
-?/^L
-|2,1,1477265241,47,"^L"
-? ^$\n
-|2,1,1477265212,,"^$\\n"
-?/^$\n
-|2,1,1477265195,47,"^$\\n"
-?/^$
-|2,1,1477265188,47,"^$"
-? $^
-|2,1,1477265008,,"$^"
-?/Daniel
-|2,1,1477261103,47,"Daniel"
-?/values
-|2,1,1477172472,47,"values"
-?/\([\|]\)
-|2,1,1477172276,47,"\\([\\|]\\)"
+|2,1,1479535085,,"@$"
+? \/\/\/\/
+|2,1,1479066647,,"\\/\\/\\/\\/"
+?/this.gen
+|2,1,1479059502,47,"this.gen"
+?/genUpPayload
+|2,1,1479059442,47,"genUpPayload"
+?/stopPropog
+|2,1,1479059339,47,"stopPropog"
+?/onButtonUp
+|2,1,1479059328,47,"onButtonUp"
+?/qwop
+|2,1,1479056781,47,"qwop"
+?/defa
+|2,1,1479056667,47,"defa"
+?/controlsPor
+|2,1,1479056024,47,"controlsPor"
+?/axio
+|2,1,1479051924,47,"axio"
+?/Name
+|2,1,1479050417,47,"Name"
+?/<
+|2,1,1479019670,47,"<"
+?/Val
+|2,1,1479019607,47,"Val"
+?/Key
+|2,1,1479017618,47,"Key"
+?/key
+|2,1,1479017605,47,"key"
+?/Text
+|2,1,1479017486,47,"Text"
+?/targetUR
+|2,1,1479017428,47,"targetUR"
+?/keyVa;
+|2,1,1479017232,47,"keyVa;"
+?/keyChar
+|2,1,1479017216,47,"keyChar"
+?/get
+|2,1,1479016912,47,"get"
+?/Get
+|2,1,1479016910,47,"Get"
+?/li
+|2,1,1479008600,47,"li"
+?/isPress
+|2,1,1479008547,47,"isPress"
+?/targetURL
+|2,1,1479008460,47,"targetURL"
+?/pullInputs
+|2,1,1479008106,47,"pullInputs"
+?/inputs
+|2,1,1479008070,47,"inputs"
+?/renderInput
+|2,1,1479007518,47,"renderInput"
+?/map
+|2,1,1479006031,47,"map"
+?/renderBu
+|2,1,1479005982,47,"renderBu"
+?/onTe
+|2,1,1479005956,47,"onTe"
+?/pull
+|2,1,1479005927,47,"pull"
+?/this
+|2,1,1479005901,47,"this"
+?/axios
+|2,1,1479004386,47,"axios"
+?/Server
+|2,1,1478997768,47,"Server"
+?/filetype
+|2,1,1478986588,47,"filetype"
+? set
+|2,1,1478986444,,"set"
+?/jsx
+|2,1,1478986349,47,"jsx"
 ?/fold
-|2,1,1477171110,47,"fold"
-?/sheets
-|2,1,1477169637,47,"sheets"
-?/glob
-|2,1,1477115575,47,"glob"
-?/histo
-|2,1,1477107403,47,"histo"
-?/chpwd
-|2,1,1477102405,47,"chpwd"
-?/levels
-|2,1,1477090309,47,"levels"
-? input_position \/ 2 + 1
-|2,1,1477090233,,"input_position \\/ 2 + 1"
-?/sketch
-|2,1,1477090181,47,"sketch"
-?  \/ 2
-|2,1,1477025404,," \\/ 2"
-? 3
-|2,1,1477025350,,"3"
-? (int)sqrt(
-|2,1,1477025267,,"(int)sqrt("
-?/sqrt
-|2,1,1477025239,47,"sqrt"
-? cos
-|2,1,1477024426,,"cos"
-? M_PI\/3
-|2,1,1477024038,,"M_PI\\/3"
-? left
-|2,1,1477023959,,"left"
-?/space
-|2,1,1477023190,47,"space"
-?/sketc
-|2,1,1477023062,47,"sketc"
-?/Alt
-|2,1,1477022612,47,"Alt"
-?/alt
-|2,1,1477022610,47,"alt"
-?/input_pos
-|2,1,1477001533,47,"input_pos"
-?/redraw_screen
-|2,1,1477001418,47,"redraw_screen"
-?/ext
-|2,1,1477001638,47,"ext"
-?/puts
-|2,1,1477000881,47,"puts"
-?/draw_image
-|2,1,1476996155,47,"draw_image"
-?/img
-|2,1,1476995845,47,"img"
-?/i3lock
-|2,1,1477001166,47,"i3lock"
-?/soun
-|2,1,1476737427,47,"soun"
-?/bin/bash
-|2,1,1476647712,47,"bin/bash"
+|2,1,1478986272,47,"fold"
+? \/\/
+|2,1,1478985069,,"\\/\\/"
+? \/
+|2,1,1478984973,,"\\/"
+? \/\/ 
+|2,1,1478984955,,"\\/\\/ "
+?/\/\/
+|2,1,1478984938,47,"\\/\\/"
+? a
+|2,1,1478984885,,"a"
+?/multilib
+|2,1,1478925860,47,"multilib"
+?/866
+|2,1,1478534128,47,"866"
+?/86\d
+|2,1,1478533792,47,"86\\d"
+?/int c
+|2,1,1478115199,47,"int c"
+?/e
+|2,1,1478115193,47,"e"
+?/rust
+|2,1,1477684896,47,"rust"
 
 # Expression History (newest to oldest):
 
@@ -230,274 +230,1599 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	LINE	0
-	/bin/bash: py3: command not found
-|3,1,0,1,1,0,1477680627,"/bin/bash: py3: command not found"
-"1	LINE	0
-	/bin/bash: py3: command not found
-|3,0,1,1,1,0,1477663413,"/bin/bash: py3: command not found"
+"0	LINE	0
+	uniform mat4 projection_matrix;
+	uniform mat4 current_transform_matrix;
+|3,0,0,1,2,0,1480455231,"uniform mat4 projection_matrix;","uniform mat4 current_transform_matrix;"
+""1	LINE	0
+	uniform vec4 
+|3,1,1,1,1,0,1480455229,"uniform vec4 "
 "2	LINE	0
-	
-|3,0,2,1,1,0,1477663290,""
+	out interpolatedColor; //Out color
+|3,0,2,1,1,0,1480455199,"out interpolatedColor; //Out color"
 "3	LINE	0
-	test 
-|3,0,3,1,1,0,1477663287,"test "
+	*/
+|3,0,3,1,1,0,1480454046,"*/"
 "4	LINE	0
-	Hello world!
-|3,0,4,1,1,0,1477611812,"Hello world!"
+	I = diffuse + specular + ambient
+	I = Kd * Id * cos(theta) + 
+|3,0,4,1,2,0,1480454046,"I = diffuse + specular + ambient","I = Kd * Id * cos(theta) + "
 "5	LINE	0
-	    return None
-|3,0,5,1,1,0,1477587517,"    return None"
+	mbient:
+	
+|3,0,5,1,2,0,1480454045,"mbient:",""
 "6	LINE	0
-	            b = findBrotherByName(name)
-|3,0,6,1,1,0,1477586746,"            b = findBrotherByName(name)"
+	
+	//Per primitive
+|3,0,6,1,2,0,1480454043,"","//Per primitive"
 "7	LINE	0
-	            #Use as name
-	            name = m.group(1).strip()
-|3,0,7,1,2,0,1477586745,"            #Use as name","            name = m.group(1).strip()"
+	I = Kd * Id * cos(theta) + 
+	*/
+|3,0,7,1,2,0,1480454042,"I = Kd * Id * cos(theta) + ","*/"
 "8	LINE	0
 	
-	        except ValueError:
-|3,0,8,1,2,0,1477586744,"","        except ValueError:"
+	I = diffuse + specular + ambient
+|3,0,8,1,2,0,1480454042,"","I = diffuse + specular + ambient"
 "9	LINE	0
-	            else:
-	                response = response or "Could not find scroll {0}".format(scroll)
-|3,0,9,1,2,0,1477586743,"            else:","                response = response or \"Could not find scroll {0}\".format(scroll)"
-"a	CHAR	0
-	jk
-|3,0,10,0,1,0,1477166655,"jk"
+	cos(theta) = l dot n
+	
+|3,0,9,1,2,0,1480454042,"cos(theta) = l dot n",""
+"a@	CHAR	0
+	i//jkjI//jkkhvjj:s/\/\/\/\/\€kb//k
+|3,2,10,0,1,0,1479065805,"i//jkjI//jkkhvjj:s/\\/\\/\\/\\/\\€kb//k"
 "d	CHAR	0
 	A)jkk
 |3,0,13,0,1,0,0,"A)jkk"
 "-	CHAR	0
-	=
-|3,0,36,0,1,0,1477587536,"="
+	;
+|3,0,36,0,1,0,1480455250,";"
 
 # File marks:
-'0  1  4  ~/.vim/.gitignore
-|4,48,1,4,1477681277,"~/.vim/.gitignore"
-'1  1  0  ~/.vimrc
-|4,49,1,0,1477681087,"~/.vimrc"
-'2  260  0  ~/.vim/autoload/pathogen.vim
-|4,50,260,0,1477680644,"~/.vim/autoload/pathogen.vim"
-'3  8  0  ~/.vim/autoload
-|4,51,8,0,1477680628,"~/.vim/autoload"
-'4  2  0  ~/.vimrc
-|4,52,2,0,1477680612,"~/.vimrc"
-'5  2  0  ~/.vimrc
-|4,53,2,0,1477680612,"~/.vimrc"
-'6  1  0  ~/code/hackathon/README.md
-|4,54,1,0,1477679792,"~/code/hackathon/README.md"
-'7  3  0  ~/Downloads/hello.rs
-|4,55,3,0,1477679620,"~/Downloads/hello.rs"
-'8  7  0  ~/u
-|4,56,7,0,1477663006,"~/u"
-'9  60  50  ~/code/waitonbot/ScrollUtil.py
-|4,57,60,50,1477587560,"~/code/waitonbot/ScrollUtil.py"
+'0  8  24  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
+|4,48,8,24,1480455321,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
+'1  13  25  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
+|4,49,13,25,1480455315,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
+'2  10  0  ~/Documents/graphicsnotes
+|4,50,10,0,1480453544,"~/Documents/graphicsnotes"
+'3  8  0  ~/Downloads/challenges
+|4,51,8,0,1479535086,"~/Downloads/challenges"
+'4  1  0  ~/.zshrc
+|4,52,1,0,1479527773,"~/.zshrc"
+'5  7  0  ~/.zshrc
+|4,53,7,0,1479527768,"~/.zshrc"
+'6  7  0  ~/.zshrc
+|4,54,7,0,1479527768,"~/.zshrc"
+'7  8  6  ~/.zshrc
+|4,55,8,6,1479527758,"~/.zshrc"
+'8  8  6  ~/.zshrc
+|4,56,8,6,1479527758,"~/.zshrc"
+'9  4  0  ~/code/bomblab/bombs/bomb1069/r2config
+|4,57,4,0,1479506212,"~/code/bomblab/bombs/bomb1069/r2config"
 
 # Jumplist (newest first):
--'  1  4  ~/.vim/.gitignore
-|4,39,1,4,1477681277,"~/.vim/.gitignore"
--'  1  0  ~/.vimrc
-|4,39,1,0,1477681087,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1477681087,"~/.vimrc"
--'  260  0  ~/.vim/autoload/pathogen.vim
-|4,39,260,0,1477680644,"~/.vim/autoload/pathogen.vim"
--'  260  0  ~/.vim/autoload/pathogen.vim
-|4,39,260,0,1477680644,"~/.vim/autoload/pathogen.vim"
--'  260  0  ~/.vim/autoload/pathogen.vim
-|4,39,260,0,1477680644,"~/.vim/autoload/pathogen.vim"
--'  260  0  ~/.vim/autoload/pathogen.vim
-|4,39,260,0,1477680644,"~/.vim/autoload/pathogen.vim"
--'  1  0  ~/.vim/autoload/pathogen.vim
-|4,39,1,0,1477680632,"~/.vim/autoload/pathogen.vim"
--'  1  0  ~/.vim/autoload/pathogen.vim
-|4,39,1,0,1477680632,"~/.vim/autoload/pathogen.vim"
--'  1  0  ~/.vim/autoload/pathogen.vim
-|4,39,1,0,1477680632,"~/.vim/autoload/pathogen.vim"
--'  1  0  ~/.vim/autoload/pathogen.vim
-|4,39,1,0,1477680632,"~/.vim/autoload/pathogen.vim"
--'  8  0  ~/.vim/autoload
-|4,39,8,0,1477680628,"~/.vim/autoload"
--'  8  0  ~/.vim/autoload
-|4,39,8,0,1477680628,"~/.vim/autoload"
--'  8  0  ~/.vim/autoload
-|4,39,8,0,1477680628,"~/.vim/autoload"
--'  8  0  ~/.vim/autoload
-|4,39,8,0,1477680628,"~/.vim/autoload"
--'  8  0  ~/.vim/autoload
-|4,39,8,0,1477680628,"~/.vim/autoload"
--'  8  0  ~/.vim/autoload
-|4,39,8,0,1477680628,"~/.vim/autoload"
--'  8  0  ~/.vim/autoload
-|4,39,8,0,1477680628,"~/.vim/autoload"
--'  8  0  ~/.vim/autoload
-|4,39,8,0,1477680628,"~/.vim/autoload"
--'  2  0  ~/.vimrc
-|4,39,2,0,1477680612,"~/.vimrc"
--'  2  0  ~/.vimrc
-|4,39,2,0,1477680612,"~/.vimrc"
--'  2  0  ~/.vimrc
-|4,39,2,0,1477680612,"~/.vimrc"
--'  2  0  ~/.vimrc
-|4,39,2,0,1477680612,"~/.vimrc"
--'  2  0  ~/.vimrc
-|4,39,2,0,1477680612,"~/.vimrc"
--'  2  0  ~/.vimrc
-|4,39,2,0,1477680612,"~/.vimrc"
--'  2  0  ~/.vimrc
-|4,39,2,0,1477680612,"~/.vimrc"
--'  2  0  ~/.vimrc
-|4,39,2,0,1477680612,"~/.vimrc"
--'  2  0  ~/.vimrc
-|4,39,2,0,1477680612,"~/.vimrc"
--'  2  0  ~/.vimrc
-|4,39,2,0,1477680612,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1477680606,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1477680606,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1477680606,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1477680606,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1477680606,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1477680606,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1477680606,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1477680606,"~/.vimrc"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
--'  1  0  ~/code/hackathon/README.md
-|4,39,1,0,1477679792,"~/code/hackathon/README.md"
+-'  8  24  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
+|4,39,8,24,1480455321,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
+-'  8  24  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
+|4,39,8,24,1480455321,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
+-'  13  25  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
+|4,39,13,25,1480455315,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
+-'  13  25  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
+|4,39,13,25,1480455315,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
+-'  40  42  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
+|4,39,40,42,1480455184,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
+-'  40  42  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
+|4,39,40,42,1480455184,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
+-'  28  3  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
+|4,39,28,3,1480454266,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
+-'  7  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
+|4,39,7,0,1480454266,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
+-'  28  3  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
+|4,39,28,3,1480454266,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
+-'  7  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
+|4,39,7,0,1480454266,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
+-'  27  4  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
+|4,39,27,4,1480454264,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
+-'  27  4  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
+|4,39,27,4,1480454264,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
+-'  22  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
+|4,39,22,0,1480454262,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
+-'  22  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
+|4,39,22,0,1480454262,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
+-'  18  37  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
+|4,39,18,37,1480454261,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
+-'  18  37  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
+|4,39,18,37,1480454261,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
+-'  2  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
+|4,39,2,0,1480454044,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
+-'  2  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
+|4,39,2,0,1480454044,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
+-'  10  0  ~/Documents/graphicsnotes
+|4,39,10,0,1480453544,"~/Documents/graphicsnotes"
+-'  10  0  ~/Documents/graphicsnotes
+|4,39,10,0,1480453544,"~/Documents/graphicsnotes"
+-'  1  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
+|4,39,1,0,1480452537,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
+-'  1  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
+|4,39,1,0,1480452537,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
+-'  4  20  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
+|4,39,4,20,1480451813,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
+-'  4  20  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
+|4,39,4,20,1480451813,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
+-'  7  3  ~/Documents/graphicsnotes
+|4,39,7,3,1480450524,"~/Documents/graphicsnotes"
+-'  7  3  ~/Documents/graphicsnotes
+|4,39,7,3,1480450524,"~/Documents/graphicsnotes"
+-'  1  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
+|4,39,1,0,1480450270,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
+-'  1  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
+|4,39,1,0,1480450270,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
+-'  1  0  ~/Documents/graphicsnotes
+|4,39,1,0,1480450028,"~/Documents/graphicsnotes"
+-'  1  0  ~/Documents/graphicsnotes
+|4,39,1,0,1480450028,"~/Documents/graphicsnotes"
+-'  8  0  ~/Downloads/challenges
+|4,39,8,0,1479535086,"~/Downloads/challenges"
+-'  8  0  ~/Downloads/challenges
+|4,39,8,0,1479535086,"~/Downloads/challenges"
+-'  8  0  ~/Downloads/challenges
+|4,39,8,0,1479535086,"~/Downloads/challenges"
+-'  8  0  ~/Downloads/challenges
+|4,39,8,0,1479535086,"~/Downloads/challenges"
+-'  8  0  ~/Downloads/challenges
+|4,39,8,0,1479535086,"~/Downloads/challenges"
+-'  8  0  ~/Downloads/challenges
+|4,39,8,0,1479535086,"~/Downloads/challenges"
+-'  8  0  ~/Downloads/challenges
+|4,39,8,0,1479535086,"~/Downloads/challenges"
+-'  8  0  ~/Downloads/challenges
+|4,39,8,0,1479535086,"~/Downloads/challenges"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1479527773,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1479527773,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1479527773,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1479527773,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1479527773,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1479527773,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1479527773,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1479527773,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1479527773,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1479527773,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1479527773,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1479527773,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1479527773,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1479527773,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1479527773,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1479527773,"~/.zshrc"
+-'  7  0  ~/.zshrc
+|4,39,7,0,1479527768,"~/.zshrc"
+-'  7  0  ~/.zshrc
+|4,39,7,0,1479527768,"~/.zshrc"
+-'  7  0  ~/.zshrc
+|4,39,7,0,1479527768,"~/.zshrc"
+-'  7  0  ~/.zshrc
+|4,39,7,0,1479527768,"~/.zshrc"
+-'  7  0  ~/.zshrc
+|4,39,7,0,1479527768,"~/.zshrc"
+-'  7  0  ~/.zshrc
+|4,39,7,0,1479527768,"~/.zshrc"
+-'  7  0  ~/.zshrc
+|4,39,7,0,1479527768,"~/.zshrc"
+-'  7  0  ~/.zshrc
+|4,39,7,0,1479527768,"~/.zshrc"
+-'  7  0  ~/.zshrc
+|4,39,7,0,1479527768,"~/.zshrc"
+-'  7  0  ~/.zshrc
+|4,39,7,0,1479527768,"~/.zshrc"
+-'  7  0  ~/.zshrc
+|4,39,7,0,1479527768,"~/.zshrc"
+-'  7  0  ~/.zshrc
+|4,39,7,0,1479527768,"~/.zshrc"
+-'  7  0  ~/.zshrc
+|4,39,7,0,1479527768,"~/.zshrc"
+-'  7  0  ~/.zshrc
+|4,39,7,0,1479527768,"~/.zshrc"
+-'  7  0  ~/.zshrc
+|4,39,7,0,1479527768,"~/.zshrc"
+-'  7  0  ~/.zshrc
+|4,39,7,0,1479527768,"~/.zshrc"
+-'  7  0  ~/.zshrc
+|4,39,7,0,1479527768,"~/.zshrc"
+-'  7  0  ~/.zshrc
+|4,39,7,0,1479527768,"~/.zshrc"
+-'  7  0  ~/.zshrc
+|4,39,7,0,1479527768,"~/.zshrc"
+-'  7  0  ~/.zshrc
+|4,39,7,0,1479527768,"~/.zshrc"
+-'  7  0  ~/.zshrc
+|4,39,7,0,1479527768,"~/.zshrc"
+-'  7  0  ~/.zshrc
+|4,39,7,0,1479527768,"~/.zshrc"
+-'  7  0  ~/.zshrc
+|4,39,7,0,1479527768,"~/.zshrc"
+-'  7  0  ~/.zshrc
+|4,39,7,0,1479527768,"~/.zshrc"
+-'  7  0  ~/.zshrc
+|4,39,7,0,1479527768,"~/.zshrc"
+-'  7  0  ~/.zshrc
+|4,39,7,0,1479527768,"~/.zshrc"
+-'  7  0  ~/.zshrc
+|4,39,7,0,1479527768,"~/.zshrc"
+-'  7  0  ~/.zshrc
+|4,39,7,0,1479527768,"~/.zshrc"
+-'  7  0  ~/.zshrc
+|4,39,7,0,1479527768,"~/.zshrc"
+-'  7  0  ~/.zshrc
+|4,39,7,0,1479527768,"~/.zshrc"
+-'  7  0  ~/.zshrc
+|4,39,7,0,1479527768,"~/.zshrc"
+-'  7  0  ~/.zshrc
+|4,39,7,0,1479527768,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1479527765,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1479527765,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1479527765,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1479527765,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1479527765,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1479527765,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1479527765,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1479527765,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1479527765,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1479527765,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1479527765,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1479527765,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1479527765,"~/.zshrc"
 
 # History of marks within files (newest to oldest):
+
+> ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
+	*	1480455315	0
+	"	13	25
+	^	29	76
+	.	29	75
+	+	30	0
+	+	30	4
+	+	13	11
+	+	11	23
+	+	12	23
+	+	13	24
+	+	11	11
+	+	12	11
+	+	13	11
+	+	10	0
+	+	9	16
+	+	11	7
+	+	12	7
+	+	13	7
+	+	6	27
+	+	7	0
+	+	20	23
+	+	21	27
+	+	30	0
+	+	18	24
+	+	7	0
+	+	28	3
+	+	27	4
+	+	26	31
+	+	23	43
+	+	4	30
+	+	19	0
+	+	14	33
+	+	7	13
+	+	14	0
+	+	29	17
+	+	7	0
+	+	29	18
+	+	29	37
+	+	29	18
+	+	29	37
+	+	29	75
+
+> ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
+	*	1480455196	0
+	"	8	24
+	^	8	25
+	.	8	24
+	+	2	11
+	+	2	21
+	+	2	29
+	+	4	0
+	+	2	0
+	+	2	7
+	+	2	8
+	+	2	21
+	+	2	58
+	+	4	21
+	+	4	0
+	+	16	24
+	+	16	0
+	+	12	25
+	+	16	22
+	+	7	37
+	+	7	38
+	+	4	35
+	+	4	36
+	+	12	38
+	+	7	41
+	+	4	38
+	+	12	36
+	+	12	0
+	+	14	10
+	+	16	0
+	+	15	0
+	+	16	0
+	+	12	10
+	+	4	39
+	+	4	14
+	+	42	7
+	+	4	15
+	+	7	15
+	+	12	15
+	+	42	49
+	+	14	25
+	+	15	14
+	+	15	33
+	+	42	33
+	+	42	18
+	+	42	28
+	+	42	41
+	+	7	41
+	+	42	47
+	+	42	30
+	+	42	31
+	+	42	0
+	+	42	30
+	+	42	25
+	+	42	0
+	+	42	37
+	+	4	35
+	+	7	36
+	+	12	35
+	+	14	9
+	+	15	10
+	+	15	0
+	+	13	0
+	+	15	36
+	+	4	13
+	+	5	32
+	+	4	37
+	+	6	78
+	+	7	0
+	+	6	0
+	+	5	0
+	+	12	0
+	+	7	14
+	+	10	62
+	+	12	9
+	+	42	0
+	+	22	26
+	+	24	55
+	+	28	38
+	+	31	49
+	+	30	30
+	+	34	35
+	+	33	0
+	+	42	40
+	+	31	44
+	+	42	0
+	+	32	0
+	+	36	32
+	+	41	24
+	+	38	19
+	+	42	0
+	+	4	0
+	+	2	0
+	+	16	48
+	+	40	42
+	+	16	0
+	+	8	24
+
+> ~/Documents/graphicsnotes
+	*	1480452505	0
+	"	10	0
+	^	10	0
+	.	9	55
+	+	1	0
+	+	6	22
+	+	5	6
+	+	6	87
+	+	6	36
+	+	7	3
+	+	2	31
+	+	1	0
+	+	3	0
+	+	4	0
+	+	9	55
+
+> ~/.vimrc
+	*	1480450702	0
+	"	102	5
+	^	90	38
+	.	99	0
+	+	69	0
+	+	75	0
+	+	75	16
+	+	75	0
+	+	77	8
+	+	111	11
+	+	113	6
+	+	115	0
+	+	112	0
+	+	113	19
+	+	77	18
+	+	78	0
+	+	79	0
+	+	83	11
+	+	88	0
+	+	104	0
+	+	106	0
+	+	106	13
+	+	113	19
+	+	114	0
+	+	106	20
+	+	101	16
+	+	80	0
+	+	104	0
+	+	77	16
+	+	71	11
+	+	72	11
+	+	47	22
+	+	48	0
+	+	46	0
+	+	128	0
+	+	129	15
+	+	131	29
+	+	132	44
+	+	133	17
+	+	134	0
+	+	142	31
+	+	130	41
+	+	136	0
+	+	142	31
+	+	140	0
+	+	139	37
+	+	138	0
+	+	135	32
+	+	141	0
+	+	126	0
+	+	122	45
+	+	125	10
+	+	122	10
+	+	143	0
+	+	123	106
+	+	124	0
+	+	124	51
+	+	92	12
+	+	94	0
+	+	96	19
+	+	95	20
+	+	94	0
+	+	98	10
+	+	94	39
+	+	93	21
+	+	96	0
+	+	95	29
+	+	97	0
+	+	96	30
+	+	95	30
+	+	96	30
+	+	97	30
+	+	76	9
+	+	99	7
+	+	99	0
+	+	99	11
+	+	99	0
+	+	99	24
+	+	99	10
+	+	94	0
+	+	104	0
+	+	100	0
+	+	99	45
+	+	91	13
+	+	99	0
+	+	91	0
+	+	91	49
+	+	91	0
+	+	99	0
+	+	98	0
+	+	93	0
+	+	99	0
+	+	99	22
+	+	97	24
+	+	93	0
+	+	99	0
+	+	90	37
+	+	99	0
+
+> ~/.zshrc
+	*	1479527772	0
+	"	1	0
+	.	7	0
+	+	19	0
+	+	17	0
+	+	18	18
+	+	36	33
+	+	40	17
+	+	49	24
+	+	49	0
+	+	9	0
+	+	13	9
+	+	11	31
+	+	10	18
+	+	17	0
+	+	12	30
+	+	13	0
+	+	16	22
+	+	50	42
+	+	51	8
+	+	50	71
+	+	54	11
+	+	53	57
+	+	64	16
+	+	63	26
+	+	64	36
+	+	65	25
+	+	62	15
+	+	66	33
+	+	35	34
+	+	35	0
+	+	35	36
+	+	35	24
+	+	35	0
+	+	35	3
+	+	35	0
+	+	35	72
+	+	35	40
+	+	35	53
+	+	36	36
+	+	36	27
+	+	35	0
+	+	16	44
+	+	71	0
+	+	71	49
+	+	35	0
+	+	36	0
+	+	13	86
+	+	35	0
+	+	46	24
+	+	47	12
+	+	58	13
+	+	5	15
+	+	6	12
+	+	5	17
+	+	6	16
+	+	5	0
+	+	6	5
+	+	4	21
+	+	5	11
+	+	6	0
+	+	4	22
+	+	49	0
+	+	7	0
+	+	8	0
+	+	34	18
+	+	33	51
+	+	23	52
+	+	24	19
+	+	34	15
+	+	32	0
+	+	26	37
+	+	24	24
+	+	27	22
+	+	28	23
+	+	31	24
+	+	56	50
+	+	59	9
+	+	41	12
+	+	36	0
+	+	35	0
+	+	36	0
+	+	37	19
+	+	43	71
+	+	45	13
+	+	71	0
+	+	44	0
+	+	73	32
+	+	74	40
+	+	6	0
+	+	7	0
+
+> ~/.radare2rc
+	*	1479506208	0
+	"	2	19
+	^	2	20
+	.	1	35
+	+	5	12
+	+	8	16
+	+	7	21
+	+	4	15
+	+	1	18
+	+	2	0
+	+	1	35
+
+> ~/code/bomblab/bombs/bomb1069/solutions.txt
+	*	1479505530	0
+	"	3	0
+	^	3	5
+	.	3	0
+	+	1	13
+	+	2	8
+	+	6	3
+	+	2	10
+	+	4	0
+	+	3	0
+
+> ~/code/bomblab/bombs/bomb1069/r2config
+	*	1479503221	0
+	"	4	0
+	^	1	3
+	.	2	0
+	+	3	18
+	+	4	13
+	+	5	13
+	+	1	2
+	+	2	0
+
+> ~/code/hackRPI/client_web/imports/ui/App.jsx
+	*	1479066689	0
+	"	6	0
+	^	7	2
+	.	7	0
+	+	52	32
+	+	52	39
+	+	52	8
+	+	52	26
+	+	52	56
+	+	52	32
+	+	52	50
+	+	72	45
+	+	59	76
+	+	35	0
+	+	52	37
+	+	52	55
+	+	52	8
+	+	52	26
+	+	52	25
+	+	52	37
+	+	52	38
+	+	52	21
+	+	52	19
+	+	52	0
+	+	52	17
+	+	52	0
+	+	52	8
+	+	52	0
+	+	35	0
+	+	52	0
+	+	35	53
+	+	37	8
+	+	36	31
+	+	35	67
+	+	36	27
+	+	55	42
+	+	18	26
+	+	39	31
+	+	41	18
+	+	46	0
+	+	51	0
+	+	48	33
+	+	52	0
+	+	35	40
+	+	35	30
+	+	37	0
+	+	35	0
+	+	40	20
+	+	41	29
+	+	48	0
+	+	48	30
+	+	35	0
+	+	23	0
+	+	41	0
+	+	40	29
+	+	23	0
+	+	27	40
+	+	29	0
+	+	31	21
+	+	27	12
+	+	35	30
+	+	57	19
+	+	40	47
+	+	46	46
+	+	47	0
+	+	50	0
+	+	47	0
+	+	48	0
+	+	49	0
+	+	48	0
+	+	19	23
+	+	32	31
+	+	28	50
+	+	32	33
+	+	31	29
+	+	46	0
+	+	45	54
+	+	47	0
+	+	48	0
+	+	49	0
+	+	56	27
+	+	35	58
+	+	17	34
+	+	7	21
+	+	35	61
+	+	17	34
+	+	7	20
+	+	6	1
+	+	7	0
+	+	6	0
+	+	7	0
+	+	6	0
+	+	7	0
+	+	6	0
+	+	7	0
+	+	6	0
+	+	7	0
+	+	6	0
+	+	7	0
+	+	6	0
+	+	7	0
+	+	17	35
+	+	6	0
+	+	7	0
+
+> /usr/share/vim/vim80/doc/repeat.txt
+	*	1479066688	0
+	"	179	34
+
+> ~/code/hackRPI/client_web/imports/ui/CtrlButton.jsx
+	*	1479059577	0
+	"	101	37
+	^	101	38
+	.	101	37
+	+	57	0
+	+	56	0
+	+	94	0
+	+	119	0
+	+	125	0
+	+	7	0
+	+	106	32
+	+	107	18
+	+	108	18
+	+	115	43
+	+	116	41
+	+	115	18
+	+	116	18
+	+	129	19
+	+	52	0
+	+	53	0
+	+	4	36
+	+	48	5
+	+	54	1
+	+	5	33
+	+	4	0
+	+	57	0
+	+	128	7
+	+	129	7
+	+	128	30
+	+	129	0
+	+	128	31
+	+	41	18
+	+	42	8
+	+	43	8
+	+	34	33
+	+	29	31
+	+	65	37
+	+	101	37
+
+> ~/code/hackRPI/client_web/imports/ui/Controller.jsx
+	*	1479056652	0
+	"	18	4
+	^	49	19
+	.	49	18
+	+	41	18
+	+	38	0
+	+	38	32
+	+	9	74
+	+	11	0
+	+	38	10
+	+	38	11
+	+	38	23
+	+	38	20
+	+	38	21
+	+	38	25
+	+	38	0
+	+	38	33
+	+	38	36
+	+	38	28
+	+	38	0
+	+	38	18
+	+	38	35
+	+	38	0
+	+	38	15
+	+	38	35
+	+	38	95
+	+	38	20
+	+	38	0
+	+	38	93
+	+	38	0
+	+	38	23
+	+	38	24
+	+	13	18
+	+	15	49
+	+	18	4
+	+	20	16
+	+	9	56
+	+	20	24
+	+	37	0
+	+	20	27
+	+	15	49
+	+	24	99
+	+	25	8
+	+	38	0
+	+	36	4
+	+	44	37
+	+	47	9
+	+	50	4
+	+	51	0
+	+	53	25
+	+	43	19
+	+	45	0
+	+	24	102
+	+	22	16
+	+	8	20
+	+	44	33
+	+	14	28
+	+	14	29
+	+	17	14
+	+	15	11
+	+	17	17
+	+	15	45
+	+	29	51
+	+	29	8
+	+	22	22
+	+	4	39
+	+	24	91
+	+	10	43
+	+	24	0
+	+	25	0
+	+	24	66
+	+	26	47
+	+	5	31
+	+	29	0
+	+	32	0
+	+	31	0
+	+	33	8
+	+	29	35
+	+	21	15
+	+	35	41
+	+	32	47
+	+	24	14
+	+	24	105
+	+	28	0
+	+	29	0
+	+	28	113
+	+	28	106
+	+	28	16
+	+	24	17
+	+	4	28
+	+	5	30
+	+	41	18
+	+	4	7
+	+	5	0
+	+	4	29
+	+	17	28
+	+	40	40
+	+	44	23
+	+	28	112
+	+	24	104
+	+	41	17
+	+	41	18
+	+	42	0
+	+	49	18
+
+> ~/code/hackRPI/client_web/imports/ui/MouseButton.jsx
+	*	1479051882	0
+	"	53	0
+	.	8	0
+	+	1	0
+	+	6	10
+	+	6	43
+	+	6	38
+	+	6	41
+	+	6	47
+	+	6	104
+	+	6	14
+	+	6	19
+	+	6	39
+	+	6	9
+	+	6	42
+	+	6	49
+	+	6	0
+	+	6	17
+	+	6	12
+	+	6	24
+	+	6	41
+	+	6	24
+	+	6	4
+	+	6	22
+	+	6	29
+	+	6	10
+	+	6	18
+	+	6	0
+	+	6	4
+	+	6	0
+	+	6	21
+	+	6	0
+	+	6	10
+	+	6	0
+	+	6	30
+	+	6	0
+	+	6	21
+	+	6	10
+	+	6	12
+	+	6	0
+	+	7	0
+	+	6	0
+	+	8	0
+
+> ~/code/hackRPI/client_web/imports/ui/ControlButton.jsx
+	*	1479050497	0
+	"	12	28
+	^	7	29
+	.	7	28
+	+	1	25
+	+	2	25
+	+	4	0
+	+	5	0
+	+	6	9
+	+	9	0
+	+	65	0
+	+	62	22
+	+	7	28
+
+> ~/code/hackRPI/client_web/imports/ui/KeyButton.jsx
+	*	1479047494	0
+	"	60	0
+	^	58	21
+	.	58	20
+	+	64	35
+	+	42	12
+	+	42	16
+	+	64	56
+	+	42	35
+	+	42	39
+	+	42	22
+	+	44	16
+	+	49	13
+	+	64	97
+	+	9	56
+	+	9	41
+	+	64	74
+	+	49	9
+	+	42	12
+	+	64	73
+	+	36	0
+	+	35	24
+	+	35	0
+	+	35	1
+	+	35	6
+	+	35	0
+	+	14	0
+	+	64	85
+	+	35	0
+	+	9	0
+	+	37	56
+	+	42	12
+	+	37	50
+	+	42	30
+	+	2	25
+	+	37	44
+	+	37	21
+	+	38	40
+	+	39	12
+	+	38	0
+	+	39	44
+	+	41	9
+	+	42	12
+	+	41	9
+	+	44	17
+	+	49	9
+	+	47	26
+	+	48	43
+	+	47	28
+	+	4	0
+	+	9	0
+	+	65	0
+	+	64	85
+	+	71	0
+	+	39	0
+	+	42	20
+	+	42	12
+	+	42	13
+	+	42	39
+	+	37	21
+	+	38	0
+	+	39	0
+	+	40	0
+	+	41	0
+	+	42	12
+	+	42	20
+	+	42	12
+	+	39	47
+	+	64	105
+	+	48	41
+	+	15	0
+	+	38	0
+	+	37	21
+	+	41	14
+	+	43	0
+	+	42	0
+	+	45	0
+	+	46	0
+	+	61	0
+	+	60	0
+	+	48	15
+	+	47	15
+	+	40	19
+	+	39	19
+	+	35	0
+	+	37	12
+	+	45	12
+	+	9	56
+	+	1	0
+	+	9	0
+	+	44	19
+	+	36	21
+	+	54	31
+	+	55	29
+	+	56	29
+	+	59	4
+	+	58	20
+
+> ~/code/hackRPI/client_web/client/Controller.jsx
+	*	1478999681	0
+	"	1	11
+	^	1	12
+	.	1	11
+	+	1	11
+
+> ~/code/hackRPI/client_web/client/main.jsx
+	*	1478996881	0
+	"	4	0
+	^	9	3
+	.	1	0
+	+	1	18
+	+	9	0
+	+	1	0
+
+> ~/code/hackRPI/client_web/imports/ui/KeyboardButton.jsx
+	*	1478993268	0
+	"	1	0
+	^	16	48
+	.	16	47
+	+	1	0
+	+	31	0
+	+	3	39
+	+	22	0
+	+	7	0
+	+	21	0
+	+	7	0
+	+	23	24
+	+	24	5
+	+	29	1
+	+	24	0
+	+	7	29
+	+	1	12
+	+	19	0
+	+	15	16
+	+	16	0
+	+	19	0
+	+	17	46
+	+	18	17
+	+	12	0
+	+	11	4
+	+	4	33
+	+	17	67
+	+	16	47
+
+> ~/code/hackRPI/client_web/client/App.jsx
+	*	1478989039	0
+	"	32	0
+	^	34	1
+	.	34	0
+	+	1	29
+	+	1	41
+	+	1	130
+	+	1	0
+	+	1	41
+	+	34	0
+
+> ~/code/hackRPI/client_web/client/Task.jsx
+	*	1478989039	0
+	"	5	0
+	^	16	2
+	.	16	2
+	+	1	24
+	+	1	0
+	+	1	52
+	+	1	29
+	+	1	0
+	+	1	52
+	+	16	2
+
+> ~/code/hackRPI/client_web/client/KeyboardButton.jsx
+	*	1478989038	0
+	"	16	0
+	^	16	2
+	.	16	1
+	+	3	26
+	+	6	15
+	+	7	26
+	+	15	0
+	+	9	0
+	+	15	4
+	+	8	0
+	+	9	0
+	+	8	0
+	+	7	29
+	+	12	27
+	+	4	23
+	+	7	40
+	+	13	11
+	+	15	0
+	+	10	0
+	+	12	0
+	+	13	37
+	+	14	1
+	+	1	1
+	+	15	0
+	+	1	0
+	+	4	0
+	+	1	1
+	+	16	1
+
+> ~/code/hackRPI/client_web/client/main.html
+	*	1478989020	0
+	"	7	0
+	^	7	7
+	.	7	6
+	+	1	6
+	+	2	10
+	+	1	0
+	+	2	3
+	+	7	6
+
+> ~/code/hackRPI/client_web/client/main.css
+	*	1478988938	0
+	"	1	0
+	.	1	0
+	+	1	30
+	+	1	1
+	+	1	0
+
+> ~/code/hackRPI/client_web/client/KeyboardButton
+	*	1478985518	0
+	"	1	13
+	^	1	14
+	.	1	13
+	+	1	13
+
+> ~/code/hackRPI/client_web/client/main.js
+	*	1478984552	0
+	"	25	34
+	^	25	35
+	.	25	34
+	+	25	51
+	+	24	4
+	+	23	13
+	+	25	34
+
+> /etc/wpa_supplicant/example.conf
+	*	1478975952	0
+	"	2	14
+	^	2	15
+	.	2	14
+	+	2	14
+	+	3	0
+	+	2	14
+
+> /etc/wpa_supplicant/rpi2.conf
+	*	1478975320	0
+	"	1	0
+	^	3	0
+	.	2	15
+	+	2	15
+
+> /home/jchenry/.config/wpa_supplicant/rpi_wireless
+	*	1478974507	0
+	"	11	13
+	^	6	14
+	.	6	14
+	+	2	0
+	+	1	8
+	+	2	16
+	+	4	13
+	+	5	17
+	+	6	14
+
+> ~/.config/wpa_supplicant/rpi_wireless
+	*	1478974433	0
+	"	6	3
+	^	4	14
+	.	4	13
+	+	6	3
+	+	4	13
+
+> ~/.config/wpa_supplicant/pi_wireless
+	*	1478974085	0
+	"	1	0
+
+> ~/.config/wpa_supplicant/wpi_wireless
+	*	1478974080	0
+	"	1	0
+
+> ~/rpi_cnct_cmds.txt
+	*	1478973936	0
+	"	2	73
+	^	2	85
+	.	2	73
+	+	2	73
+
+> /home/jchenry/.config/wpa_supplicant/wpi_wireless
+	*	1478973779	0
+	"	3	0
+
+> ~/home_cnct_cmds.txt
+	*	1478973699	0
+	"	1	0
+
+> /etc/wpa_supplicant/rpi.conf
+	*	1478973469	0
+	"	7	23
+	^	7	24
+	.	7	23
+	+	6	26
+	+	7	23
+
+> /etc/pacman.conf
+	*	1478925867	0
+	"	100	13
+
+> /etc/pacman.d/mirrorlist
+	*	1478925839	0
+	"	1	0
+
+> ~/code/waitonbot/sortedfamilytree.txt
+	*	1478534128	0
+	"	610	0
+	^	748	15
+
+> ~/code/waitonbot/famtree_sorted.txt
+	*	1478533986	0
+	"	752	0
+	^	730	0
+	.	729	19
+	+	731	0
+	+	729	19
+
+> ~/Downloads/sortscrolls.py
+	*	1478533873	0
+	"	4	35
+	^	16	34
+	.	4	35
+	+	3	30
+	+	4	38
+	+	5	0
+	+	11	12
+	+	4	26
+	+	12	25
+	+	23	0
+	+	6	10
+	+	14	74
+	+	18	73
+	+	22	61
+	+	18	28
+	+	18	60
+	+	9	14
+	+	4	28
+	+	12	32
+	+	11	34
+	+	10	12
+	+	11	0
+	+	14	22
+	+	8	22
+	+	9	0
+	+	4	28
+	+	14	22
+	+	14	58
+	+	15	14
+	+	16	33
+	+	23	0
+	+	4	35
+
+> ~/Downloads/familytree.txt
+	*	1478533812	0
+	"	609	13
+	^	51	0
+	.	20	0
+	+	87	0
+	+	1	0
+	+	778	0
+	+	627	0
+	+	559	0
+	+	286	0
+	+	2	0
+	+	3	0
+	+	4	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	51	0
+	+	20	0
+
+> ~/code/crypt/datalab/bits.c
+	*	1478120602	0
+	"	373	37
+	^	373	38
+	.	373	37
+	+	320	11
+	+	325	13
+	+	329	19
+	+	354	18
+	+	354	15
+	+	322	31
+	+	320	71
+	+	354	16
+	+	354	4
+	+	354	8
+	+	354	0
+	+	354	24
+	+	354	0
+	+	354	13
+	+	354	17
+	+	319	30
+	+	354	13
+	+	354	29
+	+	359	0
+	+	378	34
+	+	366	25
+	+	378	22
+	+	379	24
+	+	381	37
+	+	320	47
+	+	358	48
+	+	326	0
+	+	354	0
+	+	355	15
+	+	360	12
+	+	354	23
+	+	320	17
+	+	320	26
+	+	334	0
+	+	333	74
+	+	354	0
+	+	354	5
+	+	354	0
+	+	336	5
+	+	338	74
+	+	358	28
+	+	381	16
+	+	330	20
+	+	320	0
+	+	348	8
+	+	338	26
+	+	365	0
+	+	333	39
+	+	338	28
+	+	333	28
+	+	1	17
+	+	325	11
+	+	355	0
+	+	362	0
+	+	363	0
+	+	364	0
+	+	363	15
+	+	364	44
+	+	363	31
+	+	379	30
+	+	364	25
+	+	378	0
+	+	367	19
+	+	367	15
+	+	368	16
+	+	378	27
+	+	377	0
+	+	367	15
+	+	368	0
+	+	367	7
+	+	368	0
+	+	376	37
+	+	367	12
+	+	322	17
+	+	378	0
+	+	376	38
+	+	367	14
+	+	322	16
+	+	357	20
+	+	367	13
+	+	376	34
+	+	370	4
+	+	376	0
+	+	371	23
+	+	323	15
+	+	373	38
+	+	376	0
+	+	373	29
+	+	372	37
+	+	373	34
+	+	374	39
+	+	375	43
+	+	327	0
+	+	326	11
+	+	374	26
+	+	375	29
+	+	373	37
+
+> ~/code/crypt/datalab/btest.c
+	*	1478117311	0
+	"	459	2
+
+> ~/code/rust/histogrammer/src/main.rs
+	*	1478033643	0
+	"	10	21
+	^	10	24
+	.	10	21
+	+	1	17
+	+	35	0
+	+	17	44
+	+	16	11
+	+	17	45
+	+	35	0
+	+	17	0
+	+	21	6
+	+	20	19
+	+	21	38
+	+	17	41
+	+	17	0
+	+	18	0
+	+	17	15
+	+	16	12
+	+	15	5
+	+	21	0
+	+	19	18
+	+	17	8
+	+	35	0
+	+	22	19
+	+	20	8
+	+	22	28
+	+	16	36
+	+	2	15
+	+	22	35
+	+	35	0
+	+	19	27
+	+	24	28
+	+	35	0
+	+	4	0
+	+	23	0
+	+	35	0
+	+	4	11
+	+	4	0
+	+	4	37
+	+	4	161
+	+	35	4
+	+	4	22
+	+	4	162
+	+	28	21
+	+	35	0
+	+	34	0
+	+	35	0
+	+	27	38
+	+	37	58
+	+	45	0
+	+	10	28
+	+	11	0
+	+	10	28
+	+	9	59
+	+	37	32
+	+	45	21
+	+	39	31
+	+	40	31
+	+	45	29
+	+	45	0
+	+	41	12
+	+	40	36
+	+	44	0
+	+	45	0
+	+	43	12
+	+	42	15
+	+	40	9
+	+	43	35
+	+	42	52
+	+	43	19
+	+	42	52
+	+	43	49
+	+	10	21
+
+> ~/code/rust/histogrammer/Cargo.toml
+	*	1478030663	0
+	"	4	0
+
+> ~/code/rust/guessing_tut/src/main.rs
+	*	1477687887	0
+	"	23	20
+	^	23	21
+	.	23	20
+	+	3	11
+	+	9	0
+	+	28	0
+	+	15	37
+	+	17	33
+	+	19	67
+	+	21	38
+	+	28	4
+	+	28	37
+	+	21	38
+	+	28	0
+	+	1	17
+	+	12	0
+	+	11	74
+	+	13	53
+	+	14	0
+	+	5	13
+	+	24	49
+	+	25	0
+	+	26	22
+	+	25	24
+	+	24	27
+	+	25	27
+	+	26	47
+	+	25	47
+	+	27	5
+	+	28	0
+	+	27	5
+	+	6	0
+	+	4	22
+	+	23	20
+
+> ~/code/rust/guessing_tut/Cargo.toml
+	*	1477685791	0
+	"	8	11
+	^	8	12
+	.	8	11
+	+	8	11
+
+> ~/code/rust/guessing_tut/src/main
+	*	1477684669	0
+	"	1	0
+
+> ~/code/rust/guessing_tut/Cargo.lock
+	*	1477682512	0
+	"	1	0
 
 > ~/.vim/.gitignore
 	*	1477681277	0
@@ -509,92 +1834,6 @@ $
 > ~/.vim/autoload/pathogen.vim
 	*	1477680643	0
 	"	260	0
-
-> ~/.vimrc
-	*	1477680607	0
-	"	2	0
-	.	46	0
-	+	22	18
-	+	76	18
-	+	54	1
-	+	20	0
-	+	2	0
-	+	9	0
-	+	68	0
-	+	54	39
-	+	55	26
-	+	52	0
-	+	1	0
-	+	55	0
-	+	57	12
-	+	60	14
-	+	61	0
-	+	64	18
-	+	66	6
-	+	67	0
-	+	64	0
-	+	68	0
-	+	61	48
-	+	65	32
-	+	67	0
-	+	61	40
-	+	64	0
-	+	67	0
-	+	64	0
-	+	65	0
-	+	66	0
-	+	67	0
-	+	61	1
-	+	68	0
-	+	69	37
-	+	75	0
-	+	70	11
-	+	74	7
-	+	71	11
-	+	72	11
-	+	73	16
-	+	69	57
-	+	61	0
-	+	62	67
-	+	45	20
-	+	47	0
-	+	44	0
-	+	78	0
-	+	79	73
-	+	80	61
-	+	66	0
-	+	73	0
-	+	72	0
-	+	69	0
-	+	75	0
-	+	75	16
-	+	75	0
-	+	77	8
-	+	101	11
-	+	103	6
-	+	105	0
-	+	102	0
-	+	103	19
-	+	77	18
-	+	78	0
-	+	79	0
-	+	83	11
-	+	88	0
-	+	94	0
-	+	96	0
-	+	96	13
-	+	103	19
-	+	104	0
-	+	96	20
-	+	90	16
-	+	80	0
-	+	93	0
-	+	77	16
-	+	71	11
-	+	72	11
-	+	47	22
-	+	48	0
-	+	46	0
 
 > ~/code/hackathon/README.md
 	*	1477679791	0
@@ -819,70 +2058,12 @@ $
 	*	1477270142	0
 	"	1	0
 
-> ~/code/waitonbot/sortedfamilytree.txt
-	*	1477269026	0
-	"	724	15
-
 > ~/Downloads/a.txt
 	*	1477267341	0
 	"	15	0
 	^	2	0
 	.	2	0
 	+	2	0
-
-> ~/Downloads/sortscrolls.py
-	*	1477266560	0
-	"	22	4
-	^	16	34
-	.	23	0
-	+	3	30
-	+	4	38
-	+	5	0
-	+	11	12
-	+	4	26
-	+	12	25
-	+	23	0
-	+	6	10
-	+	14	74
-	+	18	73
-	+	22	61
-	+	18	28
-	+	18	60
-	+	9	14
-	+	4	28
-	+	12	32
-	+	11	34
-	+	10	12
-	+	11	0
-	+	14	22
-	+	8	22
-	+	9	0
-	+	4	28
-	+	14	22
-	+	14	58
-	+	15	14
-	+	16	33
-	+	23	0
-
-> ~/Downloads/familytree.txt
-	*	1477266558	0
-	"	559	8
-	^	51	0
-	.	20	0
-	+	87	0
-	+	1	0
-	+	778	0
-	+	627	0
-	+	559	0
-	+	286	0
-	+	2	0
-	+	3	0
-	+	4	0
-	+	5	0
-	+	6	0
-	+	7	0
-	+	51	0
-	+	20	0
 
 > ~/Downloads/sortscrolls
 	*	1477265449	0
@@ -979,95 +2160,6 @@ $
 > ~/connect_cmds.txt
 	*	1477160769	0
 	"	3	0
-
-> ~/.zshrc
-	*	1477160744	0
-	"	70	0
-	.	44	0
-	+	19	0
-	+	17	0
-	+	18	18
-	+	36	33
-	+	40	17
-	+	49	24
-	+	49	0
-	+	9	0
-	+	13	9
-	+	11	31
-	+	10	18
-	+	17	0
-	+	12	30
-	+	13	0
-	+	16	22
-	+	50	42
-	+	51	8
-	+	50	71
-	+	54	11
-	+	53	57
-	+	64	16
-	+	63	26
-	+	64	36
-	+	65	25
-	+	62	15
-	+	66	33
-	+	35	34
-	+	35	0
-	+	35	36
-	+	35	24
-	+	35	0
-	+	35	3
-	+	35	0
-	+	35	72
-	+	35	40
-	+	35	53
-	+	36	36
-	+	36	27
-	+	35	0
-	+	16	44
-	+	71	0
-	+	71	49
-	+	35	0
-	+	36	0
-	+	13	86
-	+	35	0
-	+	46	24
-	+	47	12
-	+	58	13
-	+	5	15
-	+	6	12
-	+	5	17
-	+	6	16
-	+	5	0
-	+	6	5
-	+	4	21
-	+	5	11
-	+	6	0
-	+	4	22
-	+	49	0
-	+	7	0
-	+	8	0
-	+	34	18
-	+	33	51
-	+	23	52
-	+	24	19
-	+	34	15
-	+	32	0
-	+	26	37
-	+	24	24
-	+	27	22
-	+	28	23
-	+	31	24
-	+	56	50
-	+	59	9
-	+	41	12
-	+	36	0
-	+	35	0
-	+	36	0
-	+	37	19
-	+	43	71
-	+	45	13
-	+	71	0
-	+	44	0
 
 > ~/.zshenv
 	*	1477116034	0
