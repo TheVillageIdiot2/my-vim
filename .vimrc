@@ -68,12 +68,13 @@ nnoremap <silent><leader>t vi(:s/ \+/ /g<cr>vi(:Tab/,/r0l0l0l0l0l0l0<cr>:noh<cr>
 
 "Quick navigation to start/end of line, top/bottom of page
 nnoremap H ^
-nnoremap J L
-nnoremap K H
+nnoremap J <C-D>
+nnoremap K <C-U>
 nnoremap L A<esc>
-        
 
-"PEr file
+"Save cursor position
+
+"Filetype specific stuff
 augroup cplusplus
     autocmd!
     autocmd BufNewFile,BufRead *.tpp set filetype=cpp "Alias tpp to be cpp

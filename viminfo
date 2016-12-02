@@ -20,12 +20,12 @@
 $
 
 # Command Line History (newest to oldest):
+:wq
+|2,0,1480638123,,"wq"
+:w
+|2,0,1480637943,,"w"
 :q
 |2,0,1480637172,,"q"
-:wq
-|2,0,1480455320,,"wq"
-:w
-|2,0,1480455196,,"w"
 :e
 |2,0,1480450721,,"e"
 :SyntasticCheck
@@ -235,38 +235,37 @@ $
 	uniform mat4 current_transform_matrix;
 |3,0,0,1,2,0,1480455231,"uniform mat4 projection_matrix;","uniform mat4 current_transform_matrix;"
 ""1	LINE	0
-	uniform vec4 
-|3,1,1,1,1,0,1480455229,"uniform vec4 "
+	        
+|3,1,1,1,1,0,1480637802,"        "
 "2	LINE	0
-	out interpolatedColor; //Out color
-|3,0,2,1,1,0,1480455199,"out interpolatedColor; //Out color"
+	uniform vec4 
+|3,0,2,1,1,0,1480455229,"uniform vec4 "
 "3	LINE	0
-	*/
-|3,0,3,1,1,0,1480454046,"*/"
+	out interpolatedColor; //Out color
+|3,0,3,1,1,0,1480455199,"out interpolatedColor; //Out color"
 "4	LINE	0
+	*/
+|3,0,4,1,1,0,1480454046,"*/"
+"5	LINE	0
 	I = diffuse + specular + ambient
 	I = Kd * Id * cos(theta) + 
-|3,0,4,1,2,0,1480454046,"I = diffuse + specular + ambient","I = Kd * Id * cos(theta) + "
-"5	LINE	0
+|3,0,5,1,2,0,1480454046,"I = diffuse + specular + ambient","I = Kd * Id * cos(theta) + "
+"6	LINE	0
 	mbient:
 	
-|3,0,5,1,2,0,1480454045,"mbient:",""
-"6	LINE	0
+|3,0,6,1,2,0,1480454045,"mbient:",""
+"7	LINE	0
 	
 	//Per primitive
-|3,0,6,1,2,0,1480454043,"","//Per primitive"
-"7	LINE	0
+|3,0,7,1,2,0,1480454043,"","//Per primitive"
+"8	LINE	0
 	I = Kd * Id * cos(theta) + 
 	*/
-|3,0,7,1,2,0,1480454042,"I = Kd * Id * cos(theta) + ","*/"
-"8	LINE	0
+|3,0,8,1,2,0,1480454042,"I = Kd * Id * cos(theta) + ","*/"
+"9	LINE	0
 	
 	I = diffuse + specular + ambient
-|3,0,8,1,2,0,1480454042,"","I = diffuse + specular + ambient"
-"9	LINE	0
-	cos(theta) = l dot n
-	
-|3,0,9,1,2,0,1480454042,"cos(theta) = l dot n",""
+|3,0,9,1,2,0,1480454042,"","I = diffuse + specular + ambient"
 "a@	CHAR	0
 	i//jkjI//jkkhvjj:s/\/\/\/\/\€kb//k
 |3,2,10,0,1,0,1479065805,"i//jkjI//jkkhvjj:s/\\/\\/\\/\\/\\€kb//k"
@@ -278,28 +277,36 @@ $
 |3,0,36,0,1,0,1480455250,";"
 
 # File marks:
-'0  8  24  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
-|4,48,8,24,1480455321,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
-'1  13  25  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
-|4,49,13,25,1480455315,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
-'2  10  0  ~/Documents/graphicsnotes
-|4,50,10,0,1480453544,"~/Documents/graphicsnotes"
-'3  8  0  ~/Downloads/challenges
-|4,51,8,0,1479535086,"~/Downloads/challenges"
-'4  1  0  ~/.zshrc
-|4,52,1,0,1479527773,"~/.zshrc"
-'5  7  0  ~/.zshrc
-|4,53,7,0,1479527768,"~/.zshrc"
+'0  45  17  ~/.vim/.vimrc
+|4,48,45,17,1480638123,"~/.vim/.vimrc"
+'1  8  24  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
+|4,49,8,24,1480455321,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
+'2  13  25  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
+|4,50,13,25,1480455315,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
+'3  10  0  ~/Documents/graphicsnotes
+|4,51,10,0,1480453544,"~/Documents/graphicsnotes"
+'4  8  0  ~/Downloads/challenges
+|4,52,8,0,1479535086,"~/Downloads/challenges"
+'5  1  0  ~/.zshrc
+|4,53,1,0,1479527773,"~/.zshrc"
 '6  7  0  ~/.zshrc
 |4,54,7,0,1479527768,"~/.zshrc"
-'7  8  6  ~/.zshrc
-|4,55,8,6,1479527758,"~/.zshrc"
+'7  7  0  ~/.zshrc
+|4,55,7,0,1479527768,"~/.zshrc"
 '8  8  6  ~/.zshrc
 |4,56,8,6,1479527758,"~/.zshrc"
-'9  4  0  ~/code/bomblab/bombs/bomb1069/r2config
-|4,57,4,0,1479506212,"~/code/bomblab/bombs/bomb1069/r2config"
+'9  8  6  ~/.zshrc
+|4,57,8,6,1479527758,"~/.zshrc"
 
 # Jumplist (newest first):
+-'  45  17  ~/.vim/.vimrc
+|4,39,45,17,1480638123,"~/.vim/.vimrc"
+-'  1  0  ~/.vim/.vimrc
+|4,39,1,0,1480637781,"~/.vim/.vimrc"
+-'  8  24  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
+|4,39,8,24,1480455321,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
+-'  8  24  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
+|4,39,8,24,1480455321,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
 -'  8  24  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
 |4,39,8,24,1480455321,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
 -'  8  24  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
@@ -308,6 +315,14 @@ $
 |4,39,13,25,1480455315,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
 -'  13  25  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
 |4,39,13,25,1480455315,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
+-'  13  25  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
+|4,39,13,25,1480455315,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
+-'  13  25  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
+|4,39,13,25,1480455315,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
+-'  40  42  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
+|4,39,40,42,1480455184,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
+-'  40  42  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
+|4,39,40,42,1480455184,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
 -'  40  42  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
 |4,39,40,42,1480455184,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
 -'  40  42  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
@@ -320,6 +335,18 @@ $
 |4,39,28,3,1480454266,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
 -'  7  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
 |4,39,7,0,1480454266,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
+-'  28  3  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
+|4,39,28,3,1480454266,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
+-'  7  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
+|4,39,7,0,1480454266,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
+-'  28  3  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
+|4,39,28,3,1480454266,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
+-'  7  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
+|4,39,7,0,1480454266,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
+-'  27  4  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
+|4,39,27,4,1480454264,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
+-'  27  4  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
+|4,39,27,4,1480454264,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
 -'  27  4  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
 |4,39,27,4,1480454264,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
 -'  27  4  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
@@ -328,6 +355,14 @@ $
 |4,39,22,0,1480454262,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
 -'  22  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
 |4,39,22,0,1480454262,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
+-'  22  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
+|4,39,22,0,1480454262,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
+-'  22  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
+|4,39,22,0,1480454262,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
+-'  18  37  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
+|4,39,18,37,1480454261,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
+-'  18  37  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
+|4,39,18,37,1480454261,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
 -'  18  37  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
 |4,39,18,37,1480454261,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
 -'  18  37  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
@@ -336,6 +371,14 @@ $
 |4,39,2,0,1480454044,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
 -'  2  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
 |4,39,2,0,1480454044,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
+-'  2  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
+|4,39,2,0,1480454044,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
+-'  2  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
+|4,39,2,0,1480454044,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
+-'  10  0  ~/Documents/graphicsnotes
+|4,39,10,0,1480453544,"~/Documents/graphicsnotes"
+-'  10  0  ~/Documents/graphicsnotes
+|4,39,10,0,1480453544,"~/Documents/graphicsnotes"
 -'  10  0  ~/Documents/graphicsnotes
 |4,39,10,0,1480453544,"~/Documents/graphicsnotes"
 -'  10  0  ~/Documents/graphicsnotes
@@ -344,6 +387,14 @@ $
 |4,39,1,0,1480452537,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
 -'  1  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
 |4,39,1,0,1480452537,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
+-'  1  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
+|4,39,1,0,1480452537,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
+-'  1  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
+|4,39,1,0,1480452537,"~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl"
+-'  4  20  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
+|4,39,4,20,1480451813,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
+-'  4  20  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
+|4,39,4,20,1480451813,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
 -'  4  20  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
 |4,39,4,20,1480451813,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
 -'  4  20  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
@@ -352,10 +403,22 @@ $
 |4,39,7,3,1480450524,"~/Documents/graphicsnotes"
 -'  7  3  ~/Documents/graphicsnotes
 |4,39,7,3,1480450524,"~/Documents/graphicsnotes"
+-'  7  3  ~/Documents/graphicsnotes
+|4,39,7,3,1480450524,"~/Documents/graphicsnotes"
+-'  7  3  ~/Documents/graphicsnotes
+|4,39,7,3,1480450524,"~/Documents/graphicsnotes"
 -'  1  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
 |4,39,1,0,1480450270,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
 -'  1  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
 |4,39,1,0,1480450270,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
+-'  1  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
+|4,39,1,0,1480450270,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
+-'  1  0  ~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl
+|4,39,1,0,1480450270,"~/Downloads/graphics_starting_code_2/GLSLExperiment/fshader1.glsl"
+-'  1  0  ~/Documents/graphicsnotes
+|4,39,1,0,1480450028,"~/Documents/graphicsnotes"
+-'  1  0  ~/Documents/graphicsnotes
+|4,39,1,0,1480450028,"~/Documents/graphicsnotes"
 -'  1  0  ~/Documents/graphicsnotes
 |4,39,1,0,1480450028,"~/Documents/graphicsnotes"
 -'  1  0  ~/Documents/graphicsnotes
@@ -376,6 +439,22 @@ $
 |4,39,8,0,1479535086,"~/Downloads/challenges"
 -'  8  0  ~/Downloads/challenges
 |4,39,8,0,1479535086,"~/Downloads/challenges"
+-'  8  0  ~/Downloads/challenges
+|4,39,8,0,1479535086,"~/Downloads/challenges"
+-'  8  0  ~/Downloads/challenges
+|4,39,8,0,1479535086,"~/Downloads/challenges"
+-'  8  0  ~/Downloads/challenges
+|4,39,8,0,1479535086,"~/Downloads/challenges"
+-'  8  0  ~/Downloads/challenges
+|4,39,8,0,1479535086,"~/Downloads/challenges"
+-'  8  0  ~/Downloads/challenges
+|4,39,8,0,1479535086,"~/Downloads/challenges"
+-'  8  0  ~/Downloads/challenges
+|4,39,8,0,1479535086,"~/Downloads/challenges"
+-'  8  0  ~/Downloads/challenges
+|4,39,8,0,1479535086,"~/Downloads/challenges"
+-'  8  0  ~/Downloads/challenges
+|4,39,8,0,1479535086,"~/Downloads/challenges"
 -'  1  0  ~/.zshrc
 |4,39,1,0,1479527773,"~/.zshrc"
 -'  1  0  ~/.zshrc
@@ -408,98 +487,31 @@ $
 |4,39,1,0,1479527773,"~/.zshrc"
 -'  1  0  ~/.zshrc
 |4,39,1,0,1479527773,"~/.zshrc"
--'  7  0  ~/.zshrc
-|4,39,7,0,1479527768,"~/.zshrc"
--'  7  0  ~/.zshrc
-|4,39,7,0,1479527768,"~/.zshrc"
--'  7  0  ~/.zshrc
-|4,39,7,0,1479527768,"~/.zshrc"
--'  7  0  ~/.zshrc
-|4,39,7,0,1479527768,"~/.zshrc"
--'  7  0  ~/.zshrc
-|4,39,7,0,1479527768,"~/.zshrc"
--'  7  0  ~/.zshrc
-|4,39,7,0,1479527768,"~/.zshrc"
--'  7  0  ~/.zshrc
-|4,39,7,0,1479527768,"~/.zshrc"
--'  7  0  ~/.zshrc
-|4,39,7,0,1479527768,"~/.zshrc"
--'  7  0  ~/.zshrc
-|4,39,7,0,1479527768,"~/.zshrc"
--'  7  0  ~/.zshrc
-|4,39,7,0,1479527768,"~/.zshrc"
--'  7  0  ~/.zshrc
-|4,39,7,0,1479527768,"~/.zshrc"
--'  7  0  ~/.zshrc
-|4,39,7,0,1479527768,"~/.zshrc"
--'  7  0  ~/.zshrc
-|4,39,7,0,1479527768,"~/.zshrc"
--'  7  0  ~/.zshrc
-|4,39,7,0,1479527768,"~/.zshrc"
--'  7  0  ~/.zshrc
-|4,39,7,0,1479527768,"~/.zshrc"
--'  7  0  ~/.zshrc
-|4,39,7,0,1479527768,"~/.zshrc"
--'  7  0  ~/.zshrc
-|4,39,7,0,1479527768,"~/.zshrc"
--'  7  0  ~/.zshrc
-|4,39,7,0,1479527768,"~/.zshrc"
--'  7  0  ~/.zshrc
-|4,39,7,0,1479527768,"~/.zshrc"
--'  7  0  ~/.zshrc
-|4,39,7,0,1479527768,"~/.zshrc"
--'  7  0  ~/.zshrc
-|4,39,7,0,1479527768,"~/.zshrc"
--'  7  0  ~/.zshrc
-|4,39,7,0,1479527768,"~/.zshrc"
--'  7  0  ~/.zshrc
-|4,39,7,0,1479527768,"~/.zshrc"
--'  7  0  ~/.zshrc
-|4,39,7,0,1479527768,"~/.zshrc"
--'  7  0  ~/.zshrc
-|4,39,7,0,1479527768,"~/.zshrc"
--'  7  0  ~/.zshrc
-|4,39,7,0,1479527768,"~/.zshrc"
--'  7  0  ~/.zshrc
-|4,39,7,0,1479527768,"~/.zshrc"
--'  7  0  ~/.zshrc
-|4,39,7,0,1479527768,"~/.zshrc"
--'  7  0  ~/.zshrc
-|4,39,7,0,1479527768,"~/.zshrc"
--'  7  0  ~/.zshrc
-|4,39,7,0,1479527768,"~/.zshrc"
--'  7  0  ~/.zshrc
-|4,39,7,0,1479527768,"~/.zshrc"
--'  7  0  ~/.zshrc
-|4,39,7,0,1479527768,"~/.zshrc"
 -'  1  0  ~/.zshrc
-|4,39,1,0,1479527765,"~/.zshrc"
+|4,39,1,0,1479527773,"~/.zshrc"
 -'  1  0  ~/.zshrc
-|4,39,1,0,1479527765,"~/.zshrc"
+|4,39,1,0,1479527773,"~/.zshrc"
 -'  1  0  ~/.zshrc
-|4,39,1,0,1479527765,"~/.zshrc"
+|4,39,1,0,1479527773,"~/.zshrc"
 -'  1  0  ~/.zshrc
-|4,39,1,0,1479527765,"~/.zshrc"
+|4,39,1,0,1479527773,"~/.zshrc"
 -'  1  0  ~/.zshrc
-|4,39,1,0,1479527765,"~/.zshrc"
+|4,39,1,0,1479527773,"~/.zshrc"
 -'  1  0  ~/.zshrc
-|4,39,1,0,1479527765,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1479527765,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1479527765,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1479527765,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1479527765,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1479527765,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1479527765,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1479527765,"~/.zshrc"
+|4,39,1,0,1479527773,"~/.zshrc"
 
 # History of marks within files (newest to oldest):
+
+> ~/.vim/.vimrc
+	*	1480637978	0
+	"	45	17
+	^	72	16
+	.	72	15
+	+	77	23
+	+	74	0
+	+	75	21
+	+	71	15
+	+	72	15
 
 > ~/Downloads/graphics_starting_code_2/GLSLExperiment/vshader1.glsl
 	*	1480455315	0
